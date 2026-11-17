@@ -24,12 +24,6 @@ const CAPS = {
 const el = (tag, cls, html, parent) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; if (parent) parent.appendChild(e); return e; };
 
 const CSS = `
-.hdr{position:absolute;left:64px;right:64px;top:392px;height:30px;display:flex;align-items:center;gap:16px;font:500 19px "JetBrains Mono";letter-spacing:.16em;color:rgba(255,255,255,.92);text-shadow:0 0 16px rgba(4,5,28,.95),0 1px 3px rgba(4,5,28,.9)}
-.hdr img{height:24px;opacity:.95}
-.hdr .bar{flex:1;display:flex;gap:6px;align-items:center;margin:0 6px}
-.hdr .seg{flex:1;height:3px;border-radius:2px;background:rgba(255,255,255,.26);overflow:hidden;box-shadow:0 0 10px rgba(4,5,28,.7)}
-.hdr .seg i{display:block;height:100%;width:0;background:#9CC8FF}
-.hdr .n{color:#9CC8FF}
 .shade{position:absolute;left:0;right:0;bottom:0;height:820px;background:linear-gradient(180deg,rgba(4,5,28,0) 0%,rgba(4,5,28,.62) 45%,rgba(4,5,28,.9) 100%)}
 .capShade{position:absolute;left:0;right:0;top:1180px;bottom:0;background:linear-gradient(180deg,rgba(4,5,28,0) 0%,rgba(4,5,28,.86) 26%,rgba(4,5,28,.96) 100%)}
 .shadeTop{position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(0deg,rgba(4,5,28,0) 0%,rgba(4,5,28,.55) 60%,rgba(4,5,28,.8) 100%)}
@@ -135,19 +129,7 @@ export function createOverlay(root, TL) {
   const endc = el('div', 'endc', `<img class="logo" src="../../assets/logo-blanco.png"><div class="line">Tu web, <em>antes</em> que tu puerta.</div><div class="btn">Comenta <b>WEB</b> y te la enseñamos</div><div class="urls">saberium.com<i>·</i>@saberium.studio</div>`, root);
   const eLogo = endc.querySelector('.logo'), eLine = endc.querySelector('.line'), eBtn = endc.querySelector('.btn'), eUrls = endc.querySelector('.urls');
 
-  // ---------- header ----------
-  const hdr = el('div', 'hdr', `<img src="../../assets/icono-blanco.png"><span>SABERIUM</span><div class="bar"></div><span class="n">01</span><span>/ 07</span>`, root);
-  const bar = hdr.querySelector('.bar'), num = hdr.querySelector('.n');
-  const lineT = []; for (const s of TL.segments) { if (!lineT[s.line - 1]) lineT[s.line - 1] = { s: s.start, e: s.end }; lineT[s.line - 1].e = s.end; }
-  const segs = lineT.map(() => el('div', 'seg', '<i></i>', bar).firstChild);
-  const bounds = lineT.map((l, i) => [i === 0 ? 0 : (lineT[i - 1].e + l.s) / 2, i === lineT.length - 1 ? TL.duration : (l.e + lineT[i + 1].s) / 2]);
-
   function update(t, info) {
-    // header / progress
-    let cur = 0; bounds.forEach(([a, b], i) => { const p = prog(t, a, b); segs[i].style.width = p * 100 + '%'; if (t >= a) cur = i; });
-    num.textContent = String(cur + 1).padStart(2, '0');
-    const endP = smooth(t, T.end0, T.end0 + 0.7);
-    hdr.style.opacity = 1 - endP * 0.0;
     const paperTop = smooth(t, T.out0 + 0.3, T.paper1);
     shade.style.opacity = lerp(1, 0.85, info.m); capShade.style.opacity = info.big;
 

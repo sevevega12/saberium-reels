@@ -1,0 +1,7 @@
+node_modules/
+reels/*/frames/
+reels/*/captures/amperiza.png
+reels/*/captures/atlantis.png
+reels/*/captures/barber.png
+reels/*/captures/saberium.png
+*.wav

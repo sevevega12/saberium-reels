@@ -1,0 +1,1 @@
+{"name":"saberium-reel-lapiz","private":true,"type":"module","scripts":{"render":"node tools/render.mjs"},"dependencies":{"@fontsource/caveat":"^5.3.0","@fontsource/instrument-serif":"^5.3.0","@fontsource/jetbrains-mono":"^5.3.0","@fontsource/plus-jakarta-sans":"^5.3.0","three":"^0.170.0"}}

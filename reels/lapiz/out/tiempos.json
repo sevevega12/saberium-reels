@@ -1,0 +1,160 @@
+{
+ "video": "saberium-reel-lapiz.mp4",
+ "fps": 30,
+ "duration": 51.0,
+ "units": "seconds",
+ "lines": [
+  {
+   "line": 1,
+   "start": 0.55,
+   "end": 2.655,
+   "text": "Fíjate bien en la punta de este lápiz.",
+   "phrases": [
+    {
+     "id": "A",
+     "text": "Fíjate bien en la punta de este lápiz.",
+     "start": 0.55,
+     "end": 2.655
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "start": 4.6,
+   "end": 9.784,
+   "text": "Ahora que tengo tu atención, te explico por qué tu negocio no está captando suficientes clientes.",
+   "phrases": [
+    {
+     "id": "B",
+     "text": "Ahora que tengo tu atención, te explico por qué tu negocio no está captando suficientes clientes.",
+     "start": 4.6,
+     "end": 9.784
+    }
+   ]
+  },
+  {
+   "line": 3,
+   "start": 10.25,
+   "end": 18.054,
+   "text": "La punta es lo único del lápiz que toca el papel. Y en tu negocio, lo primero que toca al cliente ya no es tu puerta. Es tu web.",
+   "phrases": [
+    {
+     "id": "C",
+     "text": "La punta es lo único del lápiz que toca el papel.",
+     "start": 10.25,
+     "end": 12.898
+    },
+    {
+     "id": "D",
+     "text": "Y en tu negocio, lo primero que toca al cliente ya no es tu puerta.",
+     "start": 13.45,
+     "end": 16.905
+    },
+    {
+     "id": "E",
+     "text": "Es tu web.",
+     "start": 17.4,
+     "end": 18.054
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "start": 18.75,
+   "end": 30.29,
+   "text": "Antes de llamarte, te busca en el móvil. Y si tu web tarda en cargar, es igual que otras cien, o lleva años sin tocarse, piensa que así le vas a tratar a él.",
+   "phrases": [
+    {
+     "id": "F",
+     "text": "Antes de llamarte, te busca en el móvil.",
+     "start": 18.75,
+     "end": 20.649
+    },
+    {
+     "id": "G1",
+     "text": "Y si tu web tarda en cargar,",
+     "start": 21.1,
+     "end": 22.502
+    },
+    {
+     "id": "G2",
+     "text": "es igual que otras cien,",
+     "start": 23.6,
+     "end": 24.608
+    },
+    {
+     "id": "G3",
+     "text": "o lleva años sin tocarse,",
+     "start": 25.9,
+     "end": 27.408
+    },
+    {
+     "id": "H",
+     "text": "piensa que así le vas a tratar a él.",
+     "start": 28.5,
+     "end": 30.29
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 30.85,
+   "end": 36.783,
+   "text": "No te lo dice. Simplemente se va con el de enfrente. Y tu trabajo, por bueno que sea, no llega a verlo.",
+   "phrases": [
+    {
+     "id": "I",
+     "text": "No te lo dice.",
+     "start": 30.85,
+     "end": 31.449
+    },
+    {
+     "id": "J",
+     "text": "Simplemente se va con el de enfrente.",
+     "start": 31.85,
+     "end": 33.64
+    },
+    {
+     "id": "K",
+     "text": "Y tu trabajo, por bueno que sea, no llega a verlo.",
+     "start": 34.1,
+     "end": 36.783
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 37.4,
+   "end": 42.196,
+   "text": "Una web cuidada dice lo contrario: que cuidas los detalles antes de que entre por tu puerta.",
+   "phrases": [
+    {
+     "id": "L",
+     "text": "Una web cuidada dice lo contrario:",
+     "start": 37.4,
+     "end": 39.141
+    },
+    {
+     "id": "M",
+     "text": "que cuidas los detalles antes de que entre por tu puerta.",
+     "start": 39.5,
+     "end": 42.196
+    }
+   ]
+  },
+  {
+   "line": 7,
+   "start": 45.4,
+   "end": 48.427,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "phrases": [
+    {
+     "id": "N",
+     "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+     "start": 45.4,
+     "end": 48.427
+    }
+   ]
+  }
+ ]
+}

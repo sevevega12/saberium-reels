@@ -1,0 +1,21 @@
+{
+  "fps": 30, "duration": 51.0,
+  "segments": [
+    {"id":"A","src":[0.00,2.105],"dst":0.55,"line":1,"text":"Fíjate bien en la punta de este lápiz."},
+    {"id":"B","src":[2.457,7.641],"dst":4.60,"line":2,"text":"Ahora que tengo tu atención, te explico por qué tu negocio no está captando suficientes clientes."},
+    {"id":"C","src":[8.087,10.735],"dst":10.25,"line":3,"text":"La punta es lo único del lápiz que toca el papel."},
+    {"id":"D","src":[11.201,14.656],"dst":13.45,"line":3,"text":"Y en tu negocio, lo primero que toca al cliente ya no es tu puerta."},
+    {"id":"E","src":[14.965,15.619],"dst":17.40,"line":3,"text":"Es tu web."},
+    {"id":"F","src":[16.075,17.974],"dst":18.75,"line":4,"text":"Antes de llamarte, te busca en el móvil."},
+    {"id":"G1","src":[18.370,19.772],"dst":21.10,"line":4,"text":"Y si tu web tarda en cargar,"},
+    {"id":"G2","src":[19.887,20.895],"dst":23.60,"line":4,"text":"es igual que otras cien,"},
+    {"id":"G3","src":[21.265,22.773],"dst":25.90,"line":4,"text":"o lleva años sin tocarse,"},
+    {"id":"H","src":[23.164,24.954],"dst":28.50,"line":4,"text":"piensa que así le vas a tratar a él."},
+    {"id":"I","src":[25.375,25.974],"dst":30.85,"line":5,"text":"No te lo dice."},
+    {"id":"J","src":[26.400,28.190],"dst":31.85,"line":5,"text":"Simplemente se va con el de enfrente."},
+    {"id":"K","src":[28.532,31.215],"dst":34.10,"line":5,"text":"Y tu trabajo, por bueno que sea, no llega a verlo."},
+    {"id":"L","src":[31.644,33.385],"dst":37.40,"line":6,"text":"Una web cuidada dice lo contrario:"},
+    {"id":"M","src":[33.761,36.457],"dst":39.50,"line":6,"text":"que cuidas los detalles antes de que entre por tu puerta."},
+    {"id":"N","src":[36.843,39.870],"dst":45.40,"line":7,"text":"Comenta WEB, y te enseñamos gratis cómo quedaría la tuya."}
+  ]
+}

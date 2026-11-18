@@ -1,0 +1,17 @@
+# Plantilla de ejemplo del motor. NO se publica: sirve para probar el motor y como modelo.
+# Formato: una frase por fila, tal como suena entre dos silencios de la voz.
+#   LÍNEA [+aire] | texto      ·  '|' nueva pantalla de subtítulos, '/' salto de línea,
+#   [palabra] pastilla azul claro, *palabra* cursiva de matiz. La última línea es el cierre.
+duracion: 32
+voz: voz.mp3
+1 | Tu cliente quería [reservar].
+1 | Y no encontró *cómo*.
+2 +0.4 | Abrió tu web / desde el móvil.
+2 | Buscó un botón, / un [teléfono], / un horario.
+3 | Encontró / una foto de [2019]
+3 | y un formulario / que *nadie* contesta.
+4 | Así que cerró / la [pestaña].
+5 +0.5 | Una web clara / te lo pone *fácil*:
+5 | qué haces, / dónde estás / y cómo [reservar].
+6 | Comenta [WEB],
+6 | y te enseñamos *gratis* / cómo quedaría la tuya.

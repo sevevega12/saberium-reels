@@ -1,0 +1,5 @@
+videos/*/work/
+__pycache__/
+*.tmp.mp4
+videos/*/out/borrador.mp4
+videos/00-plantilla/out/*.mp4

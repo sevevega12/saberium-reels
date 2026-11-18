@@ -1,0 +1,545 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 6,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Tu cliente quería reservar. Y no encontró cómo.",
+   "start": 0.15,
+   "end": 3.577,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.535
+    },
+    {
+     "w": "cliente",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.535,
+     "end": 0.919
+    },
+    {
+     "w": "quería",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.919,
+     "end": 1.304
+    },
+    {
+     "w": "reservar.",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 1.304,
+     "end": 1.688
+    },
+    {
+     "w": "Y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "encontró",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "cómo.",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 3.192,
+     "end": 3.577
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Abrió tu web desde el móvil. Buscó un botón, un teléfono, un horario.",
+   "start": 4.727,
+   "end": 10.077,
+   "words": [
+    {
+     "w": "Abrió",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.727,
+     "end": 5.112
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.112,
+     "end": 5.496
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.496,
+     "end": 5.881
+    },
+    {
+     "w": "desde",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.881,
+     "end": 6.265
+    },
+    {
+     "w": "el",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.265,
+     "end": 6.65
+    },
+    {
+     "w": "móvil.",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.65,
+     "end": 7.035
+    },
+    {
+     "w": "Buscó",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.385,
+     "end": 7.769
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.769,
+     "end": 8.154
+    },
+    {
+     "w": "botón,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.154,
+     "end": 8.538
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 8.538,
+     "end": 8.923
+    },
+    {
+     "w": "teléfono,",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 8.923,
+     "end": 9.308
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 9.308,
+     "end": 9.692
+    },
+    {
+     "w": "horario.",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 9.692,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Encontró una foto de 2019 y un formulario que nadie contesta.",
+   "start": 10.827,
+   "end": 15.408,
+   "words": [
+    {
+     "w": "Encontró",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 10.827,
+     "end": 11.212
+    },
+    {
+     "w": "una",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 11.212,
+     "end": 11.596
+    },
+    {
+     "w": "foto",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 11.596,
+     "end": 11.981
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 11.981,
+     "end": 12.365
+    },
+    {
+     "w": "2019",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 12.365,
+     "end": 12.75
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.1,
+     "end": 13.485
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.485,
+     "end": 13.869
+    },
+    {
+     "w": "formulario",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.869,
+     "end": 14.254
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.254,
+     "end": 14.638
+    },
+    {
+     "w": "nadie",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 14.638,
+     "end": 15.023
+    },
+    {
+     "w": "contesta.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 15.023,
+     "end": 15.408
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Así que cerró la pestaña.",
+   "start": 16.158,
+   "end": 18.081,
+   "words": [
+    {
+     "w": "Así",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 16.158,
+     "end": 16.542
+    },
+    {
+     "w": "que",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 16.542,
+     "end": 16.927
+    },
+    {
+     "w": "cerró",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 16.927,
+     "end": 17.312
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 17.312,
+     "end": 17.696
+    },
+    {
+     "w": "pestaña.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 17.696,
+     "end": 18.081
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Una web clara te lo pone fácil: qué haces, dónde estás y cómo reservar.",
+   "start": 19.331,
+   "end": 25.065,
+   "words": [
+    {
+     "w": "Una",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.331,
+     "end": 19.715
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.715,
+     "end": 20.1
+    },
+    {
+     "w": "clara",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 20.1,
+     "end": 20.485
+    },
+    {
+     "w": "te",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 20.485,
+     "end": 20.869
+    },
+    {
+     "w": "lo",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 20.869,
+     "end": 21.254
+    },
+    {
+     "w": "pone",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 21.254,
+     "end": 21.638
+    },
+    {
+     "w": "fácil:",
+     "screen": 0,
+     "row": 1,
+     "style": "nuance",
+     "start": 21.638,
+     "end": 22.023
+    },
+    {
+     "w": "qué",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 22.373,
+     "end": 22.758
+    },
+    {
+     "w": "haces,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 22.758,
+     "end": 23.142
+    },
+    {
+     "w": "dónde",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 23.142,
+     "end": 23.527
+    },
+    {
+     "w": "estás",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 23.527,
+     "end": 23.912
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 23.912,
+     "end": 24.296
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 24.296,
+     "end": 24.681
+    },
+    {
+     "w": "reservar.",
+     "screen": 1,
+     "row": 2,
+     "style": "key",
+     "start": 24.681,
+     "end": 25.065
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 25.815,
+   "end": 30.012,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 25.815,
+     "end": 26.2
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.2,
+     "end": 26.585
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.935,
+     "end": 27.319
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.319,
+     "end": 27.704
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.704,
+     "end": 28.088
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 28.088,
+     "end": 28.473
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.473,
+     "end": 28.858
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.858,
+     "end": 29.242
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.242,
+     "end": 29.627
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.627,
+     "end": 30.012
+    }
+   ]
+  }
+ ],
+ "duration": 32.61
+}

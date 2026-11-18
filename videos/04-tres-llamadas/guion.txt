@@ -1,0 +1,12 @@
+# 04 · Tres llamadas perdidas. Publicación prevista: sábado 21 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Sonó / tres [veces] | mientras atendías / a *alguien*.
+2 | Tenías las manos / [ocupadas] | y no podías parar.
+2 | Cuando por fin / miraste el móvil, | había tres llamadas / [perdidas] | y *ningún* mensaje.
+3 | Quien llama / para reservar / no [espera]:
+3 | reserva donde le dejan / hacerlo a la *primera*.
+4 | Con [reserva] / en tu web, | el cliente elige / el hueco él solo,
+4 | a *cualquier* hora, | mientras tú sigues / [trabajando].
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

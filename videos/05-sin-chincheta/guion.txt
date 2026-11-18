@@ -1,0 +1,13 @@
+# 05 · Sin chincheta. Publicación prevista: domingo 22 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Tu calle / está en el [mapa].
+1 | Tu negocio / *no*.
+2 | Alguien a dos calles / busca justo / lo que [haces],
+2 | y el mapa / le enseña / *otros* sitios.
+3 | No es que / no [existas].
+3 | Es que Google / no tiene claro | dónde estás / ni qué *haces*.
+4 | Una web bien hecha / le dice tu [dirección], | tu barrio / y tus servicios,
+4 | y cuida tu ficha / para que te *encuentren*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

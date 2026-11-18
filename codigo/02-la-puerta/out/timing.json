@@ -1,0 +1,1140 @@
+{
+ "fps": 30,
+ "note": "Times in seconds, taken from the real voice-over. 'voice.phrases' says which stretch of the MP3 goes where; words are estimated by syllables inside each phrase.",
+ "voice": {
+  "file": "voz/voz-puerta.mp3",
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.12,
+    "src_end": 1.24,
+    "start": 0.15,
+    "end": 1.27,
+    "text": "Alguien abrió tu web."
+   },
+   {
+    "line": 1,
+    "src_start": 1.66,
+    "src_end": 2.67,
+    "start": 1.69,
+    "end": 2.7,
+    "text": "Y se fue sin entrar."
+   },
+   {
+    "line": 2,
+    "src_start": 3.23,
+    "src_end": 4.49,
+    "start": 4.5,
+    "end": 5.76,
+    "text": "Eran las diez de la noche."
+   },
+   {
+    "line": 2,
+    "src_start": 5.11,
+    "src_end": 6.72,
+    "start": 6.2,
+    "end": 7.81,
+    "text": "Buscaba justo lo que tú haces,"
+   },
+   {
+    "line": 2,
+    "src_start": 7.04,
+    "src_end": 7.61,
+    "start": 8.15,
+    "end": 8.72,
+    "text": "y te encontró."
+   },
+   {
+    "line": 3,
+    "src_start": 8.21,
+    "src_end": 9.7,
+    "start": 9.6,
+    "end": 11.09,
+    "text": "Pero tu web tardó en cargar."
+   },
+   {
+    "line": 3,
+    "src_start": 10.14,
+    "src_end": 10.89,
+    "start": 12.2,
+    "end": 12.95,
+    "text": "Y cuando cargó,"
+   },
+   {
+    "line": 3,
+    "src_start": 11.12,
+    "src_end": 13.66,
+    "start": 13.25,
+    "end": 15.79,
+    "text": "tuvo que ampliar con los dedos para leer algo."
+   },
+   {
+    "line": 4,
+    "src_start": 14.33,
+    "src_end": 15.26,
+    "start": 16.6,
+    "end": 17.53,
+    "text": "No encontró el teléfono."
+   },
+   {
+    "line": 4,
+    "src_start": 15.66,
+    "src_end": 16.63,
+    "start": 18.1,
+    "end": 19.07,
+    "text": "No encontró el horario."
+   },
+   {
+    "line": 4,
+    "src_start": 17.09,
+    "src_end": 18.56,
+    "start": 19.65,
+    "end": 21.12,
+    "text": "No supo si seguías abierto."
+   },
+   {
+    "line": 5,
+    "src_start": 19.1,
+    "src_end": 20.5,
+    "start": 21.9,
+    "end": 23.3,
+    "text": "Así que hizo lo más fácil:"
+   },
+   {
+    "line": 5,
+    "src_start": 20.98,
+    "src_end": 21.7,
+    "start": 23.8,
+    "end": 24.52,
+    "text": "volver atrás."
+   },
+   {
+    "line": 5,
+    "src_start": 22.13,
+    "src_end": 24.26,
+    "start": 25.1,
+    "end": 27.23,
+    "text": "Y el siguiente de la lista era el de enfrente."
+   },
+   {
+    "line": 6,
+    "src_start": 24.9,
+    "src_end": 25.68,
+    "start": 28.35,
+    "end": 29.13,
+    "text": "Tú no te enteraste."
+   },
+   {
+    "line": 6,
+    "src_start": 26.22,
+    "src_end": 28.83,
+    "start": 29.95,
+    "end": 32.56,
+    "text": "Nadie te avisa de un cliente que estuvo a punto de entrar."
+   },
+   {
+    "line": 7,
+    "src_start": 29.64,
+    "src_end": 31.93,
+    "start": 33.75,
+    "end": 36.04,
+    "text": "Tu web es tu puerta cuando tú no estás."
+   },
+   {
+    "line": 7,
+    "src_start": 32.4,
+    "src_end": 33.33,
+    "start": 37.4,
+    "end": 38.33,
+    "text": "Que abra a la primera."
+   },
+   {
+    "line": 8,
+    "src_start": 33.91,
+    "src_end": 34.45,
+    "start": 40.6,
+    "end": 41.14,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 8,
+    "src_start": 34.71,
+    "src_end": 36.91,
+    "start": 41.4,
+    "end": 43.6,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "lines": [
+  {
+   "id": 1,
+   "text": "Alguien abrió tu web. Y se fue sin entrar.",
+   "start": 0.15,
+   "end": 2.7,
+   "words": [
+    {
+     "w": "Alguien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.494
+    },
+    {
+     "w": "abrió",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.494,
+     "end": 0.838
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.838,
+     "end": 1.036
+    },
+    {
+     "w": "web.",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 1.036,
+     "end": 1.27
+    },
+    {
+     "w": "Y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.69,
+     "end": 1.866
+    },
+    {
+     "w": "se",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.866,
+     "end": 2.042
+    },
+    {
+     "w": "fue",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.042,
+     "end": 2.218
+    },
+    {
+     "w": "sin",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 2.218,
+     "end": 2.394
+    },
+    {
+     "w": "entrar.",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 2.394,
+     "end": 2.7
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Eran las diez de la noche. Buscaba justo lo que tú haces, y te encontró.",
+   "start": 4.5,
+   "end": 8.72,
+   "words": [
+    {
+     "w": "Eran",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.5,
+     "end": 4.793
+    },
+    {
+     "w": "las",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.793,
+     "end": 4.962
+    },
+    {
+     "w": "diez",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.962,
+     "end": 5.13
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.13,
+     "end": 5.298
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.298,
+     "end": 5.467
+    },
+    {
+     "w": "noche.",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.467,
+     "end": 5.76
+    },
+    {
+     "w": "Buscaba",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 6.2,
+     "end": 6.646
+    },
+    {
+     "w": "justo",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 6.646,
+     "end": 6.958
+    },
+    {
+     "w": "lo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 6.958,
+     "end": 7.138
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.138,
+     "end": 7.318
+    },
+    {
+     "w": "tú",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.318,
+     "end": 7.497
+    },
+    {
+     "w": "haces,",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.497,
+     "end": 7.81
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 8.15,
+     "end": 8.277
+    },
+    {
+     "w": "te",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 8.277,
+     "end": 8.404
+    },
+    {
+     "w": "encontró.",
+     "screen": 2,
+     "row": 0,
+     "style": "key",
+     "start": 8.404,
+     "end": 8.72
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Pero tu web tardó en cargar. Y cuando cargó, tuvo que ampliar con los dedos para leer algo.",
+   "start": 9.6,
+   "end": 15.79,
+   "words": [
+    {
+     "w": "Pero",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 9.6,
+     "end": 9.909
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 9.909,
+     "end": 10.086
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 10.086,
+     "end": 10.296
+    },
+    {
+     "w": "tardó",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 10.296,
+     "end": 10.604
+    },
+    {
+     "w": "en",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 10.604,
+     "end": 10.781
+    },
+    {
+     "w": "cargar.",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 10.781,
+     "end": 11.09
+    },
+    {
+     "w": "Y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 12.2,
+     "end": 12.367
+    },
+    {
+     "w": "cuando",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 12.367,
+     "end": 12.659
+    },
+    {
+     "w": "cargó,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 12.659,
+     "end": 12.95
+    },
+    {
+     "w": "tuvo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 13.25,
+     "end": 13.579
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 13.579,
+     "end": 13.768
+    },
+    {
+     "w": "ampliar",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 13.768,
+     "end": 14.097
+    },
+    {
+     "w": "con",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 14.097,
+     "end": 14.286
+    },
+    {
+     "w": "los",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 14.286,
+     "end": 14.475
+    },
+    {
+     "w": "dedos",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 14.475,
+     "end": 14.803
+    },
+    {
+     "w": "para",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 14.803,
+     "end": 15.132
+    },
+    {
+     "w": "leer",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 15.132,
+     "end": 15.461
+    },
+    {
+     "w": "algo.",
+     "screen": 3,
+     "row": 0,
+     "style": "nuance",
+     "start": 15.461,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "No encontró el teléfono. No encontró el horario. No supo si seguías abierto.",
+   "start": 16.6,
+   "end": 21.12,
+   "words": [
+    {
+     "w": "No",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 16.6,
+     "end": 16.721
+    },
+    {
+     "w": "encontró",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 16.721,
+     "end": 17.02
+    },
+    {
+     "w": "el",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 17.02,
+     "end": 17.141
+    },
+    {
+     "w": "teléfono.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 17.141,
+     "end": 17.53
+    },
+    {
+     "w": "No",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 18.1,
+     "end": 18.239
+    },
+    {
+     "w": "encontró",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 18.239,
+     "end": 18.585
+    },
+    {
+     "w": "el",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 18.585,
+     "end": 18.724
+    },
+    {
+     "w": "horario.",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 18.724,
+     "end": 19.07
+    },
+    {
+     "w": "No",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 19.65,
+     "end": 19.819
+    },
+    {
+     "w": "supo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 19.819,
+     "end": 20.113
+    },
+    {
+     "w": "si",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 20.113,
+     "end": 20.282
+    },
+    {
+     "w": "seguías",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 20.282,
+     "end": 20.701
+    },
+    {
+     "w": "abierto.",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 20.701,
+     "end": 21.12
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Así que hizo lo más fácil: volver atrás. Y el siguiente de la lista era el de enfrente.",
+   "start": 21.9,
+   "end": 27.23,
+   "words": [
+    {
+     "w": "Así",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.9,
+     "end": 22.196
+    },
+    {
+     "w": "que",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 22.196,
+     "end": 22.367
+    },
+    {
+     "w": "hizo",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 22.367,
+     "end": 22.663
+    },
+    {
+     "w": "lo",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.663,
+     "end": 22.833
+    },
+    {
+     "w": "más",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.833,
+     "end": 23.004
+    },
+    {
+     "w": "fácil:",
+     "screen": 0,
+     "row": 1,
+     "style": "nuance",
+     "start": 23.004,
+     "end": 23.3
+    },
+    {
+     "w": "volver",
+     "screen": 1,
+     "row": 0,
+     "style": "key",
+     "start": 23.8,
+     "end": 24.16
+    },
+    {
+     "w": "atrás.",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.16,
+     "end": 24.52
+    },
+    {
+     "w": "Y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 25.1,
+     "end": 25.247
+    },
+    {
+     "w": "el",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 25.247,
+     "end": 25.395
+    },
+    {
+     "w": "siguiente",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 25.395,
+     "end": 25.761
+    },
+    {
+     "w": "de",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 25.761,
+     "end": 25.908
+    },
+    {
+     "w": "la",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 25.908,
+     "end": 26.056
+    },
+    {
+     "w": "lista",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 26.056,
+     "end": 26.312
+    },
+    {
+     "w": "era",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 26.312,
+     "end": 26.569
+    },
+    {
+     "w": "el",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 26.569,
+     "end": 26.717
+    },
+    {
+     "w": "de",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 26.717,
+     "end": 26.864
+    },
+    {
+     "w": "enfrente.",
+     "screen": 3,
+     "row": 1,
+     "style": "key",
+     "start": 26.864,
+     "end": 27.23
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Tú no te enteraste. Nadie te avisa de un cliente que estuvo a punto de entrar.",
+   "start": 28.35,
+   "end": 32.56,
+   "words": [
+    {
+     "w": "Tú",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 28.35,
+     "end": 28.475
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 28.475,
+     "end": 28.601
+    },
+    {
+     "w": "te",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 28.601,
+     "end": 28.726
+    },
+    {
+     "w": "enteraste.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 28.726,
+     "end": 29.13
+    },
+    {
+     "w": "Nadie",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 29.95,
+     "end": 30.203
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 30.203,
+     "end": 30.349
+    },
+    {
+     "w": "avisa",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 30.349,
+     "end": 30.71
+    },
+    {
+     "w": "de",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 30.71,
+     "end": 30.856
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 30.856,
+     "end": 31.002
+    },
+    {
+     "w": "cliente",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 31.002,
+     "end": 31.255
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 31.255,
+     "end": 31.401
+    },
+    {
+     "w": "estuvo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 31.401,
+     "end": 31.762
+    },
+    {
+     "w": "a",
+     "screen": 2,
+     "row": 0,
+     "style": "nuance",
+     "start": 31.762,
+     "end": 31.908
+    },
+    {
+     "w": "punto",
+     "screen": 2,
+     "row": 0,
+     "style": "nuance",
+     "start": 31.908,
+     "end": 32.161
+    },
+    {
+     "w": "de",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 32.161,
+     "end": 32.307
+    },
+    {
+     "w": "entrar.",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 32.307,
+     "end": 32.56
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Tu web es tu puerta cuando tú no estás. Que abra a la primera.",
+   "start": 33.75,
+   "end": 38.33,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 33.75,
+     "end": 33.951
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 33.951,
+     "end": 34.189
+    },
+    {
+     "w": "es",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 34.189,
+     "end": 34.389
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 34.389,
+     "end": 34.59
+    },
+    {
+     "w": "puerta",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 34.59,
+     "end": 34.94
+    },
+    {
+     "w": "cuando",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 34.94,
+     "end": 35.289
+    },
+    {
+     "w": "tú",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 35.289,
+     "end": 35.49
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 35.49,
+     "end": 35.691
+    },
+    {
+     "w": "estás.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 35.691,
+     "end": 36.04
+    },
+    {
+     "w": "Que",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 37.4,
+     "end": 37.529
+    },
+    {
+     "w": "abra",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 37.529,
+     "end": 37.753
+    },
+    {
+     "w": "a",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 37.753,
+     "end": 37.882
+    },
+    {
+     "w": "la",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 37.882,
+     "end": 38.01
+    },
+    {
+     "w": "primera.",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 38.01,
+     "end": 38.33
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 40.6,
+   "end": 43.6,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 40.6,
+     "end": 40.965
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 40.965,
+     "end": 41.14
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 41.4,
+     "end": 41.55
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 41.55,
+     "end": 41.7
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 41.7,
+     "end": 42.183
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 42.183,
+     "end": 42.444
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 42.444,
+     "end": 42.706
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 42.706,
+     "end": 43.189
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 43.189,
+     "end": 43.339
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 43.339,
+     "end": 43.6
+    }
+   ]
+  }
+ ],
+ "duration": 46.3
+}

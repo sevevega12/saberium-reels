@@ -41,4 +41,4 @@ Hay dos copias idénticas: `claude/prompt-maestro-reel.md` en el proyecto y `doc
 - Usar o imitar la web, el logo o la interfaz de un negocio o una aplicación real. La web «mala» es genérica e inventada.
 - Inventar clientes, reseñas, cifras o resultados; prometer ventas o posiciones en Google; dar precios.
 - Generar otra voz, cambiar su velocidad o su tono, o reordenar sus palabras.
-- Publicar o gastar créditos de pago. Publicar es trabajo de la tarea de las 18:40, y solo con el vídeo aprobado.
+- Publicar o gastar créditos de pago. Publicar es trabajo de la tarea de las 14:00, y solo con el vídeo aprobado.

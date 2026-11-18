@@ -1,6 +1,6 @@
 # Saberium · Instrucciones del bucle de vídeos
 
-Última actualización: 18 de noviembre de 2026, noche. Recoge todo lo decidido del 16 al 18 de noviembre, incluido el plan de automatización. Quien retome este trabajo, persona o tarea programada, debe leer este documento entero antes de hacer nada.
+Última actualización: 18 de noviembre de 2026, noche (horarios cambiados a las 10:00 y las 14:00). Recoge todo lo decidido del 16 al 18 de noviembre, incluido el plan de automatización. Quien retome este trabajo, persona o tarea programada, debe leer este documento entero antes de hacer nada.
 
 Hay dos copias idénticas: `claude/saberium-instrucciones.md` en el proyecto «Seve» y `docs/instrucciones.md` en el repositorio `sevevega12/saberium-reels`. Las tareas programadas leen la del repositorio. Si se cambia una, se cambia la otra en el mismo momento.
 
@@ -44,8 +44,8 @@ Saberium es un estudio de diseño y desarrollo web (saberium.com). Cuenta de Ins
 Tres tareas programadas, sin agente jefe ni subagentes. Se pasan el trabajo por el repositorio: `registro.md`, las carpetas `videos/NN-nombre/` y los MP4 de `reels/`.
 
 1. **Estrategia y guiones, los lunes a las 9:12.** Lee las estadísticas de Instagram, compara los vídeos a la misma edad y escribe los 7 guiones de la semana (de martes a lunes). Crea sus carpetas con `guion.txt` y `notas.md`, añade las filas al Registro con estado «guion pendiente» y deja el resumen en `semanas/AAAA-MM-DD.md`.
-2. **Producción, cada día a las 10:47.** Coge el guion aprobado con la fecha de publicación más cercana, consigue la voz, monta el vídeo con el motor y lo sube a `reels/`. Estado «vídeo pendiente».
-3. **Publicación, cada día a las 18:40.** Si el vídeo del día está en «vídeo aprobado», lo publica con Windsor, lo apunta en el Registro y pasa a «publicado». Si no está aprobado, no hace nada y avisa.
+2. **Producción, cada día a las 10:00.** Coge el guion aprobado con la fecha de publicación más cercana, consigue la voz, monta el vídeo con el motor y lo sube a `reels/`. Estado «vídeo pendiente».
+3. **Publicación, cada día a las 14:00.** Si el vídeo del día está en «vídeo aprobado», lo publica con Windsor, lo apunta en el Registro y pasa a «publicado». Si no está aprobado, no hace nada y avisa.
 
 **Estados del Registro:** guion pendiente → guion aprobado → vídeo pendiente → vídeo aprobado → publicado. También: rechazado, aplazado, falta voz.
 

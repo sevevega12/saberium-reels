@@ -1,6 +1,6 @@
 # Saberium · Instrucciones del bucle de vídeos
 
-Última actualización: 18 de noviembre de 2026, noche (horarios cambiados a las 10:10 y las 14:00). Recoge todo lo decidido del 16 al 18 de noviembre, incluido el plan de automatización. Quien retome este trabajo, persona o tarea programada, debe leer este documento entero antes de hacer nada.
+Última actualización: 19 de noviembre de 2026 (añadido lo aprendido del vídeo de estrategias de Robert McKeaveney: pregunta y respuesta, las 3 E, línea base, formatos prestados y republicar ganadores). Recoge todo lo decidido del 16 al 19 de noviembre, incluido el plan de automatización. Quien retome este trabajo, persona o tarea programada, debe leer este documento entero antes de hacer nada.
 
 Hay dos copias idénticas: `claude/saberium-instrucciones.md` en el proyecto «Seve» y `docs/instrucciones.md` en el repositorio `sevevega12/saberium-reels`. Las tareas programadas leen la del repositorio. Si se cambia una, se cambia la otra en el mismo momento.
 
@@ -24,7 +24,7 @@ Saberium es un estudio de diseño y desarrollo web (saberium.com). Trabaja la we
 - **Repositorio público** `sevevega12/saberium-reels`: motor, código, voces y vídeos. Seve lo decidió sabiendo que cualquiera puede verlo.
 - **Publica Claude** con el conector Windsor.ai, con una descripción de una sola pregunta corta y de 3 a 5 hashtags concretos.
 - **Los comentarios los responde Seve.** Claude solo los lee y los analiza.
-- **Revisión de datos** cada lunes, comparando cada vídeo a la misma edad (por ejemplo, a las 72 horas).
+- **Revisión de datos** cada lunes, contra la **línea base** de la cuenta: cada vídeo se compara con la media de los anteriores a la misma edad (por ejemplo, a las 72 horas), no con cifras absolutas. Métrica principal para saber si el vídeo engancha: **tiempo medio de visionado y retención**. Después, envíos y comentarios. El objetivo del mes sigue siendo conversaciones reales.
 - Seve no quiere tener que pasar material. Lo único que aporta es la voz, si el conector de ElevenLabs no puede generarla.
 - Se pueden enseñar los proyectos reales: Amperiza, Atlantis Charters y The Barber Kingdom.
 - No se depende del ordenador de Seve. Todo vive en la nube, en el proyecto y en el repositorio.
@@ -33,17 +33,18 @@ Saberium es un estudio de diseño y desarrollo web (saberium.com). Trabaja la we
 ## 3. Regla principal: que ningún vídeo se parezca a otro
 
 - **Cada vídeo cambia el problema, la solución y el concepto,** no solo el gancho.
-- **El Registro de vídeos** (`registro.md` en el repositorio) guarda en cada fila el problema, la solución, el tipo de gancho, el tipo de cuerpo, la metáfora u objeto, el lugar o mundo visual y la pieza protagonista.
+- **El Registro de vídeos** (`registro.md` en el repositorio) guarda en cada fila el problema, la solución, el tipo de gancho, el tipo de cuerpo, la metáfora u objeto, el lugar o mundo visual, la pieza protagonista y la E de valor (apartado 8).
 - **Antes de escribir guiones se comprueba el Registro:** no se repite problema ni metáfora de los últimos 10 vídeos, ni tipo de cuerpo, mundo visual o pieza protagonista de los últimos 3. Si dos guiones de la misma semana se parecen, se cambia uno.
 - **Gastados hasta nuevo aviso:** el «se va con el de enfrente» como desenlace, la web lenta como problema principal y la lista de resultados con «Tu negocio» y «El de enfrente».
 - **Problemas aún sin usar:** la web no deja reservar o pedir cita; no sale en Google Maps; no da confianza (sin fotos reales ni reseñas); no hay precios ni servicios claros; nadie responde a los mensajes; no explica qué te diferencia; el cliente no encuentra cómo escribir por WhatsApp; no está en su idioma; no sale cuando alguien pregunta a ChatGPT u otra inteligencia artificial; te escriben fuera de horario y nadie contesta; subes cada piso dos veces, a tu programa y a tu web; tu local está impecable y tu web no se le parece; la web la hizo un conocido y nadie le cambia un horario (la solución es que Saberium se lo cambia gratis, nunca un panel para que lo cambie él); las reservas por teléfono se pierden mientras atiendes.
+- **Única excepción: republicar un ganador.** Si un vídeo queda claramente por encima de la línea base, se puede rehacer con otro gancho y otra primera escena, manteniendo el resto. Solo con aprobación de Seve, como mucho una vez por vídeo y dejando al menos 10 vídeos entre el original y la nueva versión. En el Registro se marca como «versión de NN».
 - **Reglas de guion aprendidas:** la primera frase tiene sujeto claro («Alguien abrió tu web», no «Abrió tu web»). El orden de lo que se cuenta tiene que cuadrar en el tiempo.
 
 ## 4. Cómo se trabaja (desde el 19 de noviembre)
 
 Tres tareas programadas, sin agente jefe ni subagentes. Se pasan el trabajo por el repositorio: `registro.md`, las carpetas `videos/NN-nombre/` y los MP4 de `reels/`.
 
-1. **Estrategia y guiones, los lunes a las 9:12.** Lee las estadísticas de Instagram, compara los vídeos a la misma edad y escribe los 7 guiones de la semana (de martes a lunes). Crea sus carpetas con `guion.txt` y `notas.md`, añade las filas al Registro con estado «guion pendiente» y deja el resumen en `semanas/AAAA-MM-DD.md`.
+1. **Estrategia y guiones, los lunes a las 9:12.** Lee las estadísticas de Instagram, compara los vídeos a la misma edad y escribe los 7 guiones de la semana (de martes a lunes). Al menos uno usa un formato prestado de otro nicho (apartado 9) y en la semana se reparten las tres E de valor (apartado 8). Crea sus carpetas con `guion.txt` y `notas.md`, añade las filas al Registro con estado «guion pendiente» y deja el resumen en `semanas/AAAA-MM-DD.md`.
 2. **Producción, cada día a las 10:10.** Coge el guion aprobado con la fecha de publicación más cercana, consigue la voz, monta el vídeo con el motor y lo sube a `reels/`. Estado «vídeo pendiente».
 3. **Publicación, cada día a las 14:00.** Si el vídeo del día está en «vídeo aprobado», lo publica con Windsor, lo apunta en el Registro y pasa a «publicado». Si no está aprobado, no hace nada y avisa.
 
@@ -92,6 +93,9 @@ Está en `motor/` del repositorio. Las instrucciones completas están en `motor/
 - Un solo sistema visual de principio a fin. Las escenas se enlazan por transformación, no por corte. Como mucho un corte seco.
 - Algo cambia en pantalla cada 2 a 4 segundos.
 - La promesa del gancho se cumple en el vídeo, y el objeto del gancho significa algo en el mensaje.
+- **Pregunta y respuesta:** el gancho deja una pregunta abierta en la cabeza del espectador (por qué, cuál, qué pasó) y el vídeo no la responde del todo hasta el remate. Si el gancho no abre ninguna pregunta, se reescribe.
+- **Las 3 E del valor:** cada guion declara en `notas.md` qué da sobre todo: **enseñar** (algo útil que el dueño puede comprobar en su web hoy), **emocionar** (reconocerse en una situación) o **entretener** (curiosidad, giro, algo que da gusto ver). Los vídeos 01 y 02 fueron de emocionar; hay que equilibrar con vídeos que enseñen.
+- **Si hay lista, lo mejor al final:** se anuncia cuántas cosas son y la más importante se guarda para el último lugar, dicha como tal. La numeración va dentro de cada escena, nunca como contador fijo en pantalla.
 
 ## 9. Formatos
 
@@ -99,7 +103,9 @@ Se combina cómo empieza el vídeo con cómo se cuenta.
 
 Ganchos: tensión visual, problema directo, en mitad de la acción, idea contraria, espectador nombrado («si tienes una clínica...»), prueba real (solo si se hace de verdad).
 
-Cuerpos: historia con monigote, tipografía en movimiento, conversación en pantalla, comparación en pantalla partida, lista de señales, antes y después con una web real, fallo típico sin nombrar al negocio, demostración paso a paso, punto de vista del cliente buscando en el móvil.
+Cuerpos: historia con monigote, tipografía en movimiento, conversación en pantalla, comparación en pantalla partida, lista de señales, antes y después con una web real, fallo típico sin nombrar al negocio, demostración paso a paso, punto de vista del cliente buscando en el móvil, lista de N cosas con la más importante al final (por ejemplo, «5 cosas que mira tu cliente en tu web antes de llamarte»).
+
+**Formatos prestados:** cada semana, al menos un guion toma un formato que ya funciona en otro nicho (curiosidades, divulgación, cocina, finanzas…) y le pone un tema de Saberium. Se copia la estructura, nunca el contenido ni la imagen de nadie, y en `notas.md` se apunta de dónde sale.
 
 Pruebas hechas antes del motor: el lápiz que se dobla y las tijeras gustaron mucho (vídeo 01); la conversación de WhatsApp a las 23:07 es la que menos gustó; «Tu web no es fea» y el monigote con dos puertas gustan. Ganchos pendientes de la idea del socio (tu web refleja el cuidado que pones en tu marca): «Nadie juzga tu web. Te juzgan a ti por ella», «Si cuidas tu local pero no tu web…», «Antes de entrar a un negocio, miro su web», «Mira lo que ve tu cliente antes de entrar». Versión inmobiliaria: «Iba a pedirte una visita. Vio tu web y dudó», «Si tu web está descuidada, ¿cómo cuidarás mi piso?», «Si tienes una inmobiliaria, tu escaparate ya no es el cristal».
 
@@ -107,6 +113,7 @@ Pruebas hechas antes del motor: el lápiz que se dobla y las tijeras gustaron mu
 
 - @resultaaquee: la primera palabra ya es contenido; descripciones de una sola pregunta corta, sin listas de hashtags; lo que más mueve un vídeo es que se envíe a otra persona. Sus temas interesan a todo el mundo y vender webs a muy poca gente, así que sus cifras no son una meta realista.
 - Otras referencias (HappyWeb, LeadQualify, Astrom Level, Lynx Studios): letras enormes, un color por sección, pregunta «¿Qué haces? A o B», listas que se marcan, contador en pantalla.
+- Vídeo de estrategias de Robert McKeaveney (19 de noviembre; visto sin audio, así que el último punto queda sin confirmar): persona a cámara, 52 segundos, lista de 9 estrategias con «la más importante» al final y una tarjeta nueva arriba en cada punto, cada 3 a 5 segundos. De ahí salen la línea base y el tiempo medio de visionado (apartado 2), la excepción de republicar ganadores (apartado 3), pregunta y respuesta, las 3 E y la lista con lo mejor al final (apartado 8), los formatos prestados (apartado 9) y los reels de prueba (apartado 12).
 - Skills de Vyral (sin comprobar): pedir «comenta tal palabra» puede jugar en contra frente a que el vídeo se envíe; los hashtags apenas dan alcance; si se ve la interfaz de otra aplicación, Instagram puede tratar el vídeo como no original.
 
 ## 11. Reglas de Saberium que no se saltan
@@ -120,7 +127,8 @@ Pruebas hechas antes del motor: el lápiz que se dobla y las tijeras gustaron mu
 
 ## 12. Pendientes y riesgos
 
-- **ElevenLabs:** el conector no termina de conectar (la página de autorización se queda en «Cargando…», fallo de ElevenLabs) y hace falta pasar a un plan de pago. Seve lo resuelve la noche del 18 o la mañana del 19.
+- **ElevenLabs:** el 19 de noviembre el conector ya aparece conectado en los chats del proyecto. Falta comprobar que genera la voz y que la cuenta tiene plan de pago (el gratuito no tiene licencia comercial).
+- **Reels de prueba (Trial reels):** Instagram deja enseñar un reel solo a quien no te sigue y compartirlo con todos si funciona. Sirve para probar dos ganchos del mismo vídeo sin gastar el cupo de un vídeo al día. Hacen falta al menos 1.000 seguidores. Cuando la cuenta llegue, comprobar si Windsor puede publicarlos y proponérselo a Seve.
 - **Capturas de móvil:** las de `assets/webs/movil/` tienen defectos de captura. Las de escritorio están limpias.
 - Las tareas programadas no dejan elegir el modelo: corren con el que asigne la plataforma, no necesariamente Fable para los guiones.
 - El perfil de Instagram tenía el nombre y el enlace vacíos al comprobarlo el 17 de noviembre.

@@ -48,7 +48,7 @@ Tres tareas programadas, sin agente jefe ni subagentes. Se pasan el trabajo por 
 2. **Producción, cada día a las 10:10.** Coge el guion aprobado con la fecha de publicación más cercana, consigue la voz, monta el vídeo con el motor y lo sube a `reels/`. Estado «vídeo pendiente».
 3. **Publicación, cada día a las 14:00.** Si el vídeo del día está en «vídeo aprobado», lo publica con Windsor, lo apunta en el Registro y pasa a «publicado». Si no está aprobado, no hace nada y avisa.
 
-**Estados del Registro:** guion pendiente → guion aprobado → vídeo pendiente → vídeo aprobado → publicado. También: rechazado, aplazado, falta voz.
+**Estados del Registro:** guion pendiente → guion aprobado → vídeo pendiente → vídeo aprobado → publicado. También: rechazado, aplazado, falta voz. Si Seve aprueba un vídeo sin verlo, la fila queda en «guion aprobado · sin revisión» y la tarea de producción la pasa directamente a «vídeo aprobado» cuando el control automático no da errores (se le sigue enviando por si quiere pararlo).
 
 **Cómo aprueba Seve:** lo dice en cualquier chat del proyecto («apruebo los guiones», «apruebo el 05», «el 07 cámbialo así…»). Ese chat cambia el estado en `registro.md` y lo sube al repositorio. Si Seve pide cambios en un guion, el chat edita `guion.txt` y deja el estado en «guion aprobado» cuando Seve lo confirme. Si pide cambios en un vídeo, el chat vuelve a montarlo con el motor.
 

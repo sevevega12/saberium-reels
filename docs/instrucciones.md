@@ -8,7 +8,7 @@ Hay dos copias idénticas: `claude/saberium-instrucciones.md` en el proyecto «S
 
 Comprobar si, publicando un reel al día durante un mes, el contenido orgánico de Instagram consigue al menos una conversación real con el dueño de un negocio interesado en una web. Se mide en mensajes y comentarios, no en visitas.
 
-Saberium es un estudio de diseño y desarrollo web (saberium.com). Cuenta de Instagram: @saberium.studio. Público: dueños adultos de negocios locales de toda España. Idioma: solo español de España.
+Saberium es un estudio de diseño y desarrollo web (saberium.com). Trabaja la web, el SEO y el GEO (que el negocio salga en las respuestas de inteligencias artificiales como ChatGPT). Los cambios en la web se los hace Saberium al cliente gratis; no se le da un sistema para que la cambie él. Ningún guion puede prometer lo contrario. Cuenta de Instagram: @saberium.studio. Público: dueños adultos de negocios locales de toda España. Idioma: solo español de España.
 
 ## 2. Decisiones cerradas
 
@@ -36,7 +36,7 @@ Saberium es un estudio de diseño y desarrollo web (saberium.com). Cuenta de Ins
 - **El Registro de vídeos** (`registro.md` en el repositorio) guarda en cada fila el problema, la solución, el tipo de gancho, el tipo de cuerpo, la metáfora u objeto, el lugar o mundo visual y la pieza protagonista.
 - **Antes de escribir guiones se comprueba el Registro:** no se repite problema ni metáfora de los últimos 10 vídeos, ni tipo de cuerpo, mundo visual o pieza protagonista de los últimos 3. Si dos guiones de la misma semana se parecen, se cambia uno.
 - **Gastados hasta nuevo aviso:** el «se va con el de enfrente» como desenlace, la web lenta como problema principal y la lista de resultados con «Tu negocio» y «El de enfrente».
-- **Problemas aún sin usar:** la web no deja reservar o pedir cita; no sale en Google Maps; no da confianza (sin fotos reales ni reseñas); no hay precios ni servicios claros; nadie responde a los mensajes; no explica qué te diferencia; el cliente no encuentra cómo escribir por WhatsApp; no está en su idioma; te escriben fuera de horario y nadie contesta; subes cada piso dos veces, a tu programa y a tu web; tu local está impecable y tu web no se le parece; la web la hizo un conocido y nadie sabe cambiar un horario; las reservas por teléfono se pierden mientras atiendes.
+- **Problemas aún sin usar:** la web no deja reservar o pedir cita; no sale en Google Maps; no da confianza (sin fotos reales ni reseñas); no hay precios ni servicios claros; nadie responde a los mensajes; no explica qué te diferencia; el cliente no encuentra cómo escribir por WhatsApp; no está en su idioma; no sale cuando alguien pregunta a ChatGPT u otra inteligencia artificial; te escriben fuera de horario y nadie contesta; subes cada piso dos veces, a tu programa y a tu web; tu local está impecable y tu web no se le parece; la web la hizo un conocido y nadie le cambia un horario (la solución es que Saberium se lo cambia gratis, nunca un panel para que lo cambie él); las reservas por teléfono se pierden mientras atiendes.
 - **Reglas de guion aprendidas:** la primera frase tiene sujeto claro («Alguien abrió tu web», no «Abrió tu web»). El orden de lo que se cuenta tiene que cuadrar en el tiempo.
 
 ## 4. Cómo se trabaja (desde el 19 de noviembre)

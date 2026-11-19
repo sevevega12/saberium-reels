@@ -1,0 +1,12 @@
+# 03 · Se lo preguntó a ChatGPT. Publicación prevista: viernes 20 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Alguien le preguntó / a [ChatGPT] | por un buen fisio / en su *barrio*.
+2 | Le dio tres nombres, / con dirección / y horario.
+2 | El tuyo / no estaba / entre [ellos].
+3 | Cada vez más gente / busca *así*,
+3 | y la inteligencia artificial | solo recomienda / los negocios que [entiende].
+4 | Una web preparada / para Google | y para la inteligencia [artificial]
+4 | le explica / qué haces, | dónde / y para *quién*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

@@ -1,0 +1,12 @@
+# 06 · En su idioma. Publicación prevista: lunes 23 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Un turista / abre tu web / en el móvil.
+1 | Todo está / en [español].
+2 | Busca una palabra / que entienda, | un botón, / un *precio*.
+2 | Al final / cierra | y sigue [buscando].
+3 | Ese cliente / ya estaba aquí, | con ganas de [gastar], | y tu web / no supo *hablarle*.
+4 | Una web / en su [idioma], | con un botón / para cambiarlo,
+4 | le habla / como le hablarías tú | en el *mostrador*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

@@ -1,0 +1,712 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Tu calle está en el mapa. Tu negocio no.",
+   "start": 0.15,
+   "end": 3.392,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.303
+    },
+    {
+     "w": "calle",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.303,
+     "end": 0.57
+    },
+    {
+     "w": "está",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.57,
+     "end": 0.837
+    },
+    {
+     "w": "en",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.837,
+     "end": 0.99
+    },
+    {
+     "w": "el",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.99,
+     "end": 1.143
+    },
+    {
+     "w": "mapa.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 1.143,
+     "end": 1.41
+    },
+    {
+     "w": "Tu",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.422,
+     "end": 2.638
+    },
+    {
+     "w": "negocio",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.638,
+     "end": 3.175
+    },
+    {
+     "w": "no.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 3.175,
+     "end": 3.392
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Alguien a dos calles busca justo lo que haces, y el mapa le enseña otros sitios.",
+   "start": 4.955,
+   "end": 9.987,
+   "words": [
+    {
+     "w": "Alguien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.955,
+     "end": 5.314
+    },
+    {
+     "w": "a",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.314,
+     "end": 5.521
+    },
+    {
+     "w": "dos",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.521,
+     "end": 5.727
+    },
+    {
+     "w": "calles",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.727,
+     "end": 6.086
+    },
+    {
+     "w": "busca",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.086,
+     "end": 6.445
+    },
+    {
+     "w": "justo",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.445,
+     "end": 6.804
+    },
+    {
+     "w": "lo",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 6.804,
+     "end": 7.01
+    },
+    {
+     "w": "que",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 7.01,
+     "end": 7.216
+    },
+    {
+     "w": "haces,",
+     "screen": 0,
+     "row": 2,
+     "style": "key",
+     "start": 7.216,
+     "end": 7.575
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.407,
+     "end": 8.554
+    },
+    {
+     "w": "el",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.554,
+     "end": 8.702
+    },
+    {
+     "w": "mapa",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.702,
+     "end": 8.959
+    },
+    {
+     "w": "le",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 8.959,
+     "end": 9.106
+    },
+    {
+     "w": "enseña",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 9.106,
+     "end": 9.473
+    },
+    {
+     "w": "otros",
+     "screen": 1,
+     "row": 2,
+     "style": "nuance",
+     "start": 9.473,
+     "end": 9.73
+    },
+    {
+     "w": "sitios.",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 9.73,
+     "end": 9.987
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "No es que no existas. Es que Google no tiene claro dónde estás ni qué haces.",
+   "start": 11.53,
+   "end": 16.492,
+   "words": [
+    {
+     "w": "No",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 11.53,
+     "end": 11.699
+    },
+    {
+     "w": "es",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 11.699,
+     "end": 11.867
+    },
+    {
+     "w": "que",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 11.867,
+     "end": 12.035
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 12.035,
+     "end": 12.203
+    },
+    {
+     "w": "existas.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 12.203,
+     "end": 12.62
+    },
+    {
+     "w": "Es",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.622,
+     "end": 13.799
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.799,
+     "end": 13.976
+    },
+    {
+     "w": "Google",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.976,
+     "end": 14.416
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.416,
+     "end": 14.594
+    },
+    {
+     "w": "tiene",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.594,
+     "end": 14.902
+    },
+    {
+     "w": "claro",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.902,
+     "end": 15.211
+    },
+    {
+     "w": "dónde",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.211,
+     "end": 15.52
+    },
+    {
+     "w": "estás",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.52,
+     "end": 15.828
+    },
+    {
+     "w": "ni",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 15.828,
+     "end": 16.006
+    },
+    {
+     "w": "qué",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.006,
+     "end": 16.183
+    },
+    {
+     "w": "haces.",
+     "screen": 2,
+     "row": 1,
+     "style": "nuance",
+     "start": 16.183,
+     "end": 16.492
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Una web bien hecha le dice tu dirección, tu barrio y tus servicios, y cuida tu ficha para que te encuentren.",
+   "start": 18.235,
+   "end": 24.557,
+   "words": [
+    {
+     "w": "Una",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 18.235,
+     "end": 18.574
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 18.574,
+     "end": 18.805
+    },
+    {
+     "w": "bien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 18.805,
+     "end": 19.0
+    },
+    {
+     "w": "hecha",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.0,
+     "end": 19.338
+    },
+    {
+     "w": "le",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.338,
+     "end": 19.533
+    },
+    {
+     "w": "dice",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.533,
+     "end": 19.872
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.872,
+     "end": 20.066
+    },
+    {
+     "w": "dirección,",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 20.066,
+     "end": 20.55
+    },
+    {
+     "w": "tu",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.55,
+     "end": 20.744
+    },
+    {
+     "w": "barrio",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.744,
+     "end": 21.083
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.083,
+     "end": 21.278
+    },
+    {
+     "w": "tus",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.278,
+     "end": 21.472
+    },
+    {
+     "w": "servicios,",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.472,
+     "end": 21.955
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.787,
+     "end": 22.938
+    },
+    {
+     "w": "cuida",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.938,
+     "end": 23.201
+    },
+    {
+     "w": "tu",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.201,
+     "end": 23.352
+    },
+    {
+     "w": "ficha",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.352,
+     "end": 23.616
+    },
+    {
+     "w": "para",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 23.616,
+     "end": 23.879
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 23.879,
+     "end": 24.03
+    },
+    {
+     "w": "te",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 24.03,
+     "end": 24.181
+    },
+    {
+     "w": "encuentren.",
+     "screen": 2,
+     "row": 1,
+     "style": "nuance",
+     "start": 24.181,
+     "end": 24.557
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 26.23,
+   "end": 29.4,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 26.23,
+     "end": 26.659
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.659,
+     "end": 26.864
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.864,
+     "end": 27.037
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.037,
+     "end": 27.21
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.21,
+     "end": 27.767
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 27.767,
+     "end": 28.068
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.068,
+     "end": 28.369
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.369,
+     "end": 28.926
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.926,
+     "end": 29.099
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.099,
+     "end": 29.4
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "file": "voz.mp3",
+  "length": 22.674,
+  "segments_found": 9,
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.1,
+    "src_end": 1.36,
+    "start": 0.15,
+    "end": 1.41,
+    "text": "Tu calle está en el mapa."
+   },
+   {
+    "line": 1,
+    "src_start": 1.8,
+    "src_end": 2.77,
+    "start": 2.422,
+    "end": 3.392,
+    "text": "Tu negocio no."
+   },
+   {
+    "line": 2,
+    "src_start": 3.19,
+    "src_end": 5.81,
+    "start": 4.955,
+    "end": 7.575,
+    "text": "Alguien a dos calles busca justo lo que haces,"
+   },
+   {
+    "line": 2,
+    "src_start": 6.07,
+    "src_end": 7.65,
+    "start": 8.407,
+    "end": 9.987,
+    "text": "y el mapa le enseña otros sitios."
+   },
+   {
+    "line": 3,
+    "src_start": 8.05,
+    "src_end": 9.14,
+    "start": 11.53,
+    "end": 12.62,
+    "text": "No es que no existas."
+   },
+   {
+    "line": 3,
+    "src_start": 9.57,
+    "src_end": 12.44,
+    "start": 13.622,
+    "end": 16.492,
+    "text": "Es que Google no tiene claro dónde estás ni qué haces."
+   },
+   {
+    "line": 4,
+    "src_start": 13.04,
+    "src_end": 16.76,
+    "start": 18.235,
+    "end": 21.955,
+    "text": "Una web bien hecha le dice tu dirección, tu barrio y tus servicios,"
+   },
+   {
+    "line": 4,
+    "src_start": 17.02,
+    "src_end": 18.79,
+    "start": 22.787,
+    "end": 24.557,
+    "text": "y cuida tu ficha para que te encuentren."
+   },
+   {
+    "line": 5,
+    "src_start": 19.32,
+    "src_end": 19.954,
+    "start": 26.23,
+    "end": 26.864,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 5,
+    "src_start": 19.954,
+    "src_end": 22.49,
+    "start": 26.864,
+    "end": 29.4,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "duration": 32.0
+}

@@ -1,0 +1,696 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Sonó tres veces mientras atendías a alguien.",
+   "start": 0.15,
+   "end": 2.5,
+   "words": [
+    {
+     "w": "Sonó",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.486
+    },
+    {
+     "w": "tres",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.486,
+     "end": 0.679
+    },
+    {
+     "w": "veces",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 0.679,
+     "end": 1.014
+    },
+    {
+     "w": "mientras",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.014,
+     "end": 1.35
+    },
+    {
+     "w": "atendías",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.35,
+     "end": 1.971
+    },
+    {
+     "w": "a",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 1.971,
+     "end": 2.164
+    },
+    {
+     "w": "alguien.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 2.164,
+     "end": 2.5
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Tenías las manos ocupadas y no podías parar. Cuando por fin miraste el móvil, había tres llamadas perdidas y ningún mensaje.",
+   "start": 3.8,
+   "end": 11.26,
+   "words": [
+    {
+     "w": "Tenías",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 3.8,
+     "end": 4.199
+    },
+    {
+     "w": "las",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.199,
+     "end": 4.36
+    },
+    {
+     "w": "manos",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.36,
+     "end": 4.64
+    },
+    {
+     "w": "ocupadas",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 4.64,
+     "end": 5.159
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 5.159,
+     "end": 5.32
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 5.32,
+     "end": 5.481
+    },
+    {
+     "w": "podías",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 5.481,
+     "end": 5.88
+    },
+    {
+     "w": "parar.",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 5.88,
+     "end": 6.16
+    },
+    {
+     "w": "Cuando",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 7.15,
+     "end": 7.466
+    },
+    {
+     "w": "por",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 7.466,
+     "end": 7.648
+    },
+    {
+     "w": "fin",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 7.648,
+     "end": 7.829
+    },
+    {
+     "w": "miraste",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 7.829,
+     "end": 8.28
+    },
+    {
+     "w": "el",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 8.28,
+     "end": 8.462
+    },
+    {
+     "w": "móvil,",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 8.462,
+     "end": 8.778
+    },
+    {
+     "w": "había",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 8.778,
+     "end": 9.229
+    },
+    {
+     "w": "tres",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 9.229,
+     "end": 9.41
+    },
+    {
+     "w": "llamadas",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 9.41,
+     "end": 9.861
+    },
+    {
+     "w": "perdidas",
+     "screen": 3,
+     "row": 1,
+     "style": "key",
+     "start": 9.861,
+     "end": 10.312
+    },
+    {
+     "w": "y",
+     "screen": 4,
+     "row": 0,
+     "style": "plain",
+     "start": 10.312,
+     "end": 10.493
+    },
+    {
+     "w": "ningún",
+     "screen": 4,
+     "row": 0,
+     "style": "nuance",
+     "start": 10.493,
+     "end": 10.809
+    },
+    {
+     "w": "mensaje.",
+     "screen": 4,
+     "row": 0,
+     "style": "plain",
+     "start": 10.809,
+     "end": 11.26
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Quien llama para reservar no espera: reserva donde le dejan hacerlo a la primera.",
+   "start": 12.79,
+   "end": 17.34,
+   "words": [
+    {
+     "w": "Quien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.79,
+     "end": 12.964
+    },
+    {
+     "w": "llama",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.964,
+     "end": 13.268
+    },
+    {
+     "w": "para",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 13.268,
+     "end": 13.571
+    },
+    {
+     "w": "reservar",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 13.571,
+     "end": 14.003
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 14.003,
+     "end": 14.178
+    },
+    {
+     "w": "espera:",
+     "screen": 0,
+     "row": 2,
+     "style": "key",
+     "start": 14.178,
+     "end": 14.61
+    },
+    {
+     "w": "reserva",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 15.39,
+     "end": 15.737
+    },
+    {
+     "w": "donde",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 15.737,
+     "end": 15.981
+    },
+    {
+     "w": "le",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 15.981,
+     "end": 16.121
+    },
+    {
+     "w": "dejan",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 16.121,
+     "end": 16.365
+    },
+    {
+     "w": "hacerlo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 16.365,
+     "end": 16.712
+    },
+    {
+     "w": "a",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 16.712,
+     "end": 16.852
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 16.852,
+     "end": 16.993
+    },
+    {
+     "w": "primera.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 16.993,
+     "end": 17.34
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Con reserva en tu web, el cliente elige el hueco él solo, a cualquier hora, mientras tú sigues trabajando.",
+   "start": 18.78,
+   "end": 24.99,
+   "words": [
+    {
+     "w": "Con",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 18.78,
+     "end": 18.956
+    },
+    {
+     "w": "reserva",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 18.956,
+     "end": 19.393
+    },
+    {
+     "w": "en",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.393,
+     "end": 19.569
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.569,
+     "end": 19.746
+    },
+    {
+     "w": "web,",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.746,
+     "end": 19.954
+    },
+    {
+     "w": "el",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 19.954,
+     "end": 20.131
+    },
+    {
+     "w": "cliente",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.131,
+     "end": 20.437
+    },
+    {
+     "w": "elige",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.437,
+     "end": 20.874
+    },
+    {
+     "w": "el",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 20.874,
+     "end": 21.051
+    },
+    {
+     "w": "hueco",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.051,
+     "end": 21.357
+    },
+    {
+     "w": "él",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.357,
+     "end": 21.533
+    },
+    {
+     "w": "solo,",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.533,
+     "end": 21.84
+    },
+    {
+     "w": "a",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.54,
+     "end": 22.741
+    },
+    {
+     "w": "cualquier",
+     "screen": 2,
+     "row": 0,
+     "style": "nuance",
+     "start": 22.741,
+     "end": 23.091
+    },
+    {
+     "w": "hora,",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.091,
+     "end": 23.441
+    },
+    {
+     "w": "mientras",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 23.441,
+     "end": 23.791
+    },
+    {
+     "w": "tú",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 23.791,
+     "end": 23.992
+    },
+    {
+     "w": "sigues",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 23.992,
+     "end": 24.342
+    },
+    {
+     "w": "trabajando.",
+     "screen": 3,
+     "row": 1,
+     "style": "key",
+     "start": 24.342,
+     "end": 24.99
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 26.33,
+   "end": 29.41,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 26.33,
+     "end": 26.747
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.747,
+     "end": 26.946
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.946,
+     "end": 27.114
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.114,
+     "end": 27.282
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.282,
+     "end": 27.823
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 27.823,
+     "end": 28.116
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.116,
+     "end": 28.408
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.408,
+     "end": 28.95
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.95,
+     "end": 29.118
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.118,
+     "end": 29.41
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "file": "voz.mp3",
+  "length": 24.686,
+  "segments_found": 9,
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.05,
+    "src_end": 2.4,
+    "start": 0.15,
+    "end": 2.5,
+    "text": "Sonó tres veces mientras atendías a alguien."
+   },
+   {
+    "line": 2,
+    "src_start": 2.82,
+    "src_end": 5.18,
+    "start": 3.8,
+    "end": 6.16,
+    "text": "Tenías las manos ocupadas y no podías parar."
+   },
+   {
+    "line": 2,
+    "src_start": 5.73,
+    "src_end": 9.84,
+    "start": 7.15,
+    "end": 11.26,
+    "text": "Cuando por fin miraste el móvil, había tres llamadas perdidas y ningún mensaje."
+   },
+   {
+    "line": 3,
+    "src_start": 10.49,
+    "src_end": 12.31,
+    "start": 12.79,
+    "end": 14.61,
+    "text": "Quien llama para reservar no espera:"
+   },
+   {
+    "line": 3,
+    "src_start": 12.65,
+    "src_end": 14.6,
+    "start": 15.39,
+    "end": 17.34,
+    "text": "reserva donde le dejan hacerlo a la primera."
+   },
+   {
+    "line": 4,
+    "src_start": 15.16,
+    "src_end": 18.22,
+    "start": 18.78,
+    "end": 21.84,
+    "text": "Con reserva en tu web, el cliente elige el hueco él solo,"
+   },
+   {
+    "line": 4,
+    "src_start": 18.47,
+    "src_end": 20.92,
+    "start": 22.54,
+    "end": 24.99,
+    "text": "a cualquier hora, mientras tú sigues trabajando."
+   },
+   {
+    "line": 5,
+    "src_start": 21.38,
+    "src_end": 21.996,
+    "start": 26.33,
+    "end": 26.946,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 5,
+    "src_start": 21.996,
+    "src_end": 24.46,
+    "start": 26.946,
+    "end": 29.41,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "duration": 32.01
+}

@@ -116,6 +116,47 @@ def speech_segments(x, sr, min_sil=0.20, min_speech=0.12):
 
 
 def snap_boundaries(phr_syl, segs):
+    """Chooses, for every phrase boundary, a real silence of the recording (or none, when
+    several phrases are said in one breath). Dynamic programming over groups of
+    consecutive phrases: each group spans whole speech stretches between two silences,
+    and the cost is how far the group's speech time is from what its syllables predict
+    (log ratio), plus a small penalty for every boundary left inside speech."""
+    import math
+    N, S = len(phr_syl), len(segs)
+    speech = sum(b - a for a, b in segs)
+    rate = speech / sum(phr_syl)
+    pre = [0.0]
+    for a, b in segs:
+        pre.append(pre[-1] + (b - a))
+    INF = float('inf')
+    # boundary index e in 0..S: phrase group ends after segment e-1 (e = S is the end)
+    dp = [[INF] * (S + 1) for _ in range(N + 1)]
+    back = {}
+    dp[0][0] = 0.0
+    for i in range(1, N + 1):
+        for k in range(1, min(4, i) + 1):          # group of k phrases: i-k .. i-1
+            syl = sum(phr_syl[i - k:i]); exp = syl * rate
+            for e0 in range(S):
+                if dp[i - k][e0] == INF:
+                    continue
+                for e in range(e0 + 1, S + 1):
+                    dur = pre[e] - pre[e0]
+                    c = dp[i - k][e0] + abs(math.log(dur / exp)) * 2.0 + 0.9 * (k - 1)
+                    if c < dp[i][e]:
+                        dp[i][e] = c; back[(i, e)] = (i - k, e0)
+    if dp[N][S] == INF:
+        return [None] * (N - 1)
+    bnd = [None] * (N - 1)
+    i, e = N, S
+    while i > 0:
+        i0, e0 = back[(i, e)]
+        if i < N:
+            bnd[i - 1] = e - 1          # silence between segs[e-1] and segs[e]
+        i, e = i0, e0
+    return bnd
+
+
+def _old_snap_boundaries(phr_syl, segs):
     """Assigns every phrase boundary to a distinct silence gap (in order), as close as
     possible to where the syllable count says it should fall. Boundaries that cannot get a
     gap are left inside speech (those phrases stay glued together)."""

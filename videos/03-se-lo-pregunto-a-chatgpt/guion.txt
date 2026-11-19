@@ -6,7 +6,7 @@ voz: voz.mp3
 2 | El tuyo / no estaba / entre [ellos].
 3 | Cada vez más gente / busca *así*,
 3 | y la inteligencia artificial | solo recomienda / los negocios que [entiende].
-4 | Una web preparada / para Google | y para la inteligencia [artificial]
+4 | Una web preparada / para Google | y para la / inteligencia [artificial]
 4 | le explica / qué haces, | dónde / y para *quién*.
 5 | Comenta [WEB],
 5 | y te enseñamos *gratis* / cómo quedaría la tuya.

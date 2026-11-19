@@ -1,0 +1,688 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Alguien le preguntó a ChatGPT por un buen fisio en su barrio.",
+   "start": 0.15,
+   "end": 3.29,
+   "words": [
+    {
+     "w": "Alguien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.498
+    },
+    {
+     "w": "le",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.498,
+     "end": 0.698
+    },
+    {
+     "w": "preguntó",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.698,
+     "end": 1.194
+    },
+    {
+     "w": "a",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 1.194,
+     "end": 1.394
+    },
+    {
+     "w": "ChatGPT",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 1.394,
+     "end": 1.594
+    },
+    {
+     "w": "por",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.594,
+     "end": 1.794
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.794,
+     "end": 1.994
+    },
+    {
+     "w": "buen",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.994,
+     "end": 2.194
+    },
+    {
+     "w": "fisio",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.194,
+     "end": 2.542
+    },
+    {
+     "w": "en",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.542,
+     "end": 2.742
+    },
+    {
+     "w": "su",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.742,
+     "end": 2.942
+    },
+    {
+     "w": "barrio.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 2.942,
+     "end": 3.29
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Le dio tres nombres, con dirección y horario. El tuyo no estaba entre ellos.",
+   "start": 4.886,
+   "end": 10.129,
+   "words": [
+    {
+     "w": "Le",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.886,
+     "end": 5.095
+    },
+    {
+     "w": "dio",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.095,
+     "end": 5.305
+    },
+    {
+     "w": "tres",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.305,
+     "end": 5.514
+    },
+    {
+     "w": "nombres,",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.514,
+     "end": 5.878
+    },
+    {
+     "w": "con",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.878,
+     "end": 6.088
+    },
+    {
+     "w": "dirección",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.088,
+     "end": 6.607
+    },
+    {
+     "w": "y",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 6.607,
+     "end": 6.817
+    },
+    {
+     "w": "horario.",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 6.817,
+     "end": 7.336
+    },
+    {
+     "w": "El",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.369,
+     "end": 8.55
+    },
+    {
+     "w": "tuyo",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.55,
+     "end": 8.866
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 8.866,
+     "end": 9.047
+    },
+    {
+     "w": "estaba",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 9.047,
+     "end": 9.498
+    },
+    {
+     "w": "entre",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 9.498,
+     "end": 9.813
+    },
+    {
+     "w": "ellos.",
+     "screen": 1,
+     "row": 2,
+     "style": "key",
+     "start": 9.813,
+     "end": 10.129
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Cada vez más gente busca así, y la inteligencia artificial solo recomienda los negocios que entiende.",
+   "start": 11.725,
+   "end": 17.268,
+   "words": [
+    {
+     "w": "Cada",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 11.725,
+     "end": 12.014
+    },
+    {
+     "w": "vez",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.014,
+     "end": 12.181
+    },
+    {
+     "w": "más",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.181,
+     "end": 12.347
+    },
+    {
+     "w": "gente",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.347,
+     "end": 12.636
+    },
+    {
+     "w": "busca",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 12.636,
+     "end": 12.926
+    },
+    {
+     "w": "así,",
+     "screen": 0,
+     "row": 1,
+     "style": "nuance",
+     "start": 12.926,
+     "end": 13.215
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 14.068,
+     "end": 14.22
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 14.22,
+     "end": 14.371
+    },
+    {
+     "w": "inteligencia",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 14.371,
+     "end": 14.972
+    },
+    {
+     "w": "artificial",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 14.972,
+     "end": 15.46
+    },
+    {
+     "w": "solo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.46,
+     "end": 15.724
+    },
+    {
+     "w": "recomienda",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.724,
+     "end": 16.213
+    },
+    {
+     "w": "los",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.213,
+     "end": 16.364
+    },
+    {
+     "w": "negocios",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.364,
+     "end": 16.74
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.74,
+     "end": 16.892
+    },
+    {
+     "w": "entiende.",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 16.892,
+     "end": 17.268
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Una web preparada para Google y para la inteligencia artificial le explica qué haces, dónde y para quién.",
+   "start": 18.924,
+   "end": 24.584,
+   "words": [
+    {
+     "w": "Una",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 18.924,
+     "end": 19.223
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.223,
+     "end": 19.426
+    },
+    {
+     "w": "preparada",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.426,
+     "end": 19.979
+    },
+    {
+     "w": "para",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.979,
+     "end": 20.277
+    },
+    {
+     "w": "Google",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 20.277,
+     "end": 20.703
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.703,
+     "end": 20.874
+    },
+    {
+     "w": "para",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.874,
+     "end": 21.173
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 21.173,
+     "end": 21.344
+    },
+    {
+     "w": "inteligencia",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.344,
+     "end": 22.024
+    },
+    {
+     "w": "artificial",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 22.024,
+     "end": 22.577
+    },
+    {
+     "w": "le",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.577,
+     "end": 22.749
+    },
+    {
+     "w": "explica",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.749,
+     "end": 23.174
+    },
+    {
+     "w": "qué",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 23.174,
+     "end": 23.346
+    },
+    {
+     "w": "haces,",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 23.346,
+     "end": 23.644
+    },
+    {
+     "w": "dónde",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 23.644,
+     "end": 23.943
+    },
+    {
+     "w": "y",
+     "screen": 3,
+     "row": 1,
+     "style": "plain",
+     "start": 23.943,
+     "end": 24.114
+    },
+    {
+     "w": "para",
+     "screen": 3,
+     "row": 1,
+     "style": "plain",
+     "start": 24.114,
+     "end": 24.413
+    },
+    {
+     "w": "quién.",
+     "screen": 3,
+     "row": 1,
+     "style": "nuance",
+     "start": 24.413,
+     "end": 24.584
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 26.12,
+   "end": 29.4,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 26.12,
+     "end": 26.564
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.564,
+     "end": 26.776
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.776,
+     "end": 26.955
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.955,
+     "end": 27.134
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.134,
+     "end": 27.71
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 27.71,
+     "end": 28.022
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.022,
+     "end": 28.333
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.333,
+     "end": 28.91
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.91,
+     "end": 29.089
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.089,
+     "end": 29.4
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "file": "voz.mp3",
+  "length": 24.033,
+  "segments_found": 7,
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.07,
+    "src_end": 3.21,
+    "start": 0.15,
+    "end": 3.29,
+    "text": "Alguien le preguntó a ChatGPT por un buen fisio en su barrio."
+   },
+   {
+    "line": 2,
+    "src_start": 3.72,
+    "src_end": 6.17,
+    "start": 4.886,
+    "end": 7.336,
+    "text": "Le dio tres nombres, con dirección y horario."
+   },
+   {
+    "line": 2,
+    "src_start": 6.66,
+    "src_end": 8.42,
+    "start": 8.369,
+    "end": 10.129,
+    "text": "El tuyo no estaba entre ellos."
+   },
+   {
+    "line": 3,
+    "src_start": 8.93,
+    "src_end": 10.42,
+    "start": 11.725,
+    "end": 13.215,
+    "text": "Cada vez más gente busca así,"
+   },
+   {
+    "line": 3,
+    "src_start": 10.73,
+    "src_end": 13.93,
+    "start": 14.068,
+    "end": 17.268,
+    "text": "y la inteligencia artificial solo recomienda los negocios que entiende."
+   },
+   {
+    "line": 4,
+    "src_start": 14.5,
+    "src_end": 18.153,
+    "start": 18.924,
+    "end": 22.577,
+    "text": "Una web preparada para Google y para la inteligencia artificial"
+   },
+   {
+    "line": 4,
+    "src_start": 18.153,
+    "src_end": 20.16,
+    "start": 22.577,
+    "end": 24.584,
+    "text": "le explica qué haces, dónde y para quién."
+   },
+   {
+    "line": 5,
+    "src_start": 20.61,
+    "src_end": 21.266,
+    "start": 26.12,
+    "end": 26.776,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 5,
+    "src_start": 21.266,
+    "src_end": 23.89,
+    "start": 26.776,
+    "end": 29.4,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "duration": 32.0
+}

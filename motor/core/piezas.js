@@ -119,4 +119,34 @@ Piezas.Reloj = function (parent, o = {}) {
   return { el: c, set(h) { tx.textContent = h; } };
 };
 
+// ---------- rolling counter (odometer) on frosted glass ----------
+// First used in 04 · Tres llamadas perdidas.
+// Piezas.Rodillo(parent,{x,y,w,label,sub,digits}) ; .update(t, [[t0,v0],[t1,v1],...], d)
+Piezas.Rodillo = function (parent, o = {}) {
+  const g = el('div', 'glass rodillo', parent); css(g, { left: (o.x ?? 120) + 'px', top: (o.y ?? 480) + 'px', width: (o.w || 560) + 'px' });
+  el('div', 'lab txt', g, o.label || '');
+  if (o.dot) el('div', 'dot', g);
+  const n = o.digits || 1, win = el('div', 'win2 txt', g); win.style.width = 62 * n + 'px';
+  const cols = [];
+  for (let i = 0; i < n; i++) {
+    const c = el('div', 'col', win); c.style.left = i * 62 + 'px';
+    for (let d = 0; d <= 10; d++) { const b = el('b', '', c, String(d % 10)); b.style.top = d * 110 + 'px'; }
+    cols.push(c);
+  }
+  const sub = el('div', 'sub txt', g, o.sub || ''); sub.style.left = 30 + 62 * n + 18 + 'px';
+  return { el: g, sub,
+    // steps: value v reached at time t (rolls in d seconds, fast out / slow in)
+    update(t, steps, d = 0.45) {
+      let v = steps[0][1];
+      for (let i = 1; i < steps.length; i++) v = lerp(v, steps[i][1], E.out5(seg(t, steps[i][0], steps[i][0] + d)));
+      cols.forEach((c, i) => {
+        const p = Math.pow(10, n - 1 - i), whole = Math.floor(v / p), frac = v / p - whole;
+        const below = v - whole * p;                   // a column only rolls while the ones below it pass 9
+        const k = i === n - 1 ? frac : clamp((below - (p - 1)) / 1);
+        c.style.transform = `translateY(${-((whole % 10) + k) * 110}px)`;
+      });
+      return v;
+    } };
+};
+
 window.Piezas = Piezas;

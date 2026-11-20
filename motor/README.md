@@ -16,7 +16,7 @@ Probado el 18 de noviembre de 2026 con la plantilla `videos/00-plantilla`: borra
 
 ## Lo que NO fija
 
-Las escenas, la metáfora, el lugar, la composición y el ritmo son de cada vídeo. Las piezas de `core/piezas.js` (fondo de mesa, móvil, portátil, contador de cristal, lista que se marca, reloj) son opcionales. Ningún vídeo está obligado a usarlas, y conviene no repetir la pieza protagonista de los últimos vídeos. Cuando un vídeo invente una pieza buena, se añade a `piezas.js`.
+Las escenas, la metáfora, el lugar, la composición y el ritmo son de cada vídeo. Las piezas de `core/piezas.js` (fondo de mesa, móvil, portátil, contador de cristal, contador que rueda como un cuentakilómetros, lista que se marca, reloj) son opcionales. Ningún vídeo está obligado a usarlas, y conviene no repetir la pieza protagonista de los últimos vídeos. Cuando un vídeo invente una pieza buena, se añade a `piezas.js`.
 
 ## Cómo se hace un vídeo
 

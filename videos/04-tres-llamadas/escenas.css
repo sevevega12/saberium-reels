@@ -1,0 +1,78 @@
+/* 04 · Tres llamadas perdidas · mostrador de madera a media mañana */
+#stage{background:#140c07}
+
+/* ---------- the shop: back wall, shelves, shop window light, wooden counter ---------- */
+.shop{left:-70px;top:-70px;width:1220px;height:2060px}
+.shop .wall{left:0;top:0;width:1220px;height:1000px;background:linear-gradient(180deg,#2b1c12,#3a2616 60%,#24170e)}
+.shop .win{left:760px;top:60px;width:520px;height:760px;border-radius:10px;
+  background:radial-gradient(ellipse 80% 70% at 40% 40%,#fff1d2,#f4c886 45%,#b9773c 90%);filter:blur(10px);opacity:.92}
+.shop .mull{background:#2a1b10;filter:blur(5px)}
+.shop .shelf{left:40px;width:640px;height:22px;border-radius:4px;background:linear-gradient(180deg,#6b4527,#3b2414);filter:blur(5px)}
+.shop .jar{border-radius:14px 14px 10px 10px;filter:blur(7px)}
+.shop .counter{left:-200px;top:820px;width:1620px;height:1500px;transform-origin:50% 0;transform:perspective(1100px) rotateX(52deg);
+  background:
+    repeating-linear-gradient(91deg,rgba(40,20,8,.0) 0 22px,rgba(40,20,8,.22) 22px 24px,rgba(40,20,8,0) 24px 61px,rgba(255,220,170,.06) 61px 63px),
+    repeating-linear-gradient(89.3deg,rgba(0,0,0,0) 0 140px,rgba(30,14,4,.35) 140px 143px),
+    linear-gradient(90deg,#7a4b28,#8c5a32 30%,#6e4222 55%,#8a5830 80%,#6a3f20)}
+.shop .edge{left:-70px;top:808px;width:1360px;height:26px;background:linear-gradient(180deg,#a8743f,#5a3519);filter:blur(1.5px)}
+.shop .pool{left:150px;top:760px;width:900px;height:700px;border-radius:50%;
+  background:radial-gradient(ellipse,rgba(255,214,150,.38),rgba(255,190,110,.10) 50%,transparent 72%);filter:blur(20px)}
+.shop .beam{left:420px;top:-300px;width:420px;height:2400px;transform-origin:50% 0;transform:rotate(28deg);
+  background:linear-gradient(180deg,rgba(255,226,170,.20),rgba(255,210,150,.07) 60%,transparent);filter:blur(26px);mix-blend-mode:screen}
+.shop .dust i{border-radius:50%;background:rgba(255,236,200,.75);filter:blur(1px)}
+
+/* ---------- the phone (two faces, flips in 3D) ---------- */
+.phwrap{left:310px;top:470px;width:460px;height:960px;perspective:1700px}
+.ph3d{left:0;top:0;width:460px;height:960px;transform-style:preserve-3d}
+.ph3d .face{left:0;top:0;width:460px;height:960px;border-radius:72px;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.ph3d .back{transform:rotateY(180deg);
+  background:linear-gradient(150deg,#4a4f63 0%,#262a3a 22%,#171a26 55%,#2c3142 85%,#3d4256);
+  box-shadow:inset 0 0 0 3px rgba(190,200,230,.28),inset 0 0 0 9px #11131c}
+.ph3d .back .sheen{left:0;top:0;width:460px;height:960px;border-radius:72px;
+  background:linear-gradient(112deg,transparent 30%,rgba(255,230,190,.16) 42%,transparent 54%)}
+.ph3d .cam{left:34px;top:34px;width:176px;height:176px;border-radius:46px;
+  background:linear-gradient(145deg,#3a3f52,#1b1e2b);box-shadow:inset 0 0 0 2px rgba(200,210,240,.25),0 6px 16px rgba(0,0,0,.5)}
+.ph3d .lens{width:66px;height:66px;border-radius:50%;background:radial-gradient(circle at 38% 34%,#5b6a9a 0,#141a33 30%,#05060c 62%,#2b3046 66%,#0c0e16 72%);
+  box-shadow:0 0 0 4px #2a2e3e,0 0 0 6px rgba(200,210,240,.18)}
+.ph3d .flash{left:136px;top:128px;width:20px;height:20px;border-radius:50%;background:radial-gradient(circle,#fff6dc,#c9a76a)}
+.ph3d .front{background:#06070f;box-shadow:inset 0 0 0 3px rgba(190,200,230,.3)}
+.ph3d .scr{left:12px;top:12px;width:436px;height:936px;border-radius:60px;overflow:hidden;background:#0a0d2a}
+.ph3d .wall2{left:-40px;top:-40px;width:516px;height:1016px;
+  background:radial-gradient(ellipse 70% 45% at 30% 20%,#2b47ff 0,transparent 60%),radial-gradient(ellipse 80% 60% at 80% 85%,#7a3d1d 0,transparent 65%),linear-gradient(180deg,#0b1350,#04051C)}
+.ph3d .isl{left:148px;top:26px;width:140px;height:40px;border-radius:20px;background:#000;z-index:5}
+.ph3d .date{left:0;width:436px;top:104px;text-align:center;font:600 28px/36px 'Poppins';color:rgba(255,255,255,.85);white-space:nowrap}
+.ph3d .time{left:0;width:436px;top:136px;text-align:center;font:600 132px/150px 'Poppins';letter-spacing:-4px;color:#fff;white-space:nowrap}
+.ph3d .noti{left:18px;width:400px;height:104px;border-radius:30px;background:rgba(235,240,255,.16);
+  backdrop-filter:blur(12px);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18),0 10px 26px rgba(0,0,0,.35)}
+.ph3d .noti .ic{left:18px;top:24px;width:56px;height:56px;border-radius:16px;background:#e5484d}
+.ph3d .noti .ic svg{left:13px;top:13px}
+.ph3d .noti .nt{left:90px;top:16px;font:700 28px/36px 'Poppins';color:#fff;white-space:nowrap}
+.ph3d .noti .nd{left:90px;top:54px;font:500 23px/32px 'DejaVu Sans Mono',monospace;color:rgba(255,255,255,.72);white-space:nowrap}
+.ph3d .noti .nh{right:22px;top:18px;font:500 22px/30px 'DejaVu Sans Mono',monospace;color:rgba(255,255,255,.6);white-space:nowrap}
+.ph3d .nomsg{left:18px;width:400px;height:70px;border-radius:24px;background:rgba(10,12,30,.42);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.22)}
+.ph3d .nomsg .tx{left:0;width:400px;top:17px;text-align:center;font:700 22px/36px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:rgba(156,200,255,.85);white-space:nowrap}
+.ph3d .webl{left:-250px;top:250px;width:936px;height:436px;transform:rotate(90deg);overflow:hidden;background:#c8574a}
+.ph3d .webl img{left:0;top:0;width:936px}
+.ph3d .tap{width:120px;height:120px;border-radius:50%;margin:-60px 0 0 -60px;border:4px solid rgba(255,255,255,.9);box-shadow:0 0 24px rgba(255,255,255,.6)}
+.phshadow{left:270px;top:760px;width:560px;height:420px;border-radius:50%;background:radial-gradient(ellipse,rgba(20,8,2,.65),transparent 68%);filter:blur(14px)}
+
+/* ---------- the parcel in the foreground (busy hands) ---------- */
+.parcel{left:-40px;top:1240px;width:760px;height:620px;transform-origin:50% 60%}
+.parcel svg{left:0;top:0}
+.parcel .label{left:250px;top:150px;width:300px;height:118px;border-radius:6px;background:#f6f2e8;transform:skewX(-14deg) rotate(-4deg);box-shadow:0 3px 8px rgba(60,30,10,.35)}
+.parcel .label .l1{left:20px;top:14px;font:700 26px/34px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#1b1b1b;white-space:nowrap}
+.parcel .label .l2{left:20px;top:58px;font:500 22px/30px 'DejaVu Sans Mono',monospace;color:#555;white-space:nowrap}
+.parcel .label .bars{left:20px;top:92px;width:240px;height:14px;background:repeating-linear-gradient(90deg,#222 0 3px,transparent 3px 6px,#222 6px 7px,transparent 7px 11px)}
+
+/* ---------- the booking panel (the button becomes it) ---------- */
+.btnfly{border-radius:16px;background:#9e3a2f;box-shadow:0 18px 40px rgba(20,5,2,.55),inset 0 0 0 1.5px rgba(255,220,200,.35);
+  font:600 30px 'Poppins';letter-spacing:5px;color:#fff;text-align:center;white-space:nowrap}
+.reservas{left:90px;top:968px;width:900px;height:330px;border-radius:28px;transform-origin:50% 0}
+.reservas .lab{left:36px;top:28px}
+.reservas .web{right:36px;top:24px;font:600 22px/30px 'DejaVu Sans Mono',monospace;color:rgba(255,255,255,.7);white-space:nowrap}
+.slotr{left:24px;width:852px;height:72px;border-radius:18px;background:rgba(4,5,28,.35);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.22)}
+.slotr .d{left:28px;top:14px;font:700 34px/44px 'Poppins';color:#fff;white-space:nowrap}
+.slotr .h{left:250px;top:14px;font:700 34px/44px 'DejaVu Sans Mono',monospace;color:#9CC8FF;white-space:nowrap}
+.slotr .ok{right:16px;top:12px;height:48px;width:230px;border-radius:24px;background:#9CC8FF;opacity:0}
+.slotr .ok span{position:absolute;left:0;width:230px;top:7px;text-align:center;font:700 24px/34px 'Poppins';color:#04051C;white-space:nowrap}
+.slotr .ok svg{left:18px;top:13px}

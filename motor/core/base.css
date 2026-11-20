@@ -70,3 +70,13 @@ html,body{background:#000;width:1080px;height:1920px;overflow:hidden}
 .chip i{left:24px;top:26px;width:14px;height:14px;border-radius:50%;background:#9CC8FF;box-shadow:0 0 12px rgba(156,200,255,.9)}
 .chip .tx{left:52px;top:11px;font:700 36px/44px 'DejaVu Sans Mono',monospace;color:#fff;white-space:nowrap}
 .bokeh i{border-radius:50%}
+
+/* ---------- rolling counter (Piezas.Rodillo) ---------- */
+.rodillo{height:210px}
+.rodillo .lab{left:34px;top:30px}
+.rodillo .win2{left:30px;top:66px;height:110px;overflow:hidden}
+.rodillo .col{top:0;width:62px}
+.rodillo .col b{position:absolute;left:0;width:62px;height:110px;font:700 96px/110px 'DejaVu Sans Mono',monospace;color:#fff;text-align:center}
+.rodillo .sub{top:104px;font:400 32px 'DejaVu Sans Mono',monospace;color:#9CC8FF;white-space:nowrap}
+.rodillo .dot{right:34px;top:34px;width:18px;height:18px;border-radius:50%;background:#e5484d;box-shadow:0 0 16px rgba(229,72,77,.9)}
+

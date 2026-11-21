@@ -1,0 +1,99 @@
+/* 05 · Sin chincheta · maqueta de un barrio de noche, vista desde arriba */
+#stage{background:#03041a}
+.sky{left:0;top:0;width:1080px;height:1920px;background:radial-gradient(ellipse 90% 50% at 50% 20%,#0d1660,#03041a 70%)}
+.cam{left:0;top:0;width:1080px;height:1920px;perspective:1500px;perspective-origin:540px 640px}
+.plane{left:-260px;top:-140px;width:1600px;height:2200px;transform-origin:800px 1100px;transform-style:preserve-3d}
+.plane svg{left:0;top:0}
+.bb{width:0;height:0;transform-origin:0 0;transform-style:flat}
+
+/* your storefront: dark until "existas" */
+.mylit{opacity:0;background:
+  repeating-linear-gradient(90deg,rgba(255,214,150,.95) 0 34px,rgba(60,30,10,.9) 34px 40px);
+  box-shadow:0 0 40px 10px rgba(255,190,110,.45),0 30px 60px 20px rgba(255,180,100,.25)}
+.mylit::after{content:'';position:absolute;left:-10px;top:-12px;width:208px;height:12px;background:#0A22F1;box-shadow:0 0 14px #2b47ff}
+
+/* pins: frosted glass heads on a steel needle */
+.pin{left:0;top:0;transform-origin:0 0}
+.pin .needle{left:-2px;top:-80px;width:4px;height:80px;border-radius:2px;background:linear-gradient(90deg,#6c7390,#e6ebf7,#7b8099)}
+.pin .head{left:-30px;top:-136px;width:60px;height:60px;border-radius:50%;
+  background:radial-gradient(circle at 36% 30%,#ffffff 0,#e6eeff 9%,#a9bde6 28%,#5d6d9c 62%,#2a3358 92%);
+  box-shadow:0 8px 18px rgba(0,0,0,.55),inset 0 -6px 12px rgba(10,14,40,.5),inset 0 0 0 1.5px rgba(255,255,255,.35)}
+.pin .spec{left:-17px;top:-127px;width:16px;height:10px;border-radius:50%;background:rgba(255,255,255,.85);transform:rotate(-30deg)}
+.pin.lit .head{background:radial-gradient(circle at 36% 30%,#fff 0,#fff4dc 12%,#ffd59a 35%,#c98a3c 70%,#5a3a16 95%);
+  box-shadow:0 0 40px 8px rgba(255,200,120,.55),0 8px 18px rgba(0,0,0,.55)}
+.pin.mine .head{background:radial-gradient(circle at 36% 30%,#fff 0,#cfe3ff 8%,#6f9dff 26%,#0A22F1 58%,#020a6a 92%);
+  box-shadow:0 0 30px 6px rgba(40,80,255,.6),0 8px 18px rgba(0,0,0,.55),inset 0 0 0 1.5px rgba(200,225,255,.5)}
+.pin .halo{left:-75px;top:-181px;width:150px;height:150px;border-radius:50%;opacity:0;background:radial-gradient(circle,rgba(90,130,255,.75),rgba(10,34,241,.25) 45%,transparent 70%)}
+.pin.mine.glow .halo{opacity:1}
+.pin.ghost .head{background:radial-gradient(circle at 36% 30%,rgba(255,255,255,.6),rgba(156,200,255,.25) 40%,rgba(10,34,241,.15) 90%);
+  box-shadow:inset 0 0 0 2px rgba(156,200,255,.7);border:2px dashed rgba(156,200,255,.8)}
+.pin.ghost .needle{background:repeating-linear-gradient(180deg,rgba(156,200,255,.8) 0 8px,transparent 8px 14px)}
+.pshadow{width:70px;height:40px;margin:-20px 0 0 -10px;border-radius:50%;background:radial-gradient(ellipse,rgba(0,0,0,.75),transparent 70%);opacity:0}
+.pshadow.big{width:96px;height:52px;margin:-26px 0 0 -14px}
+.ripple,.radar{width:200px;height:200px;border-radius:50%;opacity:0;transform:translate(-50%,-50%)}
+.ripple{left:0;top:0;box-shadow:0 0 0 4px rgba(230,238,255,.75),0 0 24px rgba(156,200,255,.6)}
+.ripple.big{box-shadow:0 0 0 6px #9CC8FF,0 0 40px rgba(10,34,241,.9)}
+.radar{width:1500px;height:1500px;box-shadow:0 0 0 5px rgba(156,200,255,.8),inset 0 0 80px rgba(156,200,255,.25)}
+.ring{width:96px;height:96px;border-radius:50%;opacity:0;border:5px dashed rgba(255,140,140,.95);
+  box-shadow:0 0 24px rgba(255,100,100,.45),inset 0 0 20px rgba(255,100,100,.3);background:rgba(255,90,90,.08)}
+
+/* cars */
+.car{width:36px;height:22px;margin:-11px 0 0 -18px}
+.car i{border-radius:50%}
+.car .l1,.car .l2{left:30px;width:8px;height:8px;background:#fff6e2;box-shadow:0 0 10px 3px rgba(255,240,200,.9)}
+.car .l1{top:1px}.car .l2{top:13px}
+.car .glow{left:34px;top:-14px;width:90px;height:50px;background:radial-gradient(ellipse at 0 50%,rgba(255,240,200,.35),transparent 70%)}
+
+/* the person two streets away */
+.pdot{width:44px;height:44px;opacity:0}
+.pdot i{left:-40px;top:-40px;width:124px;height:124px;border-radius:50%;background:radial-gradient(circle,rgba(156,200,255,.45),transparent 65%)}
+.pdot b{left:6px;top:6px;width:32px;height:32px;border-radius:50%;background:#9CC8FF;box-shadow:0 0 0 6px #fff,0 0 20px 6px rgba(156,200,255,.9)}
+.ptag{left:-170px;top:-118px;width:340px;height:56px;border-radius:28px;background:rgba(10,16,70,.9);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.5),0 12px 30px rgba(0,0,0,.5)}
+.ptag .a{left:0;width:340px;top:13px;text-align:center;font:700 22px/30px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#fff;white-space:nowrap}
+
+/* address tag over the empty ring */
+.addr{left:-170px;top:-190px;width:340px;height:110px;border-radius:22px;background:linear-gradient(160deg,rgba(40,56,190,.9),rgba(12,18,84,.94));
+  box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.45),0 18px 40px rgba(0,0,0,.55)}
+.addr::after{content:'';position:absolute;left:158px;top:108px;width:0;height:0;border:12px solid transparent;border-top-color:rgba(12,18,84,.94)}
+.addr .a{left:0;width:340px;top:14px;text-align:center;font:700 38px/46px 'Poppins';color:#fff;white-space:nowrap}
+.addr .b{left:0;width:340px;top:64px;text-align:center;font:700 19px/26px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#ff9c9c;white-space:nowrap}
+
+/* hook / search panel */
+.mpanel{left:60px;top:450px;width:620px;height:200px}
+.mpanel .grp{left:0;top:0;width:620px;height:200px}
+.mpanel .lab{left:32px;top:26px}
+.mpanel .row{left:32px;width:560px;height:56px}
+.mpanel .r1{top:64px}.mpanel .r2{top:126px}
+.mpanel .box{left:0;top:4px;width:46px;height:46px;border-radius:13px;background:rgba(156,200,255,.16);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.4)}
+.mpanel .box svg{left:8px;top:10px}
+.mpanel .box.empty{background:rgba(255,90,90,.06)}
+.mpanel .row .tx{left:66px;top:2px;font:700 38px/52px 'Poppins';color:#fff;white-space:nowrap}
+.mpanel .no{left:330px;top:12px;font:700 22px/32px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#ff9c9c;white-space:nowrap;opacity:0}
+.mpanel .q{left:32px;top:64px;width:556px;height:62px;border-radius:31px;background:rgba(4,5,28,.45);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.3)}
+.mpanel .q .ico{left:18px;top:14px}
+.mpanel .q .qt{left:64px;top:9px;font:600 32px/44px 'Poppins';color:#fff;white-space:nowrap}
+.mpanel .q .caret{top:14px;width:3px;height:34px;background:#9CC8FF}
+.mpanel .res{left:32px;top:138px;width:556px;height:50px}
+.mpanel .res .n{left:6px;top:-6px;font:700 46px/56px 'DejaVu Sans Mono',monospace;color:#fff}
+.mpanel .res .u{left:52px;top:8px;font:500 26px/36px 'DejaVu Sans Mono',monospace;color:#9CC8FF;white-space:nowrap}
+
+/* question tags -> answers */
+.tagscr{left:0;top:0;width:1px;height:1px;transform-origin:0 0}
+.adot{left:0;top:0;width:1px;height:1px}
+.tag{width:300px;height:64px;transform-origin:50% 50%;opacity:0}
+.tag .qq{left:0;top:0;width:300px;height:64px;border-radius:20px;border:2.5px dashed rgba(156,200,255,.8);background:rgba(6,10,44,.82);
+  text-align:center;font:italic 600 34px/58px 'Lora',serif;color:#e4eeff;white-space:nowrap}
+.tag .aa{left:0;top:0;width:300px;height:64px;border-radius:20px;opacity:0;background:linear-gradient(160deg,rgba(40,56,190,.95),rgba(12,18,84,.96));
+  box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.5),0 14px 30px rgba(0,0,0,.5)}
+.tag .tk{left:14px;top:13px;width:38px;height:38px;border-radius:11px;background:#9CC8FF}
+.tag .tk svg{left:7px;top:9px}
+.tag .at{left:66px;top:6px;font:700 34px/52px 'Poppins';color:#fff;white-space:nowrap}
+.spark{left:0;top:0;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:#fff;box-shadow:0 0 18px 8px rgba(156,200,255,.9);opacity:0}
+
+/* the real web */
+.webcard{left:60px;top:440px;width:520px;height:330px;border-radius:22px;overflow:hidden;opacity:0;transform-origin:0 0}
+.webcard .bar{left:0;top:0;width:520px;height:40px;background:rgba(4,5,28,.55)}
+.webcard .bar i{top:14px;width:12px;height:12px;border-radius:50%;background:rgba(156,200,255,.5)}
+.webcard .url{left:84px;top:8px;font:500 17px/24px 'DejaVu Sans Mono',monospace;color:rgba(255,255,255,.8);white-space:nowrap}
+.webcard .shot{left:10px;top:48px;width:500px;height:272px;border-radius:12px;overflow:hidden;background:#fff}
+.webcard .shot img{left:0;top:0;width:500px}

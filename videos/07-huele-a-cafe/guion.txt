@@ -1,0 +1,11 @@
+# 07 · Huele a cafe. Publicación prevista: martes 24 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Tu local huele / a café [recién hecho].
+1 | Tu web parece / una *fotocopia*.
+2 | Cuidas la barra, / la luz y la música, | pero en tu web / no queda [nada] de eso.
+3 | Y quien no te conoce / ve la web / antes de entrar, | así que te *juzga* / por ella.
+4 | Una web / a tu [medida], | con tus fotos / y tus colores,
+4 | para que al entrar / encuentre lo que vio / en la *pantalla*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

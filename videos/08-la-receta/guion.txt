@@ -1,0 +1,14 @@
+# 08 · La receta. Publicación prevista: miércoles 25 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Entré en la web / de un [fontanero] | para saber / si arreglaba calderas.
+1 | No lo *supe*.
+2 | Le faltaban / [tres] cosas.
+2 | Servicios / con palabras *normales*.
+2 | Cómo trabaja / y cuánto [tarda].
+3 +0.3 | Y la más importante: | una idea / de lo que [cuesta], | aunque sea un «desde»,
+3 | porque sin ella / mucha gente / ni *pregunta*.
+4 | Busca hoy esas tres cosas / en tu web.
+4 | Una web bien hecha / las [enseña] / nada más entrar.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

@@ -1,0 +1,673 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Tu web sigue con el horario de verano. Estamos en noviembre.",
+   "start": 0.15,
+   "end": 4.731,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.535
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.535,
+     "end": 0.919
+    },
+    {
+     "w": "sigue",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.919,
+     "end": 1.304
+    },
+    {
+     "w": "con",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 1.304,
+     "end": 1.688
+    },
+    {
+     "w": "el",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 1.688,
+     "end": 2.073
+    },
+    {
+     "w": "horario",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 2.073,
+     "end": 2.458
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 2.458,
+     "end": 2.842
+    },
+    {
+     "w": "verano.",
+     "screen": 0,
+     "row": 2,
+     "style": "key",
+     "start": 2.842,
+     "end": 3.227
+    },
+    {
+     "w": "Estamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "en",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "noviembre.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 4.346,
+     "end": 4.731
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "La hizo un conocido hace años, y cada vez que le pides un cambio te dice que esta semana no puede.",
+   "start": 5.481,
+   "end": 13.558,
+   "words": [
+    {
+     "w": "La",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.481,
+     "end": 5.865
+    },
+    {
+     "w": "hizo",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.865,
+     "end": 6.25
+    },
+    {
+     "w": "un",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 6.25,
+     "end": 6.635
+    },
+    {
+     "w": "conocido",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 6.635,
+     "end": 7.019
+    },
+    {
+     "w": "hace",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 7.019,
+     "end": 7.404
+    },
+    {
+     "w": "años,",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 7.404,
+     "end": 7.788
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.788,
+     "end": 8.173
+    },
+    {
+     "w": "cada",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.173,
+     "end": 8.558
+    },
+    {
+     "w": "vez",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.558,
+     "end": 8.942
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 8.942,
+     "end": 9.327
+    },
+    {
+     "w": "le",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 9.327,
+     "end": 9.712
+    },
+    {
+     "w": "pides",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 9.712,
+     "end": 10.096
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 10.096,
+     "end": 10.481
+    },
+    {
+     "w": "cambio",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 10.481,
+     "end": 10.865
+    },
+    {
+     "w": "te",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 10.865,
+     "end": 11.25
+    },
+    {
+     "w": "dice",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 11.25,
+     "end": 11.635
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 11.635,
+     "end": 12.019
+    },
+    {
+     "w": "esta",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 12.019,
+     "end": 12.404
+    },
+    {
+     "w": "semana",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 12.404,
+     "end": 12.788
+    },
+    {
+     "w": "[no",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 12.788,
+     "end": 13.173
+    },
+    {
+     "w": "puede].",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 13.173,
+     "end": 13.558
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Mientras, alguien se fía de la web, viene a las cuatro y se encuentra cerrado.",
+   "start": 14.308,
+   "end": 20.077,
+   "words": [
+    {
+     "w": "Mientras,",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 14.308,
+     "end": 14.692
+    },
+    {
+     "w": "alguien",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 14.692,
+     "end": 15.077
+    },
+    {
+     "w": "se",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 15.077,
+     "end": 15.462
+    },
+    {
+     "w": "fía",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 15.462,
+     "end": 15.846
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 15.846,
+     "end": 16.231
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 16.231,
+     "end": 16.615
+    },
+    {
+     "w": "web,",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 16.615,
+     "end": 17.0
+    },
+    {
+     "w": "viene",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 17.0,
+     "end": 17.385
+    },
+    {
+     "w": "a",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 17.385,
+     "end": 17.769
+    },
+    {
+     "w": "las",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 17.769,
+     "end": 18.154
+    },
+    {
+     "w": "cuatro",
+     "screen": 1,
+     "row": 0,
+     "style": "key",
+     "start": 18.154,
+     "end": 18.538
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 18.538,
+     "end": 18.923
+    },
+    {
+     "w": "se",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 18.923,
+     "end": 19.308
+    },
+    {
+     "w": "encuentra",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 19.308,
+     "end": 19.692
+    },
+    {
+     "w": "cerrado.",
+     "screen": 2,
+     "row": 1,
+     "style": "nuance",
+     "start": 19.692,
+     "end": 20.077
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "En Saberium no tienes que aprender nada ni esperar a nadie: nos dices qué quieres cambiar y te lo cambiamos gratis.",
+   "start": 21.127,
+   "end": 29.554,
+   "words": [
+    {
+     "w": "En",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.127,
+     "end": 21.512
+    },
+    {
+     "w": "Saberium",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.512,
+     "end": 21.896
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 21.896,
+     "end": 22.281
+    },
+    {
+     "w": "tienes",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.281,
+     "end": 22.665
+    },
+    {
+     "w": "que",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.665,
+     "end": 23.05
+    },
+    {
+     "w": "aprender",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 23.05,
+     "end": 23.435
+    },
+    {
+     "w": "nada",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 23.435,
+     "end": 23.819
+    },
+    {
+     "w": "ni",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 23.819,
+     "end": 24.204
+    },
+    {
+     "w": "esperar",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.204,
+     "end": 24.588
+    },
+    {
+     "w": "a",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.588,
+     "end": 24.973
+    },
+    {
+     "w": "nadie:",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.973,
+     "end": 25.358
+    },
+    {
+     "w": "nos",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 25.708,
+     "end": 26.092
+    },
+    {
+     "w": "dices",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 26.092,
+     "end": 26.477
+    },
+    {
+     "w": "qué",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 26.477,
+     "end": 26.862
+    },
+    {
+     "w": "quieres",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 26.862,
+     "end": 27.246
+    },
+    {
+     "w": "cambiar",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 27.246,
+     "end": 27.631
+    },
+    {
+     "w": "y",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 27.631,
+     "end": 28.015
+    },
+    {
+     "w": "te",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 28.015,
+     "end": 28.4
+    },
+    {
+     "w": "lo",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 28.4,
+     "end": 28.785
+    },
+    {
+     "w": "cambiamos",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 28.785,
+     "end": 29.169
+    },
+    {
+     "w": "gratis.",
+     "screen": 3,
+     "row": 1,
+     "style": "key",
+     "start": 29.169,
+     "end": 29.554
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 30.304,
+   "end": 34.5,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 30.304,
+     "end": 30.688
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 30.688,
+     "end": 31.073
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 31.423,
+     "end": 31.808
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 31.808,
+     "end": 32.192
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 32.192,
+     "end": 32.577
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 32.577,
+     "end": 32.962
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 32.962,
+     "end": 33.346
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 33.346,
+     "end": 33.731
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 33.731,
+     "end": 34.115
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 34.115,
+     "end": 34.5
+    }
+   ]
+  }
+ ],
+ "duration": 37.1
+}

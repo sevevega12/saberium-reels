@@ -1,0 +1,689 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Si tienes una inmobiliaria, cada piso lo subes dos veces.",
+   "start": 0.15,
+   "end": 3.996,
+   "words": [
+    {
+     "w": "Si",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.535
+    },
+    {
+     "w": "tienes",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.535,
+     "end": 0.919
+    },
+    {
+     "w": "una",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.919,
+     "end": 1.304
+    },
+    {
+     "w": "inmobiliaria,",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 1.304,
+     "end": 1.688
+    },
+    {
+     "w": "cada",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.688,
+     "end": 2.073
+    },
+    {
+     "w": "piso",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.073,
+     "end": 2.458
+    },
+    {
+     "w": "lo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.458,
+     "end": 2.842
+    },
+    {
+     "w": "subes",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.842,
+     "end": 3.227
+    },
+    {
+     "w": "*dos",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 3.227,
+     "end": 3.612
+    },
+    {
+     "w": "veces*.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 3.612,
+     "end": 3.996
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Primero a tu programa de gestión, con fotos, metros y precio, y luego otra vez a tu web, a mano.",
+   "start": 4.746,
+   "end": 12.788,
+   "words": [
+    {
+     "w": "Primero",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.746,
+     "end": 5.131
+    },
+    {
+     "w": "a",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.131,
+     "end": 5.515
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.515,
+     "end": 5.9
+    },
+    {
+     "w": "programa",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.9,
+     "end": 6.285
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.285,
+     "end": 6.669
+    },
+    {
+     "w": "gestión,",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.669,
+     "end": 7.054
+    },
+    {
+     "w": "con",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.054,
+     "end": 7.438
+    },
+    {
+     "w": "fotos,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.438,
+     "end": 7.823
+    },
+    {
+     "w": "metros",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.823,
+     "end": 8.208
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.208,
+     "end": 8.592
+    },
+    {
+     "w": "precio,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 8.592,
+     "end": 8.977
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 9.327,
+     "end": 9.712
+    },
+    {
+     "w": "luego",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 9.712,
+     "end": 10.096
+    },
+    {
+     "w": "otra",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 10.096,
+     "end": 10.481
+    },
+    {
+     "w": "vez",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 10.481,
+     "end": 10.865
+    },
+    {
+     "w": "a",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 10.865,
+     "end": 11.25
+    },
+    {
+     "w": "tu",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 11.25,
+     "end": 11.635
+    },
+    {
+     "w": "web,",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 11.635,
+     "end": 12.019
+    },
+    {
+     "w": "a",
+     "screen": 2,
+     "row": 2,
+     "style": "plain",
+     "start": 12.019,
+     "end": 12.404
+    },
+    {
+     "w": "mano.",
+     "screen": 2,
+     "row": 2,
+     "style": "key",
+     "start": 12.404,
+     "end": 12.788
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Por eso la web siempre va tarde: pisos vendidos que siguen ahí y novedades que todavía no salen.",
+   "start": 13.538,
+   "end": 20.462,
+   "words": [
+    {
+     "w": "Por",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 13.538,
+     "end": 13.923
+    },
+    {
+     "w": "eso",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 13.923,
+     "end": 14.308
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 14.308,
+     "end": 14.692
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 14.692,
+     "end": 15.077
+    },
+    {
+     "w": "siempre",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 15.077,
+     "end": 15.462
+    },
+    {
+     "w": "va",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 15.462,
+     "end": 15.846
+    },
+    {
+     "w": "tarde:",
+     "screen": 0,
+     "row": 1,
+     "style": "nuance",
+     "start": 15.846,
+     "end": 16.231
+    },
+    {
+     "w": "pisos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 16.231,
+     "end": 16.615
+    },
+    {
+     "w": "vendidos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 16.615,
+     "end": 17.0
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 17.0,
+     "end": 17.385
+    },
+    {
+     "w": "siguen",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 17.385,
+     "end": 17.769
+    },
+    {
+     "w": "ahí",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 17.769,
+     "end": 18.154
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 18.154,
+     "end": 18.538
+    },
+    {
+     "w": "novedades",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 18.538,
+     "end": 18.923
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 18.923,
+     "end": 19.308
+    },
+    {
+     "w": "todavía",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 19.308,
+     "end": 19.692
+    },
+    {
+     "w": "[no",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 19.692,
+     "end": 20.077
+    },
+    {
+     "w": "salen].",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 20.077,
+     "end": 20.462
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Pero tu web puede leer de tu programa: subes el piso una vez, aparece solo, y cuando lo marcas como vendido, desaparece.",
+   "start": 21.512,
+   "end": 30.323,
+   "words": [
+    {
+     "w": "Pero",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.512,
+     "end": 21.896
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.896,
+     "end": 22.281
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 22.281,
+     "end": 22.665
+    },
+    {
+     "w": "puede",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.665,
+     "end": 23.05
+    },
+    {
+     "w": "leer",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 23.05,
+     "end": 23.435
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 23.435,
+     "end": 23.819
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 23.819,
+     "end": 24.204
+    },
+    {
+     "w": "programa:",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 24.204,
+     "end": 24.588
+    },
+    {
+     "w": "subes",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.588,
+     "end": 24.973
+    },
+    {
+     "w": "el",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 24.973,
+     "end": 25.358
+    },
+    {
+     "w": "piso",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 25.358,
+     "end": 25.742
+    },
+    {
+     "w": "[una",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 25.742,
+     "end": 26.127
+    },
+    {
+     "w": "vez],",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 26.127,
+     "end": 26.512
+    },
+    {
+     "w": "aparece",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 26.512,
+     "end": 26.896
+    },
+    {
+     "w": "solo,",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 26.896,
+     "end": 27.281
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 27.631,
+     "end": 28.015
+    },
+    {
+     "w": "cuando",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 28.015,
+     "end": 28.4
+    },
+    {
+     "w": "lo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 28.4,
+     "end": 28.785
+    },
+    {
+     "w": "marcas",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 28.785,
+     "end": 29.169
+    },
+    {
+     "w": "como",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 29.169,
+     "end": 29.554
+    },
+    {
+     "w": "vendido,",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 29.554,
+     "end": 29.938
+    },
+    {
+     "w": "desaparece.",
+     "screen": 2,
+     "row": 2,
+     "style": "nuance",
+     "start": 29.938,
+     "end": 30.323
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 31.073,
+   "end": 35.269,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 31.073,
+     "end": 31.458
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 31.458,
+     "end": 31.842
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 32.192,
+     "end": 32.577
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 32.577,
+     "end": 32.962
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 32.962,
+     "end": 33.346
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 33.346,
+     "end": 33.731
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 33.731,
+     "end": 34.115
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 34.115,
+     "end": 34.5
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 34.5,
+     "end": 34.885
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 34.885,
+     "end": 35.269
+    }
+   ]
+  }
+ ],
+ "duration": 37.87
+}

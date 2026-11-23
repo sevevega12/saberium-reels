@@ -1,0 +1,11 @@
+# 12 · Bienvenido. Publicación prevista: domingo 29 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | «Bienvenido / a nuestra [web].»
+1 | Tu cliente ya sabe / dónde *está*.
+2 | Es lo primero que lee, | muchas veces / lo [único], | y la tuya / habla de ti, | no de lo que *él* busca.
+3 | Si en tres segundos / no ve su [problema], | no baja a buscarlo.
+4 +0.3 | Haz la prueba hoy: / lee tu primera frase.
+4 | Debería decir / qué haces y [dónde], | como «Reformas de baños / en *Getafe*».
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

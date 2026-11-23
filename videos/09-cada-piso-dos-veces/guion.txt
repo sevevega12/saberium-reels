@@ -1,0 +1,11 @@
+# 09 · Cada piso dos veces. Publicación prevista: jueves 26 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Si tienes / una [inmobiliaria], | cada piso / lo subes *dos veces*.
+2 | Primero a tu programa / de gestión, | con fotos, metros y precio,
+2 | y luego / a tu web, / a [mano].
+3 | Por eso la web / va *tarde*: | pisos vendidos / que siguen ahí | y novedades / que [no salen].
+4 +0.3 | Pero tu web / puede leer / de tu programa: | subes el piso / [una vez], / aparece solo,
+4 | y cuando lo marcas / como vendido, / *desaparece*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

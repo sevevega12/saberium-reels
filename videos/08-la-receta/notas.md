@@ -1,7 +1,7 @@
 # 08 · La receta
 
 - **Publicación:** miércoles 25 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve)
+- **Estado:** guion aprobado por Seve el 24 de noviembre
 - **Problema:** no hay servicios ni precios claros: el cliente no sabe si haces lo que busca ni cuánto cuesta
 - **Solución:** web ordenada con servicios en palabras normales, cómo se trabaja y plazos, y una idea de precio
 - **Gancho:** investigador · **Cuerpo:** lista de N cosas con la más importante al final

@@ -1,0 +1,9 @@
+# 11 · Solo Instagram. Publicación prevista: sábado 28 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Tu negocio / no tiene [web]. | Tiene un perfil / de *Instagram*.
+2 | Y ese perfil / no es [tuyo]: | las normas / las pone otro, | y pueden cambiar mañana / sin avisarte.
+3 | Además, / quien te busca / fuera de Instagram | no encuentra / ni tu horario, / ni lo que haces, / ni cómo *llegar*.
+4 | Tu web / sí es [tuya]: | tu nombre, / tus servicios / y tu contacto, | siempre en el mismo *sitio*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

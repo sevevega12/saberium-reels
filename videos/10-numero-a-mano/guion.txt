@@ -3,7 +3,7 @@ duracion: 32
 voz: voz.mp3
 1 | Quería escribirte / por [WhatsApp].
 1 | Acabó copiando / tu número / *a mano*.
-2 | En tu web / el número / es una [imagen]: | no se puede / pulsar ni copiar.
+2 | Buscó tu número / y no lo encontró / a la [primera]: | estaba en una imagen / que no se puede pulsar.
 3 | Lo apuntó / cifra a cifra, | se equivocó en [una], | y su mensaje / *nunca* te llegó.
 4 +0.3 | Un botón de WhatsApp / a la [vista], | que abre la conversación / con un saludo ya escrito,
 4 | y a tu cliente / solo le queda / darle a *enviar*.

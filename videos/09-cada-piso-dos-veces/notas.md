@@ -1,7 +1,7 @@
 # 09 · Cada piso dos veces
 
 - **Publicación:** jueves 26 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve)
+- **Estado:** guion aprobado por Seve el 24 de noviembre
 - **Problema:** la inmobiliaria sube cada piso dos veces: a su programa de gestión y a la web
 - **Solución:** web conectada al programa de gestión: el piso se sube una vez y aparece y desaparece solo
 - **Gancho:** espectador nombrado · **Cuerpo:** demostración paso a paso

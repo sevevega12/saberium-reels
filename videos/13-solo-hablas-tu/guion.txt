@@ -1,0 +1,9 @@
+# 13 · Solo hablas tú. Publicación prevista: lunes 30 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | Tus clientes / hablan [bien] de ti. | En tu web / no lo dice *nadie*.
+2 | Solo hablas tú, / con las palabras de siempre: | «calidad», / «confianza», / «trato [cercano]».
+3 | Y quien no te conoce / cree antes / a otro cliente | que a lo que dices / de ti *mismo*.
+4 | Una web / que enseña / opiniones [reales], | con nombre / y con tu permiso, | y fotos / de trabajos *terminados*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

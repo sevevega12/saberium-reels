@@ -1,0 +1,9 @@
+# 12 · A las once de la noche. Publicación prevista: domingo 29 de noviembre de 2026.
+duracion: 32
+voz: voz.mp3
+1 | A las once / de la noche | alguien te preguntó / si tenías [hueco] mañana.
+2 | Tú dormías, | y el mensaje / se quedó ahí / hasta las *diez*.
+3 | Para entonces / ya lo había [resuelto] / por su cuenta, | porque quien pregunta de noche / quiere respuesta / de noche.
+4 +0.3 | Un asistente / en tu web / contesta [al momento]: | horarios, / huecos / y cómo reservar, | aunque tú estés *durmiendo*.
+5 | Comenta [WEB],
+5 | y te enseñamos *gratis* / cómo quedaría la tuya.

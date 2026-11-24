@@ -1,7 +1,7 @@
 # 10 · Número a mano
 
 - **Publicación:** viernes 27 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve)
+- **Estado:** guion aprobado por Seve el 24 de noviembre (con un cambio: no encontró el número a la primera)
 - **Problema:** el cliente no encuentra cómo escribir por WhatsApp: el número es una imagen que no se puede pulsar
 - **Solución:** botón de WhatsApp visible que abre la conversación con un saludo ya escrito
 - **Gancho:** en mitad de la acción · **Cuerpo:** historia con monigote

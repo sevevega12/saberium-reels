@@ -1,7 +1,7 @@
 # 12 · A las once de la noche
 
 - **Publicación:** domingo 29 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve). Sustituye al guion anterior de este día, que Seve rechazó el 24 de noviembre.
+- **Estado:** guion aprobado por Seve el 24 de noviembre
 - **Problema:** Te escriben fuera de horario y nadie contesta hasta el día siguiente
 - **Solución:** Asistente automático en la web que responde al momento: horarios, huecos y cómo reservar
 - **Gancho:** en mitad de la acción · **Cuerpo:** tipografía en movimiento

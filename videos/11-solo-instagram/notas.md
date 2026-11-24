@@ -1,7 +1,7 @@
 # 11 · Solo Instagram
 
 - **Publicación:** sábado 28 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve). Sustituye al guion anterior de este día, que Seve rechazó el 24 de noviembre.
+- **Estado:** guion aprobado por Seve el 24 de noviembre
 - **Problema:** El negocio solo existe en Instagram: el perfil no es suyo y quien busca fuera no lo encuentra
 - **Solución:** Web propia: nombre, servicios y contacto siempre en el mismo sitio
 - **Gancho:** idea contraria · **Cuerpo:** fallo típico sin nombrar al negocio

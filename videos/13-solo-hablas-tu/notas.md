@@ -1,7 +1,7 @@
 # 13 · Solo hablas tú
 
 - **Publicación:** lunes 30 de noviembre de 2026
-- **Estado:** guion pendiente (falta la aprobación de Seve). Sustituye al guion anterior de este día, que Seve rechazó el 24 de noviembre.
+- **Estado:** guion aprobado por Seve el 24 de noviembre
 - **Problema:** La web no da confianza: solo habla el negocio, sin opiniones ni trabajos reales
 - **Solución:** Web que enseña opiniones reales (con permiso) y fotos de trabajos terminados
 - **Gancho:** problema directo · **Cuerpo:** lista de señales

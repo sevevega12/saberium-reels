@@ -80,3 +80,28 @@ html,body{background:#000;width:1080px;height:1920px;overflow:hidden}
 .rodillo .sub{top:104px;font:400 32px 'DejaVu Sans Mono',monospace;color:#9CC8FF;white-space:nowrap}
 .rodillo .dot{right:34px;top:34px;width:18px;height:18px;border-radius:50%;background:#e5484d;box-shadow:0 0 16px rgba(229,72,77,.9)}
 
+
+/* ---------- recipe card (Piezas.Ficha) ---------- */
+.ficha{transform-origin:50% 50%}
+.fcard{transform-origin:50% 50%}
+.fface{border-radius:18px;overflow:hidden;
+  background:repeating-linear-gradient(180deg,transparent 0 63px,rgba(10,34,241,.13) 63px 65px),
+    radial-gradient(ellipse 120% 80% at 30% 20%,#fbf8f1,#efe9dc 70%,#e4dccb);
+  box-shadow:0 34px 70px rgba(1,2,16,.6),0 4px 10px rgba(1,2,16,.35),inset 0 0 0 1px rgba(120,100,70,.25)}
+.fface::after{content:'';position:absolute;left:0;top:0;right:0;bottom:0;background:linear-gradient(115deg,rgba(255,255,255,.25),transparent 40%,rgba(80,60,30,.06))}
+.fpunch{left:50%;top:22px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:#1a1d2c;box-shadow:inset 0 2px 3px rgba(0,0,0,.6)}
+.fhead{left:40px;top:58px;right:40px;height:80px;border-bottom:3px solid #0A22F1}
+.ftit{left:0;top:6px;font:700 30px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#04051C;white-space:nowrap}
+.fkick{right:0;top:0;font:italic 600 34px 'Lora',serif;color:#0A22F1;white-space:nowrap}
+.frow{}
+.fnum{left:0;top:50%;width:62px;height:62px;margin-top:-31px;border-radius:50%;border:3px solid #04051C;
+  font:700 32px/56px 'DejaVu Sans Mono',monospace;color:#04051C;text-align:center}
+.fbox{border-radius:18px;border:3px dashed rgba(4,5,28,.35);background:rgba(4,5,28,.03)}
+.fbox.full{border:3px solid #04051C;background:rgba(255,255,255,.55)}
+.ftx{left:28px;right:96px;top:50%;font:700 40px/50px 'Poppins';color:#04051C;opacity:0;margin-top:-50px;height:100px;display:flex;align-items:center}
+.ftk{right:24px;top:50%;width:60px;height:60px;margin-top:-30px;border-radius:16px;background:#0A22F1;opacity:0;box-shadow:0 8px 20px rgba(10,34,241,.45)}
+.ftk svg{left:13px;top:15px}
+.fbrow{}
+.fsq{left:0;top:50%;width:64px;height:64px;margin-top:-32px;border-radius:16px;border:3px solid #04051C;background:rgba(255,255,255,.5)}
+.fbrow .ftk{left:2px;right:auto;width:60px;height:60px}
+.fbtx{left:96px;right:0;top:50%;height:100px;margin-top:-50px;display:flex;align-items:center;font:700 42px/52px 'Poppins';color:#04051C}

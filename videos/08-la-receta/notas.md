@@ -28,3 +28,20 @@ Nota de los datos del 23 de noviembre: el tiempo medio de visionado está en uno
 ¿Tu web dice cuánto cuesta lo que haces, aunque sea un «desde»?
 
 #negociolocal #autonomos #fontaneria #paginaweb #consejosweb
+
+## Guion gráfico de montaje (producción, 25 de noviembre)
+
+Un solo plano cenital de una encimera de piedra pizarra a primera hora: luz blanca de ventana en diagonal con la sombra del marco, tabla de madera abajo a la derecha, trapo de lino y el borde desenfocado de un cuenco en primer plano. Todo vive en la misma encimera y la cámara se acerca y se aleja; no hay cortes.
+
+1. **0 s · `W(1,'Entré')`:** cámara muy cerca de un móvil tumbado en la encimera, con la web genérica e inventada de «Fontanería Integral» ya desplazándose. Arriba, panel de cristal «LO QUE BUSCO · ¿Arregla calderas?».
+2. **`W(1,'No')` (3,7 s):** la página toca fondo y rebota («Contacto: formulario»); la pregunta se tacha y aparece «SIN RESPUESTA». Golpe seco.
+3. **`L(2)` (5,0 s):** la cámara se aleja; el móvil se desliza abajo a la izquierda y entra desde la derecha la ficha de receta «LO QUE NECESITA TU WEB». En `W(2,'tres')` aparecen tres casillas vacías numeradas 1, 2 y 3 dentro de la ficha.
+4. **`W(2,'Servicios')` (7,2 s):** entra un cuenco de cerámica con etiquetas de papel («Calderas», «Fugas», «Termos», «Baños»); la casilla 1 se rellena y se marca en `W(2,'normales')`.
+5. **`W(2,'Cómo')` (9,4 s):** entra un temporizador de cocina de cuerda; la esfera gira en `W(2,'cuánto')`; la casilla 2 se marca en `W(2,'tarda')`.
+6. **`L(3)` (12,0 s), «Y la más importante»:** la cámara se acerca a la casilla 3 y el resto se apaga. Se rellena en `W(3,'idea')`, se marca en `W(3,'cuesta')` y en `W(3,'desde')` cae una etiqueta de precio atada con cordel: «DESDE ___ €» (sin cifra).
+7. **`W(3,'porque')` (17,0 s):** la cámara se aleja; un panel de cristal escribe «Hola, ¿cuánto costaría cambiar la caldera?» y en `W(3,'pregunta')` el texto se borra entero: el mensaje no se manda.
+8. **`L(4)` (20,3 s), «Busca hoy»:** la ficha se da la vuelta y por detrás es una lista para comprobar: «¿Se entiende qué haces?», «¿Dice cómo y cuánto tardas?», «¿Da una idea de precio?».
+9. **`W(4,'Una')` (22,8 s):** la ficha sube y se hace pequeña; entra una tableta con la web real de The Barber Kingdom. En `W(4,'enseña')`, `W(4,'nada')` y `W(4,'entrar')` se rodean los servicios (cortes, barba, cejas, combos), «Precios» y «Reserva ahora», y la lista se marca a la vez.
+10. **Cierre (25,9 s):** el motor pone la frase literal y la tarjeta final.
+
+Música: tensión hasta el alejamiento, pulso en la lista, tensión en «la más importante», claro en el remate.

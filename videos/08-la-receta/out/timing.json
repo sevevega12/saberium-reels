@@ -1,0 +1,768 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Entré en la web de un fontanero para saber si arreglaba calderas. No lo supe.",
+   "start": 0.15,
+   "end": 4.422,
+   "words": [
+    {
+     "w": "Entré",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.413
+    },
+    {
+     "w": "en",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.413,
+     "end": 0.564
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.564,
+     "end": 0.715
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.715,
+     "end": 0.894
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.894,
+     "end": 1.045
+    },
+    {
+     "w": "un",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 1.045,
+     "end": 1.196
+    },
+    {
+     "w": "fontanero",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 1.196,
+     "end": 1.682
+    },
+    {
+     "w": "para",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.682,
+     "end": 1.945
+    },
+    {
+     "w": "saber",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.945,
+     "end": 2.208
+    },
+    {
+     "w": "si",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.208,
+     "end": 2.359
+    },
+    {
+     "w": "arreglaba",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.359,
+     "end": 2.845
+    },
+    {
+     "w": "calderas.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.845,
+     "end": 3.22
+    },
+    {
+     "w": "No",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 3.652,
+     "end": 3.858
+    },
+    {
+     "w": "lo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 3.858,
+     "end": 4.064
+    },
+    {
+     "w": "supe.",
+     "screen": 2,
+     "row": 0,
+     "style": "nuance",
+     "start": 4.064,
+     "end": 4.422
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Le faltaban tres cosas. Servicios con palabras normales. Cómo trabaja y cuánto tarda.",
+   "start": 4.996,
+   "end": 11.19,
+   "words": [
+    {
+     "w": "Le",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.996,
+     "end": 5.24
+    },
+    {
+     "w": "faltaban",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.24,
+     "end": 5.846
+    },
+    {
+     "w": "tres",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 5.846,
+     "end": 6.091
+    },
+    {
+     "w": "cosas.",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 6.091,
+     "end": 6.516
+    },
+    {
+     "w": "Servicios",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 7.158,
+     "end": 7.66
+    },
+    {
+     "w": "con",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.66,
+     "end": 7.863
+    },
+    {
+     "w": "palabras",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.863,
+     "end": 8.365
+    },
+    {
+     "w": "normales.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 8.365,
+     "end": 8.868
+    },
+    {
+     "w": "Cómo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 9.44,
+     "end": 9.79
+    },
+    {
+     "w": "trabaja",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 9.79,
+     "end": 10.289
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 10.289,
+     "end": 10.49
+    },
+    {
+     "w": "cuánto",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 10.49,
+     "end": 10.84
+    },
+    {
+     "w": "tarda.",
+     "screen": 2,
+     "row": 1,
+     "style": "key",
+     "start": 10.84,
+     "end": 11.19
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Y la más importante: una idea de lo que cuesta, aunque sea un «desde», porque sin ella mucha gente ni pregunta.",
+   "start": 12.034,
+   "end": 19.51,
+   "words": [
+    {
+     "w": "Y",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.034,
+     "end": 12.219
+    },
+    {
+     "w": "la",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.219,
+     "end": 12.404
+    },
+    {
+     "w": "más",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 12.404,
+     "end": 12.588
+    },
+    {
+     "w": "importante:",
+     "screen": 0,
+     "row": 0,
+     "style": "nuance",
+     "start": 12.588,
+     "end": 13.184
+    },
+    {
+     "w": "una",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.706,
+     "end": 13.951
+    },
+    {
+     "w": "idea",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.951,
+     "end": 14.3
+    },
+    {
+     "w": "de",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.3,
+     "end": 14.44
+    },
+    {
+     "w": "lo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.44,
+     "end": 14.581
+    },
+    {
+     "w": "que",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.581,
+     "end": 14.721
+    },
+    {
+     "w": "cuesta,",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 14.721,
+     "end": 14.966
+    },
+    {
+     "w": "aunque",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.368,
+     "end": 15.732
+    },
+    {
+     "w": "sea",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.732,
+     "end": 16.095
+    },
+    {
+     "w": "un",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.095,
+     "end": 16.304
+    },
+    {
+     "w": "«desde»,",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.304,
+     "end": 16.668
+    },
+    {
+     "w": "porque",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 17.04,
+     "end": 17.416
+    },
+    {
+     "w": "sin",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 17.416,
+     "end": 17.632
+    },
+    {
+     "w": "ella",
+     "screen": 3,
+     "row": 0,
+     "style": "plain",
+     "start": 17.632,
+     "end": 18.007
+    },
+    {
+     "w": "mucha",
+     "screen": 3,
+     "row": 1,
+     "style": "plain",
+     "start": 18.007,
+     "end": 18.383
+    },
+    {
+     "w": "gente",
+     "screen": 3,
+     "row": 1,
+     "style": "plain",
+     "start": 18.383,
+     "end": 18.759
+    },
+    {
+     "w": "ni",
+     "screen": 3,
+     "row": 2,
+     "style": "plain",
+     "start": 18.759,
+     "end": 18.974
+    },
+    {
+     "w": "pregunta.",
+     "screen": 3,
+     "row": 2,
+     "style": "nuance",
+     "start": 18.974,
+     "end": 19.51
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Busca hoy esas tres cosas en tu web. Una web bien hecha las enseña nada más entrar.",
+   "start": 20.274,
+   "end": 25.336,
+   "words": [
+    {
+     "w": "Busca",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 20.274,
+     "end": 20.607
+    },
+    {
+     "w": "hoy",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 20.607,
+     "end": 20.798
+    },
+    {
+     "w": "esas",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 20.798,
+     "end": 21.131
+    },
+    {
+     "w": "tres",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.131,
+     "end": 21.322
+    },
+    {
+     "w": "cosas",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 21.322,
+     "end": 21.655
+    },
+    {
+     "w": "en",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 21.655,
+     "end": 21.846
+    },
+    {
+     "w": "tu",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 21.846,
+     "end": 22.037
+    },
+    {
+     "w": "web.",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 22.037,
+     "end": 22.264
+    },
+    {
+     "w": "Una",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 22.756,
+     "end": 23.086
+    },
+    {
+     "w": "web",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 23.086,
+     "end": 23.31
+    },
+    {
+     "w": "bien",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 23.31,
+     "end": 23.499
+    },
+    {
+     "w": "hecha",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 23.499,
+     "end": 23.829
+    },
+    {
+     "w": "las",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 23.829,
+     "end": 24.018
+    },
+    {
+     "w": "enseña",
+     "screen": 1,
+     "row": 1,
+     "style": "key",
+     "start": 24.018,
+     "end": 24.488
+    },
+    {
+     "w": "nada",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 24.488,
+     "end": 24.817
+    },
+    {
+     "w": "más",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 24.817,
+     "end": 25.006
+    },
+    {
+     "w": "entrar.",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 25.006,
+     "end": 25.336
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 25.93,
+   "end": 29.44,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 25.93,
+     "end": 26.405
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.405,
+     "end": 26.632
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.632,
+     "end": 26.823
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.823,
+     "end": 27.015
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.015,
+     "end": 27.632
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 27.632,
+     "end": 27.965
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 27.965,
+     "end": 28.298
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.298,
+     "end": 28.915
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.915,
+     "end": 29.107
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.107,
+     "end": 29.44
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "file": "voz.mp3",
+  "length": 27.559,
+  "segments_found": 12,
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.09,
+    "src_end": 3.16,
+    "start": 0.15,
+    "end": 3.22,
+    "text": "Entré en la web de un fontanero para saber si arreglaba calderas."
+   },
+   {
+    "line": 1,
+    "src_start": 3.48,
+    "src_end": 4.25,
+    "start": 3.652,
+    "end": 4.422,
+    "text": "No lo supe."
+   },
+   {
+    "line": 2,
+    "src_start": 4.6,
+    "src_end": 6.12,
+    "start": 4.996,
+    "end": 6.516,
+    "text": "Le faltaban tres cosas."
+   },
+   {
+    "line": 2,
+    "src_start": 6.65,
+    "src_end": 8.36,
+    "start": 7.158,
+    "end": 8.868,
+    "text": "Servicios con palabras normales."
+   },
+   {
+    "line": 2,
+    "src_start": 8.82,
+    "src_end": 10.57,
+    "start": 9.44,
+    "end": 11.19,
+    "text": "Cómo trabaja y cuánto tarda."
+   },
+   {
+    "line": 3,
+    "src_start": 10.89,
+    "src_end": 12.04,
+    "start": 12.034,
+    "end": 13.184,
+    "text": "Y la más importante:"
+   },
+   {
+    "line": 3,
+    "src_start": 12.45,
+    "src_end": 13.71,
+    "start": 13.706,
+    "end": 14.966,
+    "text": "una idea de lo que cuesta,"
+   },
+   {
+    "line": 3,
+    "src_start": 14.0,
+    "src_end": 15.3,
+    "start": 15.368,
+    "end": 16.668,
+    "text": "aunque sea un «desde»,"
+   },
+   {
+    "line": 3,
+    "src_start": 15.52,
+    "src_end": 17.99,
+    "start": 17.04,
+    "end": 19.51,
+    "text": "porque sin ella mucha gente ni pregunta."
+   },
+   {
+    "line": 4,
+    "src_start": 18.53,
+    "src_end": 20.52,
+    "start": 20.274,
+    "end": 22.264,
+    "text": "Busca hoy esas tres cosas en tu web."
+   },
+   {
+    "line": 4,
+    "src_start": 20.9,
+    "src_end": 23.48,
+    "start": 22.756,
+    "end": 25.336,
+    "text": "Una web bien hecha las enseña nada más entrar."
+   },
+   {
+    "line": 5,
+    "src_start": 23.85,
+    "src_end": 24.552,
+    "start": 25.93,
+    "end": 26.632,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 5,
+    "src_start": 24.552,
+    "src_end": 27.36,
+    "start": 26.632,
+    "end": 29.44,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "duration": 32.04
+}

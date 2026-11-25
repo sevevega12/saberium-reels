@@ -149,4 +149,66 @@ Piezas.Rodillo = function (parent, o = {}) {
     } };
 };
 
+// ---------- recipe card with boxes that fill and tick, and a back side (flips) ----------
+// First used in 08 · La receta.
+// Piezas.Ficha(parent,{x,y,w,h,title,kicker,items:[...],backTitle,back:[...]})
+// .update(t,{boxes:[t..],fill:[t..],tick:[t..],flip:t,backTick:[t..],dim:[0..1 per row],dimHead,focus})
+Piezas.Ficha = function (parent, o = {}) {
+  const w = o.w || 720, h = o.h || 780, n = (o.items || []).length;
+  const root = el('div', 'ficha', parent); css(root, { left: (o.x ?? 300) + 'px', top: (o.y ?? 440) + 'px', width: w + 'px', height: h + 'px' });
+  const card = el('div', 'fcard', root); css(card, { left: 0, top: 0, width: w + 'px', height: h + 'px' });
+  const face = (cls, title, kick) => {
+    const f = el('div', 'fface ' + cls, card); css(f, { left: 0, top: 0, width: w + 'px', height: h + 'px' });
+    el('div', 'fpunch', f);
+    const hd = el('div', 'fhead', f); el('div', 'ftit txt', hd, title || '');
+    if (kick) el('div', 'fkick txt', hd, kick);
+    return { f, hd };
+  };
+  const rowY = i => 150 + i * ((h - 190) / Math.max(1, n));
+  const rowH = Math.min(170, (h - 190) / Math.max(1, n) - 26);
+  const F = face('front', o.title, o.kicker), B = face('back', o.backTitle);
+  B.f.style.display = 'none';
+  const rows = (o.items || []).map((txt, i) => {
+    const r = el('div', 'frow', F.f); css(r, { left: '34px', top: rowY(i) + 'px', width: w - 68 + 'px', height: rowH + 'px' });
+    el('div', 'fnum txt', r, String(i + 1));
+    const box = el('div', 'fbox', r); css(box, { left: '84px', top: 0, width: w - 68 - 84 + 'px', height: rowH + 'px' });
+    const tx = el('div', 'ftx txt', box, txt);
+    const tk = el('div', 'ftk', box);
+    tk.innerHTML = '<svg width="34" height="30" viewBox="0 0 32 28"><path d="M3 15 L12 24 L29 4" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    return { r, box, tx, tk };
+  });
+  const brows = (o.back || []).map((txt, i) => {
+    const r = el('div', 'fbrow', B.f); css(r, { left: '40px', top: rowY(i) + 18 + 'px', width: w - 80 + 'px', height: rowH - 20 + 'px' });
+    el('div', 'fsq', r); const tk = el('div', 'ftk on', r);
+    tk.innerHTML = rows[0] ? rows[0].tk.innerHTML : '';
+    el('div', 'fbtx txt', r, txt); return { r, tk };
+  });
+  return { el: root, card, rows, brows,
+    update(t, q) {
+      const fl = q.flip != null ? E.io(seg(t, q.flip, q.flip + 0.6)) : 0;
+      const back = fl >= 0.5;
+      F.f.style.display = back ? 'none' : 'block'; B.f.style.display = back ? 'block' : 'none';
+      card.style.transform = `scaleX(${Math.max(0.02, Math.abs(Math.cos(fl * Math.PI)))}) scale(${1 + 0.05 * Math.sin(fl * Math.PI)})`;
+      const dh = 1 - clamp((q.dimHead || 0) * 2.5);
+      F.hd.style.opacity = dh;
+      rows.forEach((r, i) => {
+        const bk = E.expo(seg(t, q.boxes[i], q.boxes[i] + 0.35));
+        const d = 1 - clamp(((q.dim || [])[i] || 0) * 2.5);
+        r.r.style.opacity = bk * d;
+        r.r.style.transform = `translateX(${(1 - bk) * 40}px)`;
+        const fk = E.expo(seg(t, q.fill[i], q.fill[i] + 0.4));
+        r.tx.style.opacity = fk; r.tx.style.transform = `translateY(${(1 - fk) * 18}px)`;
+        r.box.classList.toggle('full', t >= q.fill[i]);
+        const ck = clamp(E.back(seg(t, q.tick[i], q.tick[i] + 0.35)));
+        r.tk.style.opacity = seg(t, q.tick[i], q.tick[i] + 0.08); r.tk.style.transform = `scale(${ck})`;
+      });
+      if (q.focus != null && rows[n - 1]) rows[n - 1].box.style.boxShadow = q.focus > 0.01 ? `0 0 0 ${4 * q.focus}px #0A22F1, 0 0 ${50 * q.focus}px rgba(10,34,241,${0.45 * q.focus})` : '';
+      brows.forEach((r, i) => {
+        const tt = (q.backTick || [])[i]; if (tt == null) return;
+        const ck = clamp(E.back(seg(t, tt, tt + 0.35)));
+        r.tk.style.opacity = seg(t, tt, tt + 0.08); r.tk.style.transform = `scale(${ck})`;
+      });
+    } };
+};
+
 window.Piezas = Piezas;

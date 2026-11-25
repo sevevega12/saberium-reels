@@ -1,0 +1,96 @@
+/* 08 · La receta · encimera de pizarra vista desde arriba, primera hora, luz blanca de ventana */
+#stage{background:#0c1020}
+.world{left:0;top:0;width:1080px;height:1920px;transform-origin:540px 960px}
+
+/* ---------- the counter ---------- */
+.slate{left:-260px;top:-260px;width:1600px;height:2440px;
+  background:
+    radial-gradient(ellipse 40% 25% at 30% 30%,rgba(120,140,190,.10),transparent 70%),
+    radial-gradient(ellipse 35% 30% at 75% 65%,rgba(90,110,160,.10),transparent 70%),
+    repeating-linear-gradient(33deg,rgba(255,255,255,.012) 0 3px,transparent 3px 11px),
+    repeating-linear-gradient(-58deg,rgba(0,0,0,.05) 0 2px,transparent 2px 17px),
+    radial-gradient(ellipse 80% 60% at 50% 45%,#1d2438,#121726 60%,#0a0d19)}
+.winlight{left:-60px;top:-160px;width:1300px;height:1500px;transform-origin:0 0;mix-blend-mode:screen;filter:blur(22px);
+  background:linear-gradient(165deg,rgba(225,236,255,.30),rgba(200,215,255,.14) 45%,transparent 78%)}
+.winlight .mull{top:0;width:46px;height:1500px;background:rgba(6,9,22,.55);filter:blur(8px);mix-blend-mode:multiply}
+.winlight .mullh{left:0;top:640px;width:1300px;height:40px;background:rgba(6,9,22,.5);filter:blur(8px)}
+.board{left:560px;top:1230px;width:760px;height:960px;border-radius:44px;transform:rotate(9deg);
+  background:
+    repeating-linear-gradient(92deg,rgba(60,30,10,0) 0 18px,rgba(60,30,10,.22) 18px 20px,rgba(60,30,10,0) 20px 47px,rgba(255,225,180,.07) 47px 49px),
+    linear-gradient(90deg,#8a5a33,#9d6a3e 35%,#7f5230 60%,#986538);
+  box-shadow:0 30px 60px rgba(0,0,0,.55),inset 0 0 0 3px rgba(255,220,170,.10),inset 0 -14px 30px rgba(40,18,4,.35)}
+.board .hole{left:80px;top:90px;width:70px;height:70px;border-radius:50%;background:#10141f;box-shadow:inset 0 4px 8px rgba(0,0,0,.7)}
+.linen{left:-160px;top:1460px;width:700px;height:330px;transform:rotate(-13deg);border-radius:10px;filter:blur(1.2px);
+  background:repeating-linear-gradient(0deg,transparent 0 46px,rgba(10,34,241,.45) 46px 54px,transparent 54px 66px,rgba(10,34,241,.25) 66px 70px),
+    repeating-linear-gradient(90deg,rgba(0,0,0,.03) 0 2px,transparent 2px 5px),linear-gradient(180deg,#e9e5dc,#d6d0c3);
+  box-shadow:0 20px 40px rgba(0,0,0,.45)}
+.rimfg{left:800px;top:120px;width:520px;height:520px;border-radius:50%;border:52px solid #ece6db;filter:blur(16px);opacity:.55;
+  box-shadow:inset 0 0 0 40px #1b2a6b}
+.crumbs{left:-60px;top:-40px;width:1200px;height:2000px}
+.crumbs i{border-radius:50%;background:rgba(240,236,226,.35)}
+
+/* ---------- generic plumber site inside the phone (invented) ---------- */
+.fweb{left:0;top:0;width:396px;height:1780px;background:#f1efe9;font-family:'DejaVu Sans',Arial,sans-serif}
+.fweb .fbar{left:0;top:0;width:396px;height:120px;background:#5d6672}
+.fweb .fbar b{left:24px;top:62px;width:36px;height:36px;border-radius:6px;background:#9aa3ad}
+.fweb .fbar span{left:72px;top:68px;font:700 19px 'DejaVu Sans',sans-serif;color:#e8eaee;letter-spacing:1px;white-space:nowrap}
+.fweb .fbar em{left:342px;top:68px;width:30px;height:22px;border-top:4px solid #e8eaee;border-bottom:4px solid #e8eaee}
+.fweb .fhero{left:0;top:120px;width:396px;height:430px;background:linear-gradient(135deg,#a9a59b,#8d8a82 60%,#77746d)}
+.fweb .fh1{left:28px;top:250px;width:340px;font:700 32px/40px 'DejaVu Sans',sans-serif;color:#fbfaf6}
+.fweb .fp{left:28px;top:590px;width:340px;font:400 20px/31px 'DejaVu Sans',sans-serif;color:#6f6b63}
+.fweb .fsec{left:28px;top:760px;font:700 27px 'DejaVu Sans',sans-serif;color:#4c4a45;white-space:nowrap}
+.fweb .fli{left:28px;font:400 22px 'DejaVu Sans',sans-serif;color:#77736b;white-space:nowrap}
+.fweb .fp2{left:28px;top:1100px;width:340px;font:400 20px/31px 'DejaVu Sans',sans-serif;color:#7d7970}
+.fweb .fimg{left:28px;top:1260px;width:340px;height:260px;background:linear-gradient(135deg,#c9c3b6,#a9a294);filter:blur(1.5px)}
+.fweb .ffoot{left:0;top:1600px;width:396px;height:180px;background:#5d6672;color:#d8dbe0;font:400 21px 'DejaVu Sans',sans-serif;padding:50px 28px}
+
+/* ---------- ingredient 1: ceramic bowl with paper tags ---------- */
+.bowl{left:24px;top:470px;width:270px;height:270px;border-radius:50%;
+  background:radial-gradient(circle at 38% 32%,#fbf8f1,#e3ddd0 55%,#c5bdac);
+  box-shadow:0 26px 40px rgba(0,0,0,.55),inset 0 0 0 2px rgba(255,255,255,.4)}
+.bowl .glaze{left:22px;top:22px;width:226px;height:226px;border-radius:50%;
+  background:radial-gradient(circle at 60% 70%,#253a8f,#14215e 55%,#0b1238);box-shadow:inset 0 10px 24px rgba(0,0,0,.6),inset 0 -4px 10px rgba(156,200,255,.25)}
+.ptag{padding:6px 14px;border-radius:6px;background:#f7f3ea;font:700 25px/32px 'Poppins';color:#04051C;white-space:nowrap;box-shadow:0 6px 12px rgba(0,0,0,.45)}
+
+/* ---------- ingredient 2: wind-up kitchen timer ---------- */
+.ktimer{left:44px;top:790px;width:232px;height:232px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#ffffff,#e4e0d6 60%,#bfb8a8);box-shadow:0 26px 40px rgba(0,0,0,.55)}
+.kdial{left:18px;top:18px;width:196px;height:196px;border-radius:50%;
+  background:repeating-conic-gradient(from -1deg,#04051C 0 2deg,transparent 2deg 30deg),radial-gradient(circle,#f8f6f0 62%,#ebe6da 63%);
+  -webkit-mask:radial-gradient(circle,#000 0 100%)}
+.kdial .kn{left:88px;top:88px;width:20px;height:20px;font:700 15px/20px 'DejaVu Sans Mono',monospace;color:#04051C;text-align:center}
+.ktimer .kknob{left:86px;top:86px;width:60px;height:60px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#3a4aa8,#0A22F1 50%,#061390);box-shadow:0 6px 12px rgba(0,0,0,.4)}
+.ktimer .kpoint{left:106px;top:-8px;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:20px solid #0A22F1}
+#klab{left:44px;top:1046px;width:232px;text-align:center;font:700 24px 'DejaVu Sans Mono',monospace;letter-spacing:5px;color:#9CC8FF;opacity:0}
+
+/* ---------- ingredient 3: price tag on twine, no figure ---------- */
+.ptag3{left:770px;top:1150px;width:236px;height:124px;border-radius:14px 14px 14px 14px;opacity:0;transform-origin:20px 62px;
+  background:radial-gradient(ellipse at 30% 30%,#efe2c6,#dcc8a2);box-shadow:0 18px 30px rgba(0,0,0,.55),inset 0 0 0 2px rgba(120,90,40,.25)}
+.ptag3 .eye{left:16px;top:52px;width:20px;height:20px;border-radius:50%;background:#1a1d2c;box-shadow:inset 0 0 0 4px #b89c6a}
+.ptag3 .twine{left:-150px;top:58px;width:180px;height:6px;border-radius:3px;background:repeating-linear-gradient(90deg,#c9b088 0 6px,#a88d62 6px 10px);transform:rotate(-14deg);transform-origin:100% 50%}
+.ptag3 .dt{left:52px;top:14px;font:700 34px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#04051C;white-space:nowrap}
+.ptag3 .dv{left:52px;top:56px;font:700 46px 'Poppins';color:#0A22F1;white-space:nowrap}
+
+/* ---------- tablet with the real site ---------- */
+.tablet{left:60px;top:800px;width:960px;height:560px;border-radius:38px;opacity:0;
+  background:linear-gradient(150deg,#2b3150,#0c0e1e 40%,#1c2140);box-shadow:0 0 0 2px rgba(156,200,255,.25),0 40px 80px rgba(0,0,0,.7)}
+.tablet .tscreen{left:22px;top:22px;width:916px;height:516px;border-radius:14px;overflow:hidden;background:#000}
+.tablet img{left:0;top:10px;width:916px;transform-origin:50% 55%}
+.ring{border:5px solid #9CC8FF;border-radius:16px;box-shadow:0 0 0 3px rgba(10,34,241,.6),0 0 28px rgba(156,200,255,.8);opacity:0}
+.wlab{left:60px;top:460px;width:500px;height:140px;opacity:0}
+.wlab .lab{left:32px;top:30px}
+.wlab .wu{left:32px;top:66px;font:700 32px/44px 'Poppins';color:#fff;white-space:nowrap}
+
+/* ---------- overlays ---------- */
+.hook{left:90px;top:418px;width:900px;height:196px}
+.hook .lab{left:34px;top:30px}
+.hook .hq{left:34px;top:66px;font:700 68px/96px 'Poppins';color:#fff;white-space:nowrap}
+.hook .strike{left:30px;top:112px;width:640px;height:8px;border-radius:4px;background:#9CC8FF;transform-origin:0 50%;box-shadow:0 0 18px rgba(156,200,255,.8)}
+.hook .hno{right:34px;top:30px;font:700 22px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#9CC8FF;white-space:nowrap;opacity:0}
+.comp{left:90px;top:440px;width:900px;height:280px;opacity:0}
+.comp .lab{left:34px;top:30px}
+.comp .cbox{left:34px;top:76px;width:832px;height:172px;border-radius:30px;background:rgba(4,5,28,.6);box-shadow:inset 0 0 0 1.5px rgba(156,200,255,.35)}
+.comp .ctext{left:34px;top:22px;width:760px;font:600 44px/60px 'Poppins';color:#fff}
+.comp .caret{left:34px;top:26px;width:4px;height:50px;background:#9CC8FF}
+
+.fimp{left:150px;top:420px;font:italic 600 64px/80px 'Lora',serif;color:#0A22F1;white-space:nowrap;opacity:0}

@@ -6,7 +6,9 @@ voz: voz.mp3
 2 | Le faltaban / [tres] cosas.
 2 | Servicios / con palabras *normales*.
 2 | Cómo trabaja / y cuánto [tarda].
-3 +0.3 | Y la más importante: | una idea / de lo que [cuesta], | aunque sea un «desde»,
+3 +0.3 | Y la más *importante*:
+3 | una idea / de lo que [cuesta],
+3 | aunque sea / un «desde»,
 3 | porque sin ella / mucha gente / ni *pregunta*.
 4 | Busca hoy esas tres cosas / en tu web.
 4 | Una web bien hecha / las [enseña] / nada más entrar.

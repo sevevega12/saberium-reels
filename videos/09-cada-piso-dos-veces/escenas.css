@@ -1,0 +1,130 @@
+/* 09 · Cada piso dos veces */
+#stage{background:#04051C}
+
+/* ---------- office at dusk ---------- */
+.office{left:-60px;top:-60px;width:1200px;height:2040px;transform-origin:50% 40%}
+.office .wall{left:0;top:0;width:1200px;height:2040px;background:linear-gradient(180deg,#0a0f3a,#060828 60%,#04051C)}
+.escap{left:30px;top:150px;width:1140px;height:1180px;overflow:hidden;border-radius:6px;box-shadow:0 0 0 14px #0b0e2c,0 0 0 16px rgba(156,200,255,.12)}
+.escap .sky{left:0;top:0;width:1140px;height:1180px;background:linear-gradient(180deg,#121c6a 0%,#27348c 38%,#5b4f9a 58%,#c07a5a 74%,#2a2440 82%,#0c0d24 100%)}
+.escap .blds{left:0;top:0;width:1140px;height:1180px;filter:blur(3px)}
+.escap .bld{background:linear-gradient(180deg,#141a46,#0b0e2a);border-radius:3px 3px 0 0}
+.escap .lw{width:14px;height:20px;background:#ffcf8a;border-radius:2px;box-shadow:0 0 10px rgba(255,190,110,.7)}
+.escap .street{left:0;top:850px;width:1140px;height:330px;background:linear-gradient(180deg,#1a1630,#08081a)}
+.escap .lamp{border-radius:50%;background:radial-gradient(circle,rgba(255,196,120,.9),rgba(255,160,80,.25) 40%,transparent 70%);filter:blur(4px)}
+.escap .tape{width:200px;height:270px;background:rgba(236,232,222,.62);filter:blur(2.5px);box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.escap .tape .tph{left:16px;top:16px;width:168px;height:120px;background:linear-gradient(135deg,#9a8f80,#6b6458)}
+.escap .tape .tl1{left:16px;top:156px;width:150px;height:14px;background:rgba(60,60,80,.55)}
+.escap .tape .tl2{left:16px;top:184px;width:110px;height:12px;background:rgba(60,60,80,.4)}
+.escap .mull{top:0;width:16px;height:1180px;background:linear-gradient(90deg,#070920,#141a44,#070920)}
+.escap .reflect{left:0;top:0;width:1140px;height:1180px;background:linear-gradient(115deg,transparent 30%,rgba(156,200,255,.07) 38%,transparent 46%,transparent 70%,rgba(156,200,255,.05) 76%,transparent 82%)}
+.cajetin{left:900px;top:1340px;width:300px;height:560px;border-radius:10px;background:linear-gradient(160deg,#3a2a1e,#1c130d);box-shadow:inset 0 0 0 10px #2a1d14,0 20px 50px rgba(0,0,0,.6);filter:blur(2px)}
+.cajetin .key{width:70px;height:120px;transform-origin:35px 8px}
+.cajetin .hook{left:30px;top:0;width:10px;height:14px;border-radius:3px;background:#b9a27a}
+.cajetin .ring{left:22px;top:12px;width:26px;height:26px;border-radius:50%;border:4px solid #d4b26a}
+.cajetin .kb{left:30px;top:34px;width:10px;height:44px;border-radius:3px;background:linear-gradient(90deg,#a68840,#e5c77d,#a68840)}
+.cajetin .ktag{left:6px;top:58px;width:58px;height:40px;border-radius:5px;background:#efe6cf;box-shadow:inset 0 6px 0 #0A22F1}
+.pool{left:-200px;top:1250px;width:1000px;height:760px;border-radius:50%;background:radial-gradient(ellipse,rgba(255,196,120,.35),rgba(255,160,80,.08) 50%,transparent 70%);filter:blur(20px)}
+.flexo{left:-40px;top:1180px;width:400px;height:400px}
+.flexo .arm{left:40px;top:120px;width:16px;height:320px;border-radius:8px;background:linear-gradient(90deg,#1c1f36,#545a80,#1c1f36);transform:rotate(-24deg);transform-origin:50% 0}
+.flexo .arm2{left:40px;top:120px;width:16px;height:220px;border-radius:8px;background:linear-gradient(90deg,#1c1f36,#545a80,#1c1f36);transform:rotate(-115deg);transform-origin:50% 0}
+.flexo .head{left:180px;top:150px;width:170px;height:110px;border-radius:85px 85px 20px 20px;background:linear-gradient(180deg,#2a2f52,#0e1028);transform:rotate(18deg);box-shadow:0 10px 30px rgba(0,0,0,.6)}
+.flexo .bulb{left:200px;top:240px;width:130px;height:40px;border-radius:50%;background:radial-gradient(ellipse,#fff1d2,rgba(255,200,120,.6) 50%,transparent 75%);transform:rotate(18deg);filter:blur(3px)}
+.office .desk{left:0;top:1560px;width:1200px;height:480px;background:repeating-linear-gradient(178deg,rgba(255,255,255,.025) 0 3px,transparent 3px 19px),linear-gradient(180deg,#3a2618,#20140c 40%,#0d0805);box-shadow:inset 0 3px 0 rgba(255,200,140,.25)}
+.office .mug{left:760px;top:1460px;width:120px;height:140px;border-radius:10px 10px 30px 30px;background:linear-gradient(90deg,#0b0e2a,#2b3368 45%,#0b0e2a);filter:blur(5px)}
+
+/* ---------- photo of a flat (drawn) ---------- */
+.foto{left:0;top:0;width:100%;height:100%;overflow:hidden;border-radius:6px;background:#bfae94}
+.foto i{position:absolute}
+.foto .fw{left:0;top:0;width:100%;height:72%}
+.foto .fwin{left:58%;top:10%;width:30%;height:44%;box-shadow:inset 0 0 0 5px #f6f1e6,0 0 0 2px rgba(0,0,0,.08)}
+.foto .fbeam{left:40%;top:54%;width:46%;height:40%;background:linear-gradient(180deg,rgba(255,248,230,.55),transparent);transform:skewX(-28deg);filter:blur(4px)}
+.foto .ffl{left:0;top:72%;width:100%;height:28%}
+.foto .frug{left:14%;top:80%;width:50%;height:12%;border-radius:50%;background:rgba(236,226,206,.55)}
+.foto .fsofa{left:8%;top:52%;width:46%;height:26%;border-radius:10px 10px 4px 4px}
+.foto .farm{left:6%;top:58%;width:8%;height:20%;border-radius:8px;filter:brightness(.8)}
+.foto .fpot{left:84%;top:66%;width:8%;height:12%;border-radius:2px 2px 8px 8px;background:#c9b49a}
+.foto .fleaf{left:80%;top:44%;width:16%;height:24%;border-radius:50% 50% 40% 40%;background:radial-gradient(circle at 40% 40%,#6f8f5a,#3a5532)}
+
+/* ---------- the sheet and its carbon copy ---------- */
+.hoja{left:0;top:0;width:560px;height:720px;transform-origin:0 0;border-radius:4px;background:linear-gradient(170deg,#fbf9f3,#efeadf);box-shadow:0 30px 60px rgba(1,2,18,.6),0 2px 0 rgba(255,255,255,.6) inset}
+.hoja .hin{left:0;top:0;width:560px;height:720px}
+.hoja .hk{left:30px;top:28px;font:700 22px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#04051C;white-space:nowrap}
+.hoja .hr{right:30px;top:28px;font:700 22px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#0A22F1;white-space:nowrap}
+.hoja .foto.big,.hoja .fsk{left:30px;top:80px;width:500px;height:290px}
+.hoja .ht{left:30px;top:400px;font:700 40px/52px 'Poppins';color:#04051C;white-space:nowrap;letter-spacing:-.5px}
+.hoja .hd{left:30px;top:468px;font:500 34px/44px 'Poppins';color:#2a2f52;white-space:nowrap}
+.hoja .hp{left:30px;top:560px;font:700 22px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#5a5f80}
+.hoja .hpv{left:30px;top:600px;width:300px;height:56px;border-radius:8px;background:repeating-linear-gradient(90deg,#c9c4b6 0 26px,transparent 26px 34px);opacity:.8}
+.hoja.copia{background:linear-gradient(170deg,#e9e8f2,#dcdbe9);box-shadow:0 24px 50px rgba(1,2,18,.55)}
+.hoja.copia .hin{filter:blur(.7px)}
+.hoja.copia .hk,.hoja.copia .ht,.hoja.copia .hd,.hoja.copia .hp{color:#34398f}
+.hoja.copia .hr{color:#34398f}
+.hoja.copia .hpv{background:repeating-linear-gradient(90deg,rgba(52,57,143,.45) 0 26px,transparent 26px 34px)}
+.stampC{right:36px;top:590px;padding:6px 18px;border:4px solid #0A22F1;border-radius:8px;font:700 30px 'DejaVu Sans Mono',monospace;letter-spacing:6px;color:#0A22F1;transform:rotate(-8deg);opacity:0;white-space:nowrap}
+.pen{left:0;top:0;width:0;height:0;transform-origin:0 0}
+.pen .tip{left:-10px;top:-70px;width:20px;height:70px;background:linear-gradient(90deg,#8d93b0,#e8ebf6,#8d93b0);clip-path:polygon(0 0,100% 0,60% 100%,40% 100%)}
+.pen .grip{left:-17px;top:-190px;width:34px;height:124px;border-radius:6px;background:repeating-linear-gradient(180deg,#141832 0 6px,#232850 6px 10px)}
+.pen .barrel{left:-18px;top:-680px;width:36px;height:494px;border-radius:18px 18px 6px 6px;background:linear-gradient(90deg,#06104e,#1f39e8 40%,#8fb4ff 52%,#0A22F1 64%,#06104e);box-shadow:20px 30px 40px rgba(1,2,18,.5)}
+.pen .clip{left:12px;top:-640px;width:10px;height:220px;border-radius:5px;background:linear-gradient(90deg,#9aa0bc,#f0f2fa,#9aa0bc)}
+
+/* ---------- counter (Piezas.Rodillo), smaller ---------- */
+.rmini{transform-origin:0 0}
+.rmini .lab{font-size:27px !important;letter-spacing:4px}
+.rmini.zero .col b{color:#9CC8FF}
+
+/* ---------- management program ---------- */
+.prog{left:70px;top:580px;width:940px;height:270px;border-radius:28px}
+.prog .phd{left:34px;top:24px;width:600px;height:30px}
+.prog .phd i{left:0;top:4px;width:18px;height:18px;border-radius:5px;background:#9CC8FF;box-shadow:0 0 12px rgba(156,200,255,.8)}
+.prog .phd .lab{left:32px;top:2px}
+.prog .pform,.prog .plist{left:0;top:0;width:100%;height:100%}
+.prog .pref{right:34px;top:26px;font:700 21px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:rgba(255,255,255,.75);white-space:nowrap}
+.prog .pl{font:700 20px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#9CC8FF;white-space:nowrap}
+.prog .pl1{left:34px;top:84px}
+.prog .thumb{top:118px;width:144px;height:118px;border-radius:12px;overflow:hidden;opacity:0;box-shadow:0 10px 24px rgba(1,2,18,.5)}
+.prog .pl2{left:560px;top:84px}.prog .pv1{left:560px;top:108px}
+.prog .pl3{left:560px;top:176px}.prog .pv2{left:560px;top:198px}
+.prog .pv{font:700 50px/60px 'Poppins';color:#fff;white-space:nowrap;opacity:0}
+.prog .pv2{color:rgba(255,255,255,.85);letter-spacing:2px}
+.prog.small{width:620px;height:240px}
+.prog .prow{left:24px;width:572px;height:66px;border-radius:14px;background:rgba(4,5,28,.35)}
+.prog .prow .pr1{left:20px;top:8px;font:700 18px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#9CC8FF;white-space:nowrap}
+.prog .prow .pr2{left:20px;top:28px;font:600 28px/34px 'Poppins';color:#fff;white-space:nowrap}
+.prog .prow.new{background:rgba(10,34,241,.35);opacity:0}
+.prog .prow.new .pth{left:12px;top:8px;width:66px;height:50px;border-radius:8px;overflow:hidden}
+.prog .prow.new .pr1,.prog .prow.new .pr2{left:92px}
+.prog .tog{left:400px;top:17px;width:80px;height:36px;border-radius:18px;background:rgba(156,200,255,.18)}
+.prog .tog i{left:4px;top:4px;width:28px;height:28px;border-radius:50%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.4)}
+.prog .togl{left:490px;top:22px;font:700 17px 'DejaVu Sans Mono',monospace;letter-spacing:1px;color:rgba(156,200,255,.55);white-space:nowrap}
+
+/* ---------- the old website (generic, invented) ---------- */
+.wp{left:70px;top:858px;width:940px;height:372px;border-radius:18px;overflow:hidden;background:#ece8df;box-shadow:0 30px 70px rgba(1,2,18,.65),0 0 0 2px rgba(156,200,255,.18);transform-origin:50% 0}
+.wp .wbar{left:0;top:0;width:940px;height:68px;background:#d8d2c4}
+.wp .wlogo{left:30px;top:16px;font:700 30px 'DejaVu Sans',sans-serif;color:#6b6252;white-space:nowrap}
+.wp .wnav{right:30px;top:22px;font:400 22px 'DejaVu Sans',sans-serif;color:#8a8170;white-space:nowrap}
+.wp .wurl{left:30px;top:76px;font:700 17px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#9a8f7c;white-space:nowrap}
+.wcard{width:425px;height:262px;border-radius:12px;background:#f7f4ee;box-shadow:0 4px 14px rgba(0,0,0,.12);overflow:hidden}
+.wcard .foto.wf,.wcard .wsk{left:0;top:0;width:425px;height:170px;border-radius:0}
+.wcard .wsk{background:#e9e8f2;filter:blur(.6px);opacity:0}
+.wcard .wsk svg{left:0;top:0;width:425px;height:170px}
+.wcard .wt{left:24px;top:182px;font:700 30px/40px 'DejaVu Sans',sans-serif;color:#3b372f;white-space:nowrap}
+.wcard .ws{left:24px;top:224px;font:700 17px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#9a8f7c;white-space:nowrap}
+.wcard .wcaret{top:186px;width:3px;height:34px;background:#0A22F1}
+.stamp{left:70px;top:46px;padding:8px 26px;border:6px solid #fff;border-radius:10px;background:rgba(4,5,28,.82);font:700 50px 'Poppins';letter-spacing:6px;color:#fff;opacity:0;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.wslot{width:425px;height:262px;border-radius:12px;border:4px dashed rgba(10,34,241,.35);background:rgba(10,34,241,.04);opacity:0}
+.wslot .wsl{left:0;width:417px;top:80px;text-align:center;font:700 38px 'DejaVu Sans',sans-serif;color:#7a7fb0}
+.wslot .wsd{left:0;width:417px;top:136px;text-align:center;font:700 20px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#7a7fb0}
+.nuevo{left:820px;top:1010px;width:250px;height:250px;border-radius:14px;background:#fbf9f3;box-shadow:0 24px 50px rgba(1,2,18,.6);overflow:hidden;opacity:0}
+.nuevo .foto.nf{left:14px;top:14px;width:222px;height:150px}
+.nuevo .nk{left:14px;top:176px;padding:2px 12px;border-radius:8px;background:#0A22F1;font:700 22px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#fff;white-space:nowrap}
+.nuevo .nt{left:14px;top:212px;font:700 18px 'DejaVu Sans Mono',monospace;letter-spacing:2px;color:#5a5f80;white-space:nowrap}
+
+/* ---------- connected: real site, thread, listing chip ---------- */
+.ulab{left:190px;top:780px;width:180px;height:40px;border-radius:20px;opacity:0}
+.ulab .lab{left:24px;top:9px}
+.thread{left:0;top:0;width:1080px;height:1920px;filter:drop-shadow(0 0 8px rgba(156,200,255,.8))}
+.thread svg{left:0;top:0}
+.chipw{left:0;top:0;width:480px;height:132px;border-radius:24px;opacity:0;background:linear-gradient(160deg,rgba(40,56,190,.82),rgba(12,18,84,.88));box-shadow:0 0 0 3px #9CC8FF,0 24px 50px rgba(1,2,18,.7),0 0 40px rgba(156,200,255,.45)}
+.chipw .cth{left:16px;top:16px;width:120px;height:100px;border-radius:12px;overflow:hidden}
+.chipw .ck{left:154px;top:24px;font:700 19px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#9CC8FF;white-space:nowrap}
+.chipw .ct{left:154px;top:54px;font:700 30px/40px 'Poppins';color:#fff;white-space:nowrap}

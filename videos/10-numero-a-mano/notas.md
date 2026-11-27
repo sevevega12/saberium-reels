@@ -26,3 +26,18 @@ Nota de los datos del 23 de noviembre: el tiempo medio de visionado está en uno
 ¿Se puede pulsar tu número en tu web?
 
 #negociolocal #whatsappbusiness #pymes #paginaweb
+
+## Guion gráfico del montaje (27 de noviembre, tarea de producción)
+
+Voz de 25,7 s, montada a 30 s (`duracion: 30`). Las filas del guion se partieron por los silencios reales de la voz, sin cambiar ni una palabra (solo la cursiva de «a mano» pasa a «*mano*», que el motor no admite en dos palabras).
+
+1. **0 s, primer fotograma:** la palma de una mano en línea blanca, muy de cerca, y un boli que ya está escribiendo en azul claro «612 34…» (números a mano, `Piezas.Manuscrito`). Detrás, la parada desenfocada y la lluvia por delante.
+2. **W(1,'acabó'):** la cámara se aleja y la palma se encoge hasta la mano del monigote, sentado en el banco de la marquesina: lluvia, gotas en el cristal, panel «27 CENTRO · 4 min · 08:12» y el móvil encendido en el banco.
+3. **L(2) «Buscó tu número»:** la cámara entra en el móvil del banco. Web genérica e inventada de una peluquería; el pulgar en línea blanca desliza dos veces buscando. En **primera** se para en un cartel naranja «PIDE TU CITA · 612 34 56 78».
+4. **W(2,'estaba') «estaba en una imagen»:** recuadro discontinuo «cita.jpg» y etiqueta «ES UNA IMAGEN · NO SE PUEDE PULSAR». Dos toques en **imagen** y **puede**: el anillo rebota y el cartel solo tiembla.
+5. **L(3) «Lo apuntó cifra a cifra»:** el móvil se encoge a la izquierda y vuelve la palma. Cada cifra se ilumina en el cartel, vuela a la mano y el boli la escribe.
+6. **W(3,'una'):** una gota cae sobre el segundo 6, lo emborrona y queda un 8. Anillo en la cifra y etiqueta «56 en tu web · 58 en su mano».
+7. **W(3,'mensaje') «y su mensaje nunca te llegó»:** sale una burbuja «PARA · 612 34 58 78 · Hola, ¿tenéis hueco el sábado?», sube hacia la lluvia y en **nunca** se deshace en gotas.
+8. **L(4) «Un botón de WhatsApp a la vista»:** el móvil vuelve al centro con la web real de The Barber Kingdom; su botón de WhatsApp se marca con un anillo y la etiqueta «BOTÓN A LA VISTA · UN TOQUE».
+9. **W(4,'abre'):** el pulgar lo toca y sube un chat neutro dibujado en código (sin la interfaz de WhatsApp). En **saludo ya escrito** el campo se rellena solo: «Hola, quería pedir cita.»
+10. **W(4,'enviar'):** el botón de enviar late y el pulgar lo toca; el mensaje sube con el doble check en azul claro. Pasa la luz del autobús. Cierre literal y tarjeta final del motor.

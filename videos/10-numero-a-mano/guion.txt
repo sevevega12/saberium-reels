@@ -1,11 +1,15 @@
 # 10 · Numero a mano. Publicación prevista: viernes 27 de noviembre de 2026.
-duracion: 32
+duracion: 30
 voz: voz.mp3
 1 | Quería escribirte / por [WhatsApp].
-1 | Acabó copiando / tu número / *a mano*.
-2 | Buscó tu número / y no lo encontró / a la [primera]: | estaba en una imagen / que no se puede pulsar.
-3 | Lo apuntó / cifra a cifra, | se equivocó en [una], | y su mensaje / *nunca* te llegó.
-4 +0.3 | Un botón de WhatsApp / a la [vista], | que abre la conversación / con un saludo ya escrito,
+1 | Acabó copiando / tu número / a *mano*.
+2 | Buscó tu número / y no lo encontró / a la [primera]:
+2 | estaba en una imagen / que no se puede pulsar.
+3 | Lo apuntó / cifra a cifra,
+3 | se equivocó en [una],
+3 | y su mensaje / *nunca* te llegó.
+4 +0.3 | Un botón de WhatsApp / a la [vista],
+4 | que abre la conversación / con un saludo ya escrito,
 4 | y a tu cliente / solo le queda / darle a *enviar*.
 5 | Comenta [WEB],
 5 | y te enseñamos *gratis* / cómo quedaría la tuya.

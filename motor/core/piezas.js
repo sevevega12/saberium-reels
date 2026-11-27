@@ -211,4 +211,49 @@ Piezas.Ficha = function (parent, o = {}) {
     } };
 };
 
+// ---------- handwritten digits drawn stroke by stroke (ballpoint on a hand, a note...) ----------
+// First used in 10 · Número a mano.
+// Piezas.Manuscrito(svgGroup,{text:'612 34',x,y,size:0.75,adv:50,gap:22,color,width,seed})
+// .draw(i,k) draws digit i up to k (0..1) ; .pen(i,k) -> {x,y} pen tip ; .swap(i,ch) changes a digit
+// The group is an SVG <g> (coordinates in the parent SVG). Single-stroke paths in a 60x90 box.
+Piezas.DIGITOS = {
+  '0': 'M30 6 C10 6 6 30 6 45 C6 66 14 84 30 84 C46 84 54 64 54 45 C54 24 48 6 30 6',
+  '1': 'M16 22 L34 6 L33 84',
+  '2': 'M8 24 C10 10 22 5 32 6 C46 7 52 18 50 30 C47 46 26 62 8 84 L54 82',
+  '3': 'M10 14 C18 6 44 4 48 20 C51 34 38 42 26 44 C42 44 54 54 52 68 C50 84 22 88 8 76',
+  '4': 'M40 84 L40 6 L6 60 L56 60',
+  '5': 'M50 8 L16 8 L12 40 C24 32 46 34 50 52 C54 70 42 84 28 84 C18 84 10 80 6 74',
+  '6': 'M46 10 C34 4 16 10 10 34 C4 58 12 84 30 84 C46 84 52 72 52 60 C52 46 42 38 30 38 C18 38 10 48 9 56',
+  '7': 'M6 8 L54 8 C40 30 30 54 24 84',
+  '8': 'M30 44 C14 40 10 30 12 20 C14 10 22 6 30 6 C40 6 48 12 48 22 C48 32 40 40 30 44 C16 48 8 58 9 68 C10 80 20 86 30 86 C42 86 52 78 52 66 C52 54 42 48 30 44',
+  '9': 'M50 30 C48 14 38 6 28 6 C16 6 8 16 8 28 C8 42 20 48 30 46 C42 44 50 36 50 26 L48 60 C46 76 38 86 24 84',
+};
+Piezas.Manuscrito = function (g, o = {}) {
+  const NS = 'http://www.w3.org/2000/svg', r = rng(o.seed || 3);
+  const sz = o.size || 0.75, adv = o.adv || 50, gap = o.gap || 22;
+  const digits = []; let x = o.x || 0;
+  [...(o.text || '')].forEach(ch => {
+    if (ch === ' ') { x += gap; return; }
+    const gg = document.createElementNS(NS, 'g');
+    const rot = (r() - .5) * 8, dy = (r() - .5) * 6;
+    gg.setAttribute('transform', `translate(${x},${(o.y || 0) + dy}) rotate(${rot} 22 33) scale(${sz})`);
+    const pa = document.createElementNS(NS, 'path');
+    pa.setAttribute('d', Piezas.DIGITOS[ch]); pa.setAttribute('fill', 'none');
+    pa.setAttribute('stroke', o.color || '#9CC8FF'); pa.setAttribute('stroke-width', (o.width || 7) / sz);
+    pa.setAttribute('stroke-linecap', 'round'); pa.setAttribute('stroke-linejoin', 'round');
+    gg.appendChild(pa); g.appendChild(gg);
+    const d = { ch, g: gg, path: pa, x, y: o.y || 0, rot, dy, len: pa.getTotalLength() };
+    pa.style.strokeDasharray = d.len; pa.style.strokeDashoffset = d.len;
+    digits.push(d); x += adv;
+  });
+  return { g, digits,
+    draw(i, k) { const d = digits[i]; d.path.style.strokeDashoffset = d.len * (1 - clamp(k)); },
+    swap(i, ch) { const d = digits[i]; if (d.ch === ch) return; d.ch = ch; d.path.setAttribute('d', Piezas.DIGITOS[ch]); d.len = d.path.getTotalLength(); d.path.style.strokeDasharray = d.len; },
+    pen(i, k) {   // pen tip in the parent SVG coordinates
+      const d = digits[i]; const p = d.path.getPointAtLength(d.len * clamp(k));
+      const a = d.rot * Math.PI / 180, px = (p.x * sz - 22), py = (p.y * sz - 33);
+      return { x: d.x + 22 + px * Math.cos(a) - py * Math.sin(a), y: d.y + d.dy + 33 + px * Math.sin(a) + py * Math.cos(a) };
+    } };
+};
+
 window.Piezas = Piezas;

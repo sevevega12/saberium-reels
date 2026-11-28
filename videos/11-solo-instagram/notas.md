@@ -1,7 +1,7 @@
 # 11 · Solo Instagram
 
 - **Publicación:** sábado 28 de noviembre de 2026
-- **Estado:** guion aprobado por Seve el 24 de noviembre
+- **Estado:** publicado el 28 de noviembre de 2026 · https://www.instagram.com/reel/DgSULggIof9/
 - **Problema:** El negocio solo existe en Instagram: el perfil no es suyo y quien busca fuera no lo encuentra
 - **Solución:** Web propia: nombre, servicios y contacto siempre en el mismo sitio
 - **Gancho:** idea contraria · **Cuerpo:** fallo típico sin nombrar al negocio

@@ -1,0 +1,123 @@
+/* 11 · Solo Instagram: galería comercial de día, persianas y rótulos */
+
+/* ---------- the gallery world (wider than the screen; the camera pans along it) ---------- */
+.world{left:0;top:0;width:2400px;height:1920px;transform-origin:540px 760px}
+.ceil{left:-200px;top:0;width:2800px;height:400px;background:linear-gradient(180deg,#1b2350,#0c1236)}
+.sky{top:40px;height:230px;border-radius:6px;background:linear-gradient(180deg,#dfe9ff,#9fb6ee 60%,#6c84c9);
+  box-shadow:0 0 90px 30px rgba(170,200,255,.35);opacity:.92}
+.sky::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 118px,rgba(20,28,70,.85) 118px 126px),repeating-linear-gradient(0deg,transparent 0 70px,rgba(20,28,70,.85) 70px 76px)}
+.beam{transform-origin:50% 0;background:linear-gradient(180deg,rgba(214,228,255,.34),rgba(170,200,255,.10) 55%,transparent);filter:blur(26px);mix-blend-mode:screen}
+.mote{width:5px;height:5px;border-radius:50%;background:#e8f0ff;box-shadow:0 0 8px #cfe0ff}
+
+.backwall{left:-200px;top:380px;width:2800px;height:1020px;background:linear-gradient(180deg,#161d48,#0d1338)}
+.shutter{border-radius:4px;background:repeating-linear-gradient(180deg,#5b6389 0 14px,#3c4470 14px 18px,#4c5480 18px 30px);
+  box-shadow:inset 0 0 0 3px #232a55,inset 0 40px 60px rgba(4,5,28,.45),0 20px 40px rgba(2,3,16,.5)}
+.shutter::after{content:'';position:absolute;left:46%;bottom:24px;width:8%;height:12px;border-radius:3px;background:#262d58}
+.sbar{border-radius:6px;background:linear-gradient(90deg,#2b3468,#3a4580);box-shadow:inset 0 0 0 2px rgba(156,200,255,.12)}
+.sbar i{left:24px;top:22px;height:16px;border-radius:8px;background:rgba(220,232,255,.28)}
+.pillar{background:linear-gradient(90deg,#20285a,#3a4581 40%,#283066 70%,#141a44);box-shadow:0 0 50px rgba(2,3,16,.6)}
+.corridor{overflow:hidden;background:radial-gradient(ellipse 60% 50% at 50% 46%,#4b5fa8,#1a2256 70%)}
+.corridor .far{border-radius:3px;background:repeating-linear-gradient(180deg,#6d78a6 0 7px,#4a5584 7px 10px);opacity:.75}
+.corridor .lamp{width:16px;height:16px;border-radius:50%;background:#fff3dd;box-shadow:0 0 30px 12px rgba(255,226,180,.5)}
+
+.floor{left:-200px;top:1390px;width:2800px;height:600px;
+  background:linear-gradient(180deg,#3b4677,#1f2756 45%,#0e1438)}
+.floor .tz{left:0;top:0;width:2800px;height:600px;opacity:.55;
+  background-image:radial-gradient(circle,#c9d4f5 1.2px,transparent 1.8px),radial-gradient(circle,#7f8cc0 1.6px,transparent 2.2px);
+  background-size:23px 19px,37px 31px;transform-origin:50% 0;transform:perspective(700px) rotateX(55deg);
+  -webkit-mask-image:linear-gradient(180deg,#000,transparent 85%)}
+.floor .joint{left:0;top:0;width:2800px;height:600px;transform-origin:50% 0;transform:perspective(700px) rotateX(55deg);
+  background:repeating-linear-gradient(90deg,rgba(156,200,255,.16) 0 2px,transparent 2px 160px),repeating-linear-gradient(0deg,rgba(156,200,255,.12) 0 2px,transparent 2px 160px);
+  -webkit-mask-image:linear-gradient(180deg,#000,transparent 80%)}
+.floor .refl{left:0;top:0;height:420px;filter:blur(24px);opacity:.45}
+
+/* ---------- your shop front ---------- */
+.facade{left:40px;top:430px;width:1000px;height:965px;border-radius:6px;
+  background:repeating-linear-gradient(90deg,#0f1540 0 46px,#121946 46px 48px),linear-gradient(180deg,#121a4a,#0a0f33);
+  box-shadow:0 0 0 6px #1e2658,0 30px 90px rgba(1,2,16,.7)}
+.facade .lip{left:-6px;top:-24px;width:1012px;height:26px;border-radius:4px;background:linear-gradient(180deg,#3f4a86,#1d2458)}
+.spot{left:70px;top:70px;width:860px;height:515px;border-radius:14px;background:rgba(156,200,255,.045);
+  box-shadow:inset 0 0 0 2px rgba(156,200,255,.14)}
+.spot .hole{width:22px;height:22px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#020312,#0b1036 70%);box-shadow:0 0 0 3px rgba(156,200,255,.2)}
+.spot .slab{left:0;top:236px;width:860px;text-align:center;font:700 26px 'DejaVu Sans Mono',monospace;letter-spacing:6px;color:#9CC8FF}
+.vitrina{left:70px;top:625px;width:860px;height:340px;border-radius:8px 8px 0 0;overflow:hidden;
+  background:linear-gradient(180deg,#24305f,#1a2350);box-shadow:inset 0 0 0 8px #262f62}
+.vitrina .inside{left:0;top:0;width:860px;height:340px}
+.vitrina .inside i{border-radius:50%;filter:blur(10px)}
+.vitrina .streak{top:-40px;width:90px;height:460px;transform:rotate(18deg);background:linear-gradient(90deg,transparent,rgba(220,232,255,.22),transparent)}
+.vitrina .roll{left:0;top:0;width:860px;height:86px;background:repeating-linear-gradient(180deg,#56608c 0 12px,#3a4372 12px 16px);box-shadow:0 8px 20px rgba(2,3,16,.5)}
+.vitrina .door{left:612px;top:86px;width:8px;height:254px;background:#2e3868}
+.vitrina .handle{left:590px;top:180px;width:10px;height:90px;border-radius:5px;background:linear-gradient(90deg,#8d97c4,#e3e8ff,#8d97c4)}
+
+/* ---------- the hanging profile sign (someone else's) ---------- */
+.rail{left:170px;top:452px;width:740px;height:16px;border-radius:8px;background:linear-gradient(180deg,#c8d0ee,#6d78a8 60%,#3d4677);box-shadow:0 8px 18px rgba(2,3,16,.5)}
+.rail i{top:-12px;width:20px;height:40px;border-radius:5px;background:linear-gradient(90deg,#6d78a8,#c8d0ee,#6d78a8)}
+.hang{left:240px;top:520px;width:600px;height:560px;transform-origin:300px -60px}
+.chain{top:-62px;width:10px;height:66px;background:repeating-linear-gradient(180deg,#d6dcf4 0 9px,#7c86b4 9px 12px,transparent 12px 16px);border-radius:4px}
+.sign{left:0;top:0;width:600px;height:560px;border-radius:30px;overflow:hidden;
+  background:linear-gradient(165deg,#f6f8ff,#dfe5f5 60%,#cdd5ec);
+  box-shadow:0 0 0 7px #9aa4cc,0 0 0 9px #4b557f,0 40px 70px rgba(1,2,16,.65)}
+.sign .sheen{left:-200px;top:-100px;width:260px;height:800px;transform:rotate(22deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.65),transparent);opacity:.6}
+.sign .av{left:38px;top:36px;width:118px;height:118px;border-radius:50%;background:conic-gradient(from 200deg,#0A22F1,#9CC8FF,#0A22F1)}
+.sign .av i{left:7px;top:7px;width:104px;height:104px;border-radius:50%;background:#eef2ff;overflow:hidden}
+.sign .av b{left:22px;top:38px;width:60px;height:22px;border-radius:4px 4px 0 0;background:repeating-linear-gradient(90deg,#0A22F1 0 10px,#9CC8FF 10px 20px)}
+.sign .av s{left:28px;top:60px;width:48px;height:26px;background:#3d4677;text-decoration:none}
+.sign .hd{left:178px;top:44px;font:700 44px 'Poppins';color:#0c1236;letter-spacing:-.5px;white-space:nowrap}
+.sign .bio{left:180px;height:12px;border-radius:6px;background:#b8c1dc}
+.sign .tag{left:180px;top:126px;font:700 18px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#5a6594;white-space:nowrap}
+.sign .tile{width:172px;height:172px;border-radius:12px;overflow:hidden}
+.sign .tile i{border-radius:50%}
+.sign .gray{left:0;top:0;width:600px;height:560px;background:rgba(150,158,190,.0);mix-blend-mode:saturation}
+.stamp{left:96px;top:250px;padding:14px 26px;border:5px solid #0A22F1;border-radius:10px;font:700 34px 'DejaVu Sans Mono',monospace;letter-spacing:4px;color:#0A22F1;white-space:nowrap;background:rgba(238,242,255,.82);transform:rotate(-9deg)}
+
+/* tag on the rail: who owns it */
+.owner{left:690px;top:470px;width:300px;height:96px;transform-origin:150px -10px}
+.owner .str{left:148px;top:-14px;width:3px;height:22px;background:#c8d0ee}
+.owner .card{left:0;top:8px;width:300px;height:88px;border-radius:14px;background:linear-gradient(160deg,#0A22F1,#0716a8);box-shadow:0 18px 40px rgba(1,2,16,.6),inset 0 0 0 2px rgba(156,200,255,.5)}
+.owner .card div{left:0;top:16px;width:300px;text-align:center;font:700 20px/28px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#fff}
+
+/* rules panel: toggles that flip by themselves */
+.normas{left:560px;top:880px;width:450px;height:330px}
+.normas .lab{left:34px;top:30px}
+.normas .row{left:34px;width:382px;height:70px}
+.normas .row .tx{left:0;top:16px;font:600 32px 'Poppins';color:#fff;white-space:nowrap}
+.normas .sw{left:296px;top:14px;width:86px;height:46px;border-radius:23px;background:rgba(156,200,255,.18);box-shadow:inset 0 0 0 2px rgba(156,200,255,.4)}
+.normas .sw i{left:5px;top:5px;width:36px;height:36px;border-radius:50%;background:#fff;box-shadow:0 4px 10px rgba(1,2,16,.5)}
+
+/* ---------- the gallery directory (outside the profile) ---------- */
+.totem{left:1250px;top:440px;width:920px;height:960px}
+.totem .post{top:840px;width:26px;height:150px;background:linear-gradient(90deg,#3d4677,#a7b1d8,#3d4677)}
+.totem .frame{left:0;top:0;width:920px;height:860px;border-radius:30px;background:linear-gradient(160deg,#2c356a,#141a44);box-shadow:0 40px 90px rgba(1,2,16,.7),inset 0 0 0 3px rgba(156,200,255,.25)}
+.dir{left:22px;top:22px;width:876px;height:816px;border-radius:22px}
+.dir .lab{left:40px;top:36px}
+.dir .search{left:40px;top:84px;width:796px;height:92px;border-radius:18px;background:rgba(4,5,28,.55);box-shadow:inset 0 0 0 2px rgba(156,200,255,.35)}
+.dir .search svg{left:28px;top:26px}
+.dir .q{left:88px;top:20px;font:600 38px 'Poppins';color:#fff;white-space:nowrap}
+.dir .caret{top:22px;width:4px;height:48px;background:#9CC8FF}
+.dir .res{left:40px;width:796px;height:84px;border-radius:16px;background:rgba(156,200,255,.07)}
+.dir .res .n{left:26px;top:24px;font:700 26px 'DejaVu Sans Mono',monospace;color:#9CC8FF;white-space:nowrap}
+.dir .res .t{left:190px;top:18px;font:600 34px 'Poppins';color:#dfe6ff;white-space:nowrap}
+.dir .res.me{background:rgba(10,34,241,.38);box-shadow:inset 0 0 0 2px #9CC8FF}
+.dir .res.me .t{color:#fff}
+.dir .fld{left:40px;width:796px;height:92px}
+.dir .fld .k{left:26px;top:26px;font:700 24px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#9CC8FF;white-space:nowrap}
+.dir .fld .dash{left:300px;top:44px;width:380px;height:0;border-top:4px dashed rgba(156,200,255,.4)}
+.dir .fld .qm{left:712px;top:10px;width:64px;height:64px;border-radius:50%;background:rgba(156,200,255,.12);box-shadow:inset 0 0 0 2px rgba(156,200,255,.5);
+  font:700 38px/64px 'Poppins';text-align:center;color:#9CC8FF}
+
+/* ---------- your web, screwed to the wall ---------- */
+.webp{left:110px;top:500px;width:860px;height:515px;border-radius:16px;overflow:hidden;background:#141a44;
+  box-shadow:0 0 0 6px #2a3366,0 0 0 8px rgba(156,200,255,.4),0 40px 90px rgba(1,2,16,.7);transform-origin:50% 50%}
+.webp .bar{left:0;top:0;width:860px;height:52px;background:linear-gradient(180deg,#1d2458,#141a44)}
+.webp .bar i{top:20px;width:13px;height:13px;border-radius:50%;background:#56608c}
+.webp .url{left:110px;top:9px;width:640px;height:34px;border-radius:17px;background:rgba(4,5,28,.6);font:600 21px/34px 'DejaVu Sans Mono',monospace;color:#cfe0ff;text-align:center;white-space:nowrap}
+.webp .shot{left:0;top:52px;width:860px;height:463px;overflow:hidden}
+.webp .shot img{left:0;top:0;width:860px}
+.webp .blank{left:0;top:52px;width:860px;height:463px;background:linear-gradient(160deg,#28337a,#141a44)}
+.webp .hl{border-radius:10px;box-shadow:0 0 0 4px #9CC8FF,0 0 30px rgba(156,200,255,.8)}
+.bolt{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffffff,#b9c3e6 40%,#5d6896 80%);box-shadow:0 6px 12px rgba(1,2,16,.6)}
+.bolt b{left:8px;top:19px;width:28px;height:6px;border-radius:3px;background:#3d4677}
+.chipw{height:72px;border-radius:36px;padding:0 30px 0 74px;background:rgba(12,18,84,.72);box-shadow:inset 0 0 0 2px rgba(156,200,255,.45),0 16px 30px rgba(1,2,16,.5);
+  font:700 26px/72px 'DejaVu Sans Mono',monospace;letter-spacing:3px;color:#fff;white-space:nowrap}
+.chipw .ck{left:16px;top:14px;width:44px;height:44px;border-radius:50%;background:#9CC8FF}
+.chipw .ck svg{left:9px;top:11px}

@@ -1,0 +1,688 @@
+{
+ "fps": 30,
+ "note": "Generado por motor/timing.py. No editar a mano: cambiar guion.txt y volver a generar.",
+ "cta_line": 5,
+ "cta_screen": "Comenta WEB y te enseñamos gratis cómo quedaría la tuya",
+ "lines": [
+  {
+   "id": 1,
+   "text": "Tu negocio no tiene web. Tiene un perfil de Instagram.",
+   "start": 0.15,
+   "end": 3.23,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.15,
+     "end": 0.35
+    },
+    {
+     "w": "negocio",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 0.35,
+     "end": 0.848
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 0.848,
+     "end": 1.048
+    },
+    {
+     "w": "tiene",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 1.048,
+     "end": 1.397
+    },
+    {
+     "w": "web.",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 1.397,
+     "end": 1.634
+    },
+    {
+     "w": "Tiene",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.634,
+     "end": 1.983
+    },
+    {
+     "w": "un",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 1.983,
+     "end": 2.184
+    },
+    {
+     "w": "perfil",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 2.184,
+     "end": 2.532
+    },
+    {
+     "w": "de",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 2.532,
+     "end": 2.733
+    },
+    {
+     "w": "Instagram.",
+     "screen": 1,
+     "row": 1,
+     "style": "nuance",
+     "start": 2.733,
+     "end": 3.23
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Y ese perfil no es tuyo: las normas las pone otro, y pueden cambiar mañana sin avisarte.",
+   "start": 4.852,
+   "end": 10.022,
+   "words": [
+    {
+     "w": "Y",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 4.852,
+     "end": 5.047
+    },
+    {
+     "w": "ese",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.047,
+     "end": 5.385
+    },
+    {
+     "w": "perfil",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 5.385,
+     "end": 5.723
+    },
+    {
+     "w": "no",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.723,
+     "end": 5.917
+    },
+    {
+     "w": "es",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 5.917,
+     "end": 6.111
+    },
+    {
+     "w": "tuyo:",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 6.111,
+     "end": 6.449
+    },
+    {
+     "w": "las",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 6.449,
+     "end": 6.643
+    },
+    {
+     "w": "normas",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 6.643,
+     "end": 6.981
+    },
+    {
+     "w": "las",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 6.981,
+     "end": 7.175
+    },
+    {
+     "w": "pone",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.175,
+     "end": 7.513
+    },
+    {
+     "w": "otro,",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 7.513,
+     "end": 7.851
+    },
+    {
+     "w": "y",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 7.851,
+     "end": 8.045
+    },
+    {
+     "w": "pueden",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 8.045,
+     "end": 8.383
+    },
+    {
+     "w": "cambiar",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 8.383,
+     "end": 8.721
+    },
+    {
+     "w": "mañana",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 8.721,
+     "end": 9.203
+    },
+    {
+     "w": "sin",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 9.203,
+     "end": 9.397
+    },
+    {
+     "w": "avisarte.",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 9.397,
+     "end": 10.022
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Además, quien te busca fuera de Instagram no encuentra ni tu horario, ni lo que haces, ni cómo llegar.",
+   "start": 11.525,
+   "end": 17.344,
+   "words": [
+    {
+     "w": "Además,",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 11.525,
+     "end": 12.029
+    },
+    {
+     "w": "quien",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 12.029,
+     "end": 12.232
+    },
+    {
+     "w": "te",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 12.232,
+     "end": 12.436
+    },
+    {
+     "w": "busca",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 12.436,
+     "end": 12.789
+    },
+    {
+     "w": "fuera",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 12.789,
+     "end": 13.143
+    },
+    {
+     "w": "de",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 13.143,
+     "end": 13.347
+    },
+    {
+     "w": "Instagram",
+     "screen": 0,
+     "row": 2,
+     "style": "plain",
+     "start": 13.347,
+     "end": 13.851
+    },
+    {
+     "w": "no",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 13.851,
+     "end": 14.054
+    },
+    {
+     "w": "encuentra",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 14.054,
+     "end": 14.559
+    },
+    {
+     "w": "ni",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.559,
+     "end": 14.762
+    },
+    {
+     "w": "tu",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.762,
+     "end": 14.965
+    },
+    {
+     "w": "horario,",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 14.965,
+     "end": 15.47
+    },
+    {
+     "w": "ni",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.47,
+     "end": 15.673
+    },
+    {
+     "w": "lo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.673,
+     "end": 15.876
+    },
+    {
+     "w": "que",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 15.876,
+     "end": 16.08
+    },
+    {
+     "w": "haces,",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 16.08,
+     "end": 16.433
+    },
+    {
+     "w": "ni",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.433,
+     "end": 16.637
+    },
+    {
+     "w": "cómo",
+     "screen": 2,
+     "row": 1,
+     "style": "plain",
+     "start": 16.637,
+     "end": 16.991
+    },
+    {
+     "w": "llegar.",
+     "screen": 2,
+     "row": 1,
+     "style": "nuance",
+     "start": 16.991,
+     "end": 17.344
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Tu web sí es tuya: tu nombre, tus servicios y tu contacto, siempre en el mismo sitio.",
+   "start": 19.078,
+   "end": 24.578,
+   "words": [
+    {
+     "w": "Tu",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.078,
+     "end": 19.308
+    },
+    {
+     "w": "web",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 19.308,
+     "end": 19.581
+    },
+    {
+     "w": "sí",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.581,
+     "end": 19.812
+    },
+    {
+     "w": "es",
+     "screen": 0,
+     "row": 1,
+     "style": "plain",
+     "start": 19.812,
+     "end": 20.043
+    },
+    {
+     "w": "tuya:",
+     "screen": 0,
+     "row": 1,
+     "style": "key",
+     "start": 20.043,
+     "end": 20.444
+    },
+    {
+     "w": "tu",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.444,
+     "end": 20.675
+    },
+    {
+     "w": "nombre,",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 20.675,
+     "end": 21.076
+    },
+    {
+     "w": "tus",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.076,
+     "end": 21.307
+    },
+    {
+     "w": "servicios",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 21.307,
+     "end": 21.879
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 21.879,
+     "end": 22.109
+    },
+    {
+     "w": "tu",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 22.109,
+     "end": 22.34
+    },
+    {
+     "w": "contacto,",
+     "screen": 1,
+     "row": 2,
+     "style": "plain",
+     "start": 22.34,
+     "end": 22.912
+    },
+    {
+     "w": "siempre",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 22.912,
+     "end": 23.314
+    },
+    {
+     "w": "en",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.314,
+     "end": 23.544
+    },
+    {
+     "w": "el",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.544,
+     "end": 23.775
+    },
+    {
+     "w": "mismo",
+     "screen": 2,
+     "row": 0,
+     "style": "plain",
+     "start": 23.775,
+     "end": 24.176
+    },
+    {
+     "w": "sitio.",
+     "screen": 2,
+     "row": 0,
+     "style": "nuance",
+     "start": 24.176,
+     "end": 24.578
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Comenta WEB, y te enseñamos gratis cómo quedaría la tuya.",
+   "start": 26.09,
+   "end": 29.4,
+   "words": [
+    {
+     "w": "Comenta",
+     "screen": 0,
+     "row": 0,
+     "style": "plain",
+     "start": 26.09,
+     "end": 26.539
+    },
+    {
+     "w": "WEB,",
+     "screen": 0,
+     "row": 0,
+     "style": "key",
+     "start": 26.539,
+     "end": 26.752
+    },
+    {
+     "w": "y",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.752,
+     "end": 26.933
+    },
+    {
+     "w": "te",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 26.933,
+     "end": 27.113
+    },
+    {
+     "w": "enseñamos",
+     "screen": 1,
+     "row": 0,
+     "style": "plain",
+     "start": 27.113,
+     "end": 27.695
+    },
+    {
+     "w": "gratis",
+     "screen": 1,
+     "row": 0,
+     "style": "nuance",
+     "start": 27.695,
+     "end": 28.009
+    },
+    {
+     "w": "cómo",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.009,
+     "end": 28.323
+    },
+    {
+     "w": "quedaría",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.323,
+     "end": 28.905
+    },
+    {
+     "w": "la",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 28.905,
+     "end": 29.086
+    },
+    {
+     "w": "tuya.",
+     "screen": 1,
+     "row": 1,
+     "style": "plain",
+     "start": 29.086,
+     "end": 29.4
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "file": "voz.mp3",
+  "length": 24.842,
+  "segments_found": 10,
+  "phrases": [
+   {
+    "line": 1,
+    "src_start": 0.06,
+    "src_end": 3.14,
+    "start": 0.15,
+    "end": 3.23,
+    "text": "Tu negocio no tiene web. Tiene un perfil de Instagram."
+   },
+   {
+    "line": 2,
+    "src_start": 3.61,
+    "src_end": 8.78,
+    "start": 4.852,
+    "end": 10.022,
+    "text": "Y ese perfil no es tuyo: las normas las pone otro, y pueden cambiar mañana sin avisarte."
+   },
+   {
+    "line": 3,
+    "src_start": 9.13,
+    "src_end": 14.95,
+    "start": 11.525,
+    "end": 17.345,
+    "text": "Además, quien te busca fuera de Instagram no encuentra ni tu horario, ni lo que haces, ni cómo llegar."
+   },
+   {
+    "line": 4,
+    "src_start": 15.53,
+    "src_end": 21.03,
+    "start": 19.078,
+    "end": 24.578,
+    "text": "Tu web sí es tuya: tu nombre, tus servicios y tu contacto, siempre en el mismo sitio."
+   },
+   {
+    "line": 5,
+    "src_start": 21.39,
+    "src_end": 22.052,
+    "start": 26.09,
+    "end": 26.752,
+    "text": "Comenta WEB,"
+   },
+   {
+    "line": 5,
+    "src_start": 22.052,
+    "src_end": 24.7,
+    "start": 26.752,
+    "end": 29.4,
+    "text": "y te enseñamos gratis cómo quedaría la tuya."
+   }
+  ]
+ },
+ "duration": 32.0
+}
